@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "book": {
+    "id": "analects.book.01",
+    "number": 1,
+    "title": {
+      "chinese": "學而",
+      "pinyin": "Xué ér",
+      "english": "Xue Er"
+    }
+  },
+  "passages": [
+    {
+      "id": "analects.01.01",
+      "number": 1,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。學而時習之、不亦說乎。 有朋自遠方來、不亦樂乎。人不知而不慍、不亦君子乎",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 1, passage 1"
+        },
+        "variants": {
+          "simplified": "子曰。学而时习之、不亦说乎。 有朋自远方来、不亦乐乎。人不知而不愠、不亦君子乎",
+          "pinyin": "zǐ yuē, xué ér shí xí zhī, bù yì yuè hū? yǒu péng zì yuǎn fāng lái, bù yì lè hū? rén bù zhī ér bù yùn, bù yì jūn zǐ hū?"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.01.01.en.muller",
+          "language": "en",
+          "text": "The Master said: \"Isn't it a pleasure to study and practice what you have learned? Isn't it also great when friends visit from distant places? If people do not recognize me and it doesn't bother me, am I not a noble man?\"",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 1, passage 1"
+          },
+          "rights": {
+            "reuseStatus": "unverified",
+            "license": null
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.01.01.explanation.en",
+          "kind": "project_explanation",
+          "language": "en",
+          "text": "...",
+          "author": "Mushroom Zi"
+        },
+        {
+          "id": "analects.01.01.application.en",
+          "kind": "modern_application",
+          "language": "en",
+          "text": "...",
+          "author": "Mushroom Zi",
+          "context": "..."
+        }
+      ],
+      "themes": ["learning", "practice"]
+    }
+  ]
+}

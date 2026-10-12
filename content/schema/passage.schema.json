@@ -1,0 +1,160 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Analects passage",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "number",
+    "original",
+    "translations",
+    "commentary",
+    "themes"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^analects\\.[0-9]{2}\\.[0-9]{2}$"
+    },
+    "number": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "original": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["language", "script", "textType", "text", "source"],
+      "properties": {
+        "language": { "const": "zh" },
+        "script": { "const": "Hant" },
+        "textType": { "const": "classical_chinese" },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source": {
+          "$ref": "#/$defs/source"
+        },
+        "variants": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "simplified": { "type": "string", "minLength": 1 },
+            "pinyin": { "type": "string", "minLength": 1 }
+          }
+        }
+      }
+    },
+    "translations": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/translation" }
+    },
+    "commentary": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/commentary" }
+    },
+    "themes": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+      }
+    }
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "citation"],
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "url": { "type": "string", "format": "uri" },
+        "citation": { "type": "string", "minLength": 1 },
+        "edition": { "type": "string" }
+      }
+    },
+    "rights": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["reuseStatus"],
+      "properties": {
+        "reuseStatus": {
+          "enum": [
+            "unverified",
+            "public_domain",
+            "licensed",
+            "permission_required"
+          ]
+        },
+        "license": { "type": ["string", "null"] },
+        "notes": { "type": "string" }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "reuseStatus": { "const": "licensed" }
+            },
+            "required": ["reuseStatus"]
+          },
+          "then": { 
+                "required": ["license"],
+                "properties": {
+                    "license": { "type": "string", "minLength": 1 }
+                }
+            }
+        }
+      ]
+    },
+    "translation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "language", "text", "translator", "source", "rights"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "language": {
+          "enum": ["en", "zh-Hans", "zh-Hant"]
+        },
+        "text": { "type": "string", "minLength": 1 },
+        "translator": { "type": "string", "minLength": 1 },
+        "source": { "$ref": "#/$defs/source" },
+        "rights": { "$ref": "#/$defs/rights" }
+      }
+    },
+    "commentary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "kind", "language", "text", "author"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "kind": {
+          "enum": [
+            "scholarly_interpretation",
+            "project_explanation",
+            "modern_application"
+          ]
+        },
+        "language": {
+          "enum": ["en", "zh-Hans", "zh-Hant"]
+        },
+        "text": { "type": "string", "minLength": 1 },
+        "author": { "type": "string", "minLength": 1 },
+        "source": { "$ref": "#/$defs/source" },
+        "context": { "type": "string" }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "kind": { "const": "scholarly_interpretation" }
+            },
+            "required": ["kind"]
+          },
+          "then": { "required": ["source"] }
+        }
+      ]
+    }
+  }
+}
