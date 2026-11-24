@@ -5,8 +5,7 @@
     "number": 1,
     "title": {
       "chinese": "學而",
-      "pinyin": "Xué ér",
-      "english": "Xue Er"
+      "pinyin": "Xué ér"
     }
   },
   "passages": [
@@ -17,14 +16,14 @@
         "language": "zh",
         "script": "Hant",
         "textType": "classical_chinese",
-        "text": "子曰。學而時習之、不亦說乎。 有朋自遠方來、不亦樂乎。人不知而不慍、不亦君子乎",
+        "text": "子曰。學而時習之、不亦說乎。有朋自遠方來、不亦樂乎。人不知而不慍、不亦君子乎",
         "source": {
           "title": "The Analects",
           "url": "https://www.acmuller.net/con-dao/analects.html",
           "citation": "Book 1, passage 1"
         },
         "variants": {
-          "simplified": "子曰。学而时习之、不亦说乎。 有朋自远方来、不亦乐乎。人不知而不愠、不亦君子乎",
+          "simplified": "子曰。学而时习之、不亦说乎。有朋自远方来、不亦乐乎。人不知而不愠、不亦君子乎",
           "pinyin": "zǐ yuē, xué ér shí xí zhī, bù yì yuè hū? yǒu péng zì yuǎn fāng lái, bù yì lè hū? rén bù zhī ér bù yùn, bù yì jūn zǐ hū?"
         }
       },
@@ -45,24 +44,42 @@
           }
         }
       ],
-      "commentary": [
+      "commentary": [],
+      "themes": ["learning", "practice"]
+    },
+    {
+      "id": "analects.01.02",
+      "number": 2,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "有子曰。其爲人也孝弟、而好犯上者、鮮矣。不好犯上、而好作亂者、未之有也。君子務本、本立而道生。孝弟也者、其爲仁之本與",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 1, passage 2"
+        }
+      },
+      "translations": [
         {
-          "id": "analects.01.01.explanation.en",
-          "kind": "project_explanation",
+          "id": "analects.01.02.en.muller",
           "language": "en",
-          "text": "...",
-          "author": "Mushroom Zi"
-        },
-        {
-          "id": "analects.01.01.application.en",
-          "kind": "modern_application",
-          "language": "en",
-          "text": "...",
-          "author": "Mushroom Zi",
-          "context": "..."
+          "text": "You Zi said: “There are few who have developed themselves filially and fraternally who enjoy offending their superiors. Those who do not enjoy offending superiors are never troublemakers. The noble man concerns himself with the fundamentals. Once the fundamentals are established, the proper way appears. Are not filial piety and obedience to elders fundamental to the actualization of fundamental human goodness?",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 1, passage 2"
+          },
+          "rights": {
+            "reuseStatus": "unverified",
+            "license": null
+          }
         }
       ],
-      "themes": ["learning", "practice"]
+      "commentary": [],
+      "themes": ["filial-piety", "benevolence", "self-cultivation"]
     }
   ]
 }

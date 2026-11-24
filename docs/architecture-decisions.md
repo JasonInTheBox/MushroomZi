@@ -1,6 +1,6 @@
 # Mushroom Zi — Architecture Decisions
 
-**Status:** Initial evaluation completed; recommendations are recorded below, but the framework and hosting choices remain open until a small build proves the fit. No model provider or production deployment has been selected. Keep product behavior in [`product-specification.md`](product-specification.md).
+**Status:** Initial evaluation completed. The content format (A-001) and frontend framework (A-002) were confirmed by the bilingual static route proof (2026-11-24); hosting remains open. No model provider or production deployment has been selected. Keep product behavior in [`product-specification.md`](product-specification.md).
 
 ## Architecture goals and constraints
 
@@ -101,7 +101,7 @@ The review uses framework and provider documentation available on the date above
 4. Add book/passage navigation and the deterministic daily selector.
 5. Review responsive layout, keyboard access, reduced motion, and the initial SEO metadata before expanding the corpus.
 
-Keep the first code exercise at step 1. It teaches data modeling and provenance before framework setup locks in a data shape.
+Step 1 comes first so the data model and provenance are settled before framework setup locks in a data shape.
 
 ## Candidate direction
 
@@ -189,13 +189,14 @@ This is a proposal, not a required layout. Keep the first implementation small a
 
 | ID | Topic | Status | Current position | Revisit when |
 |---|---|---|---|---|
-| A-001 | Initial content source | Proposed | Keep verified content in version control; choose JSON or Markdown after designing the first passage records. | The first corpus sample is modeled. |
-| A-002 | Frontend framework | Recommended | Next.js + React + TypeScript + Tailwind with static export; validate a bilingual passage route. Vite remains an option if static route generation is too much framework overhead. | The first route/content proof is built. |
+| A-001 | Initial content source | Selected | One JSON file per book in `content/books/`, validated against `content/schema/*.schema.json` by `scripts/validate_corpus.py`. `npm run build` runs the validator first (`prebuild`). | Long-form commentary becomes awkward to author in JSON. |
+| A-002 | Frontend framework | Selected | Next.js + React + TypeScript + Tailwind (via `@tailwindcss/postcss`) with static export. Two root layouts: `(home)` for `/` and `[lang]` for `/en/...` and `/zh/...`, so `<html lang>` matches each page. TS types in `web/src/lib/content.ts` are hand-written and cover only the fields pages read. | Pages start reading commentary or themes (then consider generating types from the schema). |
 | A-003 | Python runtime | Recommended | No production Python server at launch. Use local scripts for preprocessing; evaluate FastAPI for a future narrow API, Django if a database-backed editorial/account product is justified. | A feature requires live server-side processing. |
 | A-004 | Database | Deferred | No hosted database for the initial release; use local or version-controlled data until persistence needs are concrete. | User accounts, edits, or dynamic data become necessary. |
 | A-005 | Static hosting | Recommended | Cloudflare Pages is the current static-host candidate; GitHub Pages is an alternative for a public repository. Recheck price, plan terms, and limits before deploy. | Before first public deployment. |
 | A-006 | AI/model provider | Deferred | No provider selected. Verify current price, rate/cost caps, key handling, privacy terms, and failure behavior when AI integration is evaluated. | Grounded LLM integration milestone. |
 | A-007 | Initial Analects research reference | Selected for research | Use [A. Charles Muller's Analects page](http://www.acmuller.net/con-dao/analects.html) as the initial working reference. This does not establish permission to republish its translation; record attribution and verify reuse rights before publication. The page could not be fetched during this review, so its license status remains unverified. | Before adding translated text to the public corpus. |
+| A-008 | Rights-based publishing gate | Selected | Production builds render only translations whose `rights.reuseStatus` is `public_domain` or `licensed` (`isPublishable` in `web/src/lib/content.ts`); `next dev` shows all translations for review. The validator rejects placeholder text (`...`, `todo`) in originals, translations, and commentary. | Commentary or other third-party text gains its own rights field. |
 
 ## Learning and delivery sequence
 
