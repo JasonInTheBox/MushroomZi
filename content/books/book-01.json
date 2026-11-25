@@ -16,7 +16,7 @@
         "language": "zh",
         "script": "Hant",
         "textType": "classical_chinese",
-        "text": "子曰。學而時習之、不亦說乎。有朋自遠方來、不亦樂乎。人不知而不慍、不亦君子乎",
+        "text": "子曰。學而時習之、不亦說乎。 有朋自遠方來、不亦樂乎。人不知而不慍、不亦君子乎。",
         "source": {
           "title": "The Analects",
           "url": "https://www.acmuller.net/con-dao/analects.html",
@@ -31,7 +31,7 @@
         {
           "id": "analects.01.01.en.muller",
           "language": "en",
-          "text": "The Master said: \"Isn't it a pleasure to study and practice what you have learned? Isn't it also great when friends visit from distant places? If people do not recognize me and it doesn't bother me, am I not a noble man?\"",
+          "text": "The Master said: “Isn't it a pleasure to study and practice what you have learned? Isn't it also great when friends visit from distant places? If people do not recognize me and it doesn't bother me, am I not a noble man?” The character of the noble man, in contrast to the sage, is being taught as a tangible model for all in the here and now. And although many descriptions of the requirements for junzi status seem quite out of our reach, there are many passages where Confucius labels a contemporary, or one of his disciples a “noble man,” intending a complement. Thus, the categorization is not so rigid. One might want to compare the term “noble man” to the Buddhist bodhisattva, in that both are the models for the tradition, both indicate a very high stage of human development as technical terms, yet both may be used colloquially to refer to a “really good person.”",
           "translator": "A. Charles Muller",
           "source": {
             "title": "The Analects",
@@ -72,9 +72,28 @@
           "language": "zh-Hant",
           "text": "這週選一個正在學的想法，試著付諸實踐。若努力沒有被看見，可以想想：它是否仍符合你希望成為的那種人？",
           "author": "Mushroom Zi (AI-generated)"
+        },
+        {
+          "id": "analects.01.01.muller.comment.01",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "“Noble man” is an English translation for the Chinese term junzi 君子, which originally meant “son of a prince”—thus, someone from the nobility. In the Analects, Confucius imbues the term with a special meaning. Though sometimes used strictly in its original sense, it also refers to a person who has made significant progress in the Way (dao) of self-cultivation, by developing a sense of justice 義, by loving treatment of parents 孝, respect for elders 弟, honesty with friends 信, etc. Though the junzi is a highly advanced human being, he is still distinguished from the category of sage (shengren 聖人), who is, in the Analects more of a “divine being,” usually a model from great antiquity.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 1, passage 1, inline comment 1"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
         }
       ],
-      "themes": ["learning", "practice"]
+      "themes": [
+        "learning",
+        "practice"
+      ]
     },
     {
       "id": "analects.01.02",
@@ -83,7 +102,7 @@
         "language": "zh",
         "script": "Hant",
         "textType": "classical_chinese",
-        "text": "有子曰。其爲人也孝弟、而好犯上者、鮮矣。不好犯上、而好作亂者、未之有也。君子務本、本立而道生。孝弟也者、其爲仁之本與",
+        "text": "有子曰。其爲人也孝弟、而好犯上者、鮮矣。不好犯上、而好作亂者、未之有也。君子務本、本立而道生。孝弟也者、其爲仁之本與。",
         "source": {
           "title": "The Analects",
           "url": "https://www.acmuller.net/con-dao/analects.html",
@@ -94,7 +113,7 @@
         {
           "id": "analects.01.02.en.muller",
           "language": "en",
-          "text": "You Zi said: “There are few who have developed themselves filially and fraternally who enjoy offending their superiors. Those who do not enjoy offending superiors are never troublemakers. The noble man concerns himself with the fundamentals. Once the fundamentals are established, the proper way appears. Are not filial piety and obedience to elders fundamental to the actualization of fundamental human goodness?”",
+          "text": "You Zi said: “There are few who have developed themselves filially and fraternally who enjoy offending their superiors. Those who do not enjoy offending superiors are never troublemakers. The noble man concerns himself with the fundamentals. Once the fundamentals are established, the proper way appears. Are not filial piety and obedience to elders fundamental to the actualization of fundamental human goodness?” In the Chinese “essence-function” 體用 paradigm, ren can be understood as the innate, unmanifest source of all kinds of manifestations of virtuosity: wisdom, filial piety, reverence, courtesy, love, sincerity, etc., all of which are aspects, or functions of ren. Through one's efforts at practicing at the function of ren, one may enhance and develop one's ren, until one may be called a noble man, or even better, a “humane person” 仁人. In the Analects, to be called a “humane person” by the Master is an extremely high evaluation, rarely acknowledged for anyone.",
           "translator": "A. Charles Muller",
           "source": {
             "title": "The Analects",
@@ -135,9 +154,690 @@
           "language": "zh-Hant",
           "text": "遇到衝突時，可以先檢視日常生活中最親近的習慣與責任。把這個想法用於今天，也要讓尊重與安全、平等及設定界線的權利並存。",
           "author": "Mushroom Zi (AI-generated)"
+        },
+        {
+          "id": "analects.01.02.muller.comment.01",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "The word ren 仁 is perhaps the most fundamental concept in Confucian thought. It has been translated into English as “benevolence,” “altruism,” “goodness”, “humaneness” etc. It is a difficult concept to translate because it doesn't really refer to any specific type of virtue or positive endowment, but refers to an inner capacity possessed by all human beings to do good, as human beings should. It is the quality that makes humans human, and not animals. In earlier iterations of this translation I have gone through various transitions: at first I attempted to use a unified English rendering throughout the text. I then pursued a strategy of leaving untranslated, as ren. Now I am presently leaning in the direction of translating the term variously, according to the context, but at present, remnants of all three strategies remain in the text. I intend to eventually sort this out.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 1, passage 2, inline comment 1"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
         }
       ],
-      "themes": ["filial-piety", "benevolence", "self-cultivation"]
+      "themes": [
+        "filial-piety",
+        "benevolence",
+        "self-cultivation"
+      ]
+    },
+    {
+      "id": "analects.01.03",
+      "number": 3,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。巧言令色、鮮矣仁。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 1, passage 3"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.01.03.en.muller",
+          "language": "en",
+          "text": "The Master said: “Someone who is eloquent and maintains a contrived smile is seldom considered to be a really good person.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 1, passage 3"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.01.04",
+      "number": 4,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "曾子曰。吾日三省吾身、爲人謀而不忠乎。與朋友交而不信乎。傳不習乎。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 1, passage 4"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.01.04.en.muller",
+          "language": "en",
+          "text": "Ceng Zi said: “Each day I examine myself in three ways: in doing things for others, have I been disloyal? In my interactions with friends, have I been untrustworthy? Have not practiced what I have preached?”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 1, passage 4"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.01.05",
+      "number": 5,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。道千乘之國、敬事而信、節用而愛人。使民以時。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 1, passage 5"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.01.05.en.muller",
+          "language": "en",
+          "text": "The Master said: “If you would govern a state of a thousand chariots (a small-to-middle-size state), you must pay strict attention to business, be true to your word, be economical in expenditure and love the people. You should employ them [appropriately] according to the seasons.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 1, passage 5"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.01.05.muller.comment.01",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "“Usage of the people according to the seasons” is extremely important in an agriculture-based society, where planting, cultivating, or harvesting a certain crop during a certain few-day period can be critical. During the Spring and Autumn and Warring States periods in China, selfish and aggressive warlords frequently pulled farmers off their land at important farming times, to use them for public works projects, or have them fight in the ruler's personal wars.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 1, passage 5, inline comment 1"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.01.06",
+      "number": 6,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。弟子、入則孝、出則弟、謹而信、凡愛衆、而親仁。行有餘力、則以學文。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 1, passage 6"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.01.06.en.muller",
+          "language": "en",
+          "text": "The Master said: “A young man should serve his parents at home and be respectful to elders outside his home. He should be earnest and truthful, loving all, but become intimate with his innate good-heartedness. After doing this, if he has energy to spare, he can study literature and the arts.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 1, passage 6"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.01.06.muller.comment.01",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "In the above-mentioned essence-function view, the development of one's proper relationship with one's parents and others around her/him is fundamental in life. Only after these things are taken care of is it proper to go off and play at whatever one likes— even if this “play” involves the serious study of some art form.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 1, passage 6, inline comment 1"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.01.07",
+      "number": 7,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子夏曰。賢賢易色、事父母、能竭其力、事君、能致其身、與朋友交、言而有信。雖曰未學、吾必謂之學矣。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 1, passage 7"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.01.07.en.muller",
+          "language": "en",
+          "text": "Zi Xia said: “If you can treat the worthy as worthy without strain, exert your utmost in serving your parents, devote your whole self in serving your prince, and be honest in speech when dealing with your friends. If you do this and someone says you are not learned (xue 學), I would say that you are definitely learned.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 1, passage 7"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.01.07.muller.comment.01",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "In the Confucian tradition, learning (xue) is more than intellectual, academic study, or the accumulation of facts (although this aspect is included). It is the process of manifesting one's ren by developing oneself in self-reflection through the various types of human relationships.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 1, passage 7, inline comment 1"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.01.08",
+      "number": 8,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。君子不重、則不威。學則不固。主忠信。無友不如己者。過、則勿憚改。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 1, passage 8"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.01.08.en.muller",
+          "language": "en",
+          "text": "The Master said: “If the noble man lacks gravitas, then he will not inspire awe in others. If you study, you will not be stubborn. Take loyalty and good faith to be of primary importance, and have no friends who are not of equal (moral) caliber. When you make a mistake, don't hesitate to correct it.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 1, passage 8"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.01.08.muller.comment.01",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "The noble man still makes mistakes. The difference between him and other people is that he rectifies his errors as soon as he becomes aware of them.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 1, passage 8, inline comment 1"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.01.09",
+      "number": 9,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "曾子曰。愼終、追遠、民德歸厚矣。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 1, passage 9"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.01.09.en.muller",
+          "language": "en",
+          "text": "Ceng Zi said: “When they are careful (about their parents) to the end and continue in reverence after (their parents) are long gone, the virtue of the people will return to its natural depth.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 1, passage 9"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.01.10",
+      "number": 10,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子禽問於子貢曰。夫子至於是邦也、必聞其政、求之與 抑與之與 。子貢曰。夫子溫、良、恭、儉、讓以得之。夫子之求之也、其諸異乎人之求之與",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 1, passage 10"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.01.10.en.muller",
+          "language": "en",
+          "text": "Zi Qin asked Zi Gong: “When our teacher (Confucius) arrives in any country, he invariably finds out everything about its government. Does he seek this information? Or is it given to him?” Zi Gong said, “Our teacher gets it by being cordial, upright, courteous, frugal, and humble. His way of getting information is quite different from that of other men.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 1, passage 10"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.01.10.muller.comment.01",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "Confucian didn't need to dig around, or press people for information. People naturally opened up to him due to his warmth and honesty.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 1, passage 10, inline comment 1"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.01.11",
+      "number": 11,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。父在、觀其志。父沒、觀其行。三年無改於父之道、可謂孝矣。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 1, passage 11"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.01.11.en.muller",
+          "language": "en",
+          "text": "The Master said: “When your father is alive, observe his will. When your father is dead observe his former actions. If, for three years you do not change from the ways of your father, you can be called a ‘real son’ (xiao; 孝).”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 1, passage 11"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.01.11.muller.comment.01",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "In terms of the development of the character of the human being, the most fundamental practice is that of “filial piety,” the English translation of the Chinese xiao, which means to love, respect and take care of one's parents. Confucius believed that if people cultivated this innate tendency well, all other natural forms of human goodness would be positively affected by it.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 1, passage 11, inline comment 1"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.01.12",
+      "number": 12,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "有子曰。禮之用、和爲貴。先王之道、斯爲美、小大由之。有所不行。知和而和、不以禮節之、亦不可行也。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 1, passage 12"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.01.12.en.muller",
+          "language": "en",
+          "text": "You Zi said: “In the actual practice of propriety, flexibility is important. This is what the ancient kings did so well— both the greater and the lesser used flexibility. Yet there are occasions when this does not apply: If you understand flexibility and use it, but don't structure yourself with propriety, things won't go well.” The term li however, has, in the Analects, a much broader meaning than ritual, since it can also refer to the many smaller “ritualized” behavior patterns involved in day-to-day human interactions. This would include proper speech and body language according to status, age, sex— thus, “manners.” In this sense, li means any action proper, or appropriate to the situation. For instance, in the modern context, I might go up and slap my friend on the back. But I certainly wouldn't to that to my professor, or to a student in my class whom I don't know very well. In the Analects, li, as a general category, is clearly defined in a relationship with ren, where ren is the inner, substantial goodness of the human being, and li is the functioning of ren in the manifest world. That is to say, li is reciprocity 恕, filial piety 孝, fraternal respect 弟, etc.",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 1, passage 12"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.01.12.muller.comment.01",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "Propriety is the English rendition of the Chinese li 禮. This is a word that also has a wide range of meaning in Classical Chinese thought, and is difficult to translate in a single word. Its most basic meaning is that of “ritual” or “ceremony,” referring to all sorts of rituals that permeated early East Asian society. The most significant of course, would be wedding ceremonies and funerals. But there were also various agricultural rituals, coming-of-age rituals, coronations, etc. Confucius was an expert on the proper handling of all sorts of rituals.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 1, passage 12, inline comment 1"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.01.13",
+      "number": 13,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "有子曰。信近於義、言可復也。恭近於禮、遠恥辱也。因不失其親、亦可宗也。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 1, passage 13"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.01.13.en.muller",
+          "language": "en",
+          "text": "You Zi said: “When your own trustworthiness is guided by fairness, your words can be followed. When your show of respect is guided by propriety, you will be far from shame and disgrace. If you have genuine affection within your family, you can become an ancestor.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 1, passage 13"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.01.13.muller.comment.01",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "Fairness is one way of rendering of the Chinese yi 義, which we also translate in this text as Justice, according to the context. Although not quite as essential a concept as ren 仁, it is a strongly internalized human capacity. Being attuned to fairness allows people to do the proper thing in the proper situation, to give each person, place and thing its proper due. In the Analects and other Confucian texts, 義 has the specific connotations of fairness, or justice delivered in a situation when a person is in a position of power or authority. Thus, one of the greatest qualities to be possessed by teacher, a supervisor, a judge, a company owner, or the leader of any social circle is that of fairness, or justice, in treating those over whom he or she has power or influence.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 1, passage 13, inline comment 1"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.01.14",
+      "number": 14,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。君子食無求飽、居無求安、敏於事而愼於言、就有道而正焉、可謂好學也已。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 1, passage 14"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.01.14.en.muller",
+          "language": "en",
+          "text": "The Master said: “When the noble man eats he does not try to stuff himself; at rest he does not seek perfect comfort; he is diligent in his work and careful in speech. He avails himself to people of the Way and thereby corrects himself. This is the kind of person of whom you can say, ‘he loves learning.’”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 1, passage 14"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.01.15",
+      "number": 15,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子貢曰。貧而無諂、富而無驕、何如 。 子曰。可也。未若貧而樂、富而好禮者也。子貢曰。詩云。如切如磋、如琢如磨』、其斯之謂與 子曰。賜也、始可與言詩已矣、吿諸往而知來者。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 1, passage 15"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.01.15.en.muller",
+          "language": "en",
+          "text": "Zi Gong asked: “What do you think of a poor man who doesn't grovel or a rich man who isn't proud?” Confucius said, “They are good, but not as good as a poor man who is satisfied and a rich man who loves propriety.” Zi Gong said, “The Book of Odes says:” Like cutting and filing, Grinding and polishing “Is this what you are talking about?” Confucius said, “Ah, now I can begin to discuss the Book of Odes with Ci. I speak of various things, and he knows what is to be brought back. ”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 1, passage 15"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.01.15.muller.note.01",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "Shijing. The Book of Odes. One of the five Chinese classics 五經; also commonly referred to in Chinese as the Mao shi 毛詩. Also translated as the Book of Poetry, or Book of Songs. It is a collection of poems, written during the 500 years between the beginning of the Zhou dynasty and the middle of the Spring and Autumn period. It is believed that Confucius selected 305 from more than 3,000 pieces and edited them into a book to be used for education. Of the 305 poems, each is usually known by its title, which are drawn from phrases found in its opening passage.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 1, passage 15, footnote note-1-1"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        },
+        {
+          "id": "analects.01.15.muller.note.02",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "This simile for the process of self-perfection is found often in Confucian texts.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 1, passage 15, footnote note-1-2"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        },
+        {
+          "id": "analects.01.15.muller.note.03",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "In other words: “I give him a hint and he gets the whole point.”",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 1, passage 15, footnote note-1-3"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.01.16",
+      "number": 16,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。不患人之不己知、患不知人也。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 1, passage 16"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.01.16.en.muller",
+          "language": "en",
+          "text": "The Master said: “I am not bothered by the fact that I am unknown. I am bothered when I do not know others.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 1, passage 16"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
     }
   ]
 }

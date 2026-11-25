@@ -1,0 +1,387 @@
+{
+  "schemaVersion": 1,
+  "book": {
+    "id": "analects.book.18",
+    "number": 18,
+    "title": {
+      "chinese": "微子",
+      "pinyin": "Weizi"
+    }
+  },
+  "passages": [
+    {
+      "id": "analects.18.01",
+      "number": 1,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "微子去之。箕子爲之奴。比干諫而死。孔子曰。殷有三仁焉 。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 18, passage 1"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.18.01.en.muller",
+          "language": "en",
+          "text": "Weizi left him; Jizi was enslaved by him; Bi Gan admonished him, and died for it. Confucius said, “There were three good men in the Yin. ”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 18, passage 1"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.18.02",
+      "number": 2,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "柳下惠爲士師、三黜。人曰。子未可以去乎。曰。直道而事人、焉往而不三黜 枉道而事人、何必去父母之邦 。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 18, passage 2"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.18.02.en.muller",
+          "language": "en",
+          "text": "Hui Liuxia was chief criminal judge, and was fired three times. Someone said, “Why don't you just leave, sir?” He said, “If I want to give justice in serving people, where can I go where this will not happen? If I can be satisfied with handing out injustice, why should I bother leaving the land of my parents?”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 18, passage 2"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.18.03",
+      "number": 3,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "齊景公待孔子、曰。若季氏則吾不能、以季、孟之間待之。曰。吾老矣。不能用也。孔子行。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 18, passage 3"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.18.03.en.muller",
+          "language": "en",
+          "text": "Duke Jing of Qi was trying to decide what to do with Confucius. He said, “I can't treat him the way the Ji family did. I can employ him somewhere between the status of Ji or Meng(Sun).” He said again, “I am already old. I can't use him.” Confucius left.",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 18, passage 3"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.18.04",
+      "number": 4,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "齊人歸女樂、季桓子受之、三日不朝、孔子行。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 18, passage 4"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.18.04.en.muller",
+          "language": "en",
+          "text": "The people of Qi sent Lu a present of girl musicians. Ji Huan (ruler of Lu) received them, and for three days did not hold court. Confucius left.",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 18, passage 4"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.18.05",
+      "number": 5,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "楚狂接輿、歌而過孔子、曰。鳳兮 何德之衰 往者不可諫、來者猶可追。已而 已而 今之從政者殆而 孔子下、欲與之言。趨而辟之、不得與之言。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 18, passage 5"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.18.05.en.muller",
+          "language": "en",
+          "text": "Jieyu, the madman of Chu, passed by Confucius, singing: Phoenix! Phoenix! How your virtue has declined! Your past cannot be corrected, But your future is yet to come. Give up! Give up! Those who involve themselves in Government now Will be in danger. Confucius jumped down, wanting to talk to him, but he ran away, so Confucius couldn't talk to him.",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 18, passage 5"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.18.06",
+      "number": 6,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "長沮桀溺耦而耕。孔子過之、使子路問津焉。長沮曰。夫執輿者爲誰 子路曰。爲孔丘。曰。是魯孔丘與 曰。是也。曰。是知津矣。問於桀溺、桀溺曰。子爲誰 曰。爲仲由。曰。是魯孔丘之徒與 對曰。然。曰。滔滔者、天下皆是也、而誰以易之 且而與其從辟人之士也、豈若從辟世之士哉。耰而不輟。子路行以吿、夫子憮然曰。鳥獸不可與同群 吾非斯人之徒與而誰與 天下有道、丘不與易也。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 18, passage 6"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.18.06.en.muller",
+          "language": "en",
+          "text": "Zhang Zuo and Jie Ni were working together in the fields when Confucius was passing by. He sent Zi Lu to ask them where he could ford the river. Zhang Zuo said, “Who is that holding the carriage?” Zi Lu said, “It is Confucius” Zhang said, “The Confucius of Lu?” “Yes.” “Well, if that's the case, then he knows the ford.” Zi Lu then asked Jie Ni who said, “Who are you?” “I am Zi Lu.” “The follower of this Confucius of Lu?” “Right.” Jie said, “Disorder, disorder throughout the realm! And who can change it? Rather than following a shi who avoids people, you should follow one who escapes from the world!” With that, he went back to his hoeing and wouldn't stop. Zi Lu went back and reported this to Confucius. Confucius sighing, said, “I can't form associations with the birds and beasts. So if I don't associate with people, then who will I associate with? If the Way prevailed in the realm, I would not try to change anything.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 18, passage 6"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.18.07",
+      "number": 7,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子路從而後、遇丈人、以杖荷蓧子路問曰。子見夫子乎。丈人曰。四體不勤、五穀不分、孰爲夫子 植其杖而芸。子路拱而立。止子路宿、殺雞爲黍而食之、見其二子焉。明日、子路行以吿。子曰。隱者也。使子路反見之。至、則行矣。子路曰。不士無義。長幼之節、不可廢也。君臣之義、如之何其廢之 欲潔其身、而亂大倫。君子之仕也、行其義也。道之不行、已知之矣。。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 18, passage 7"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.18.07.en.muller",
+          "language": "en",
+          "text": "Zi Lu, having fallen behind the group, met an old man carrying a basket on a pole. He asked him: “Have you seen my master?” The old man said, “Your four limbs have not toiled, and you can't distinguish among the five grains— who is your master?” He planted his staff in the ground and began to weed. Zi Lu stood there with his arms folded. The old man had him stay overnight. He killed a chicken, prepared millet and fed him, and then introduced him to his two sons. The next day, Zi Lu left, and he told Confucius. The Master said, “He is a recluse,” and sent Zi Lu back to see him. When he arrived, the man was gone. Zi Lu said, “If you don't have a position in society, how can you practice fairness? If the relationship between young and old cannot be abandoned, how can the relationship between ruler and minister be abandoned? Desiring to keep his own purity, he disrupts the great bonds of society. The noble man practices his fairness from his place in society. When fairness is not being done, he is the one who is aware of it.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 18, passage 7"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.18.08",
+      "number": 8,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "逸民：伯夷、叔齊、虞仲、夷逸、朱張、柳下惠、少連。子曰。不降其志、不辱其身、伯夷叔齊與 謂柳下惠、少連。降志辱身矣。言中倫、行中慮、其斯而已矣。謂虞仲、夷逸。隱居放言、身中淸、廢中權。我則異於是、無可無不可。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 18, passage 8"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.18.08.en.muller",
+          "language": "en",
+          "text": "Among men who have abandoned society are Bo Yi, Shu Qi, Yu Zhong,Yiyi, Zhu Zhang, Hui Liu Xia, and Shao Lian. The Master said, “Those who would not surrender their wills or humiliate themselves were Bo Yi and Shu Qi.” Regarding Liuxia Hui and Shao Lian, he said, “They surrendered their wills and humiliated themselves; nonetheless, their words were based on solid principles and they thought before acting. That is about all that can be said of them.” Concerning Yu Zhong and Yi Yi: “They left society, and in their seclusion cast off speech, they were pure in their personal activities, and their abandonment of official position was adjusted according to the circumstances.” I am different than this. I have no “shoulds” or “should nots”.",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 18, passage 8"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.18.09",
+      "number": 9,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "大師摯適齊。亞飯干適楚。三飯繚適蔡。四飯缺適秦。鼓方叔、入於河。播鼗武、入於漢。少師陽、擊磬襄、入於海。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 18, passage 9"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.18.09.en.muller",
+          "language": "en",
+          "text": "The head musician Zhi, went to Qi; Gan, the musician for the second meal, went to Chu; Liao, the musician for the third meal, went to Cai; Que, the musician for the fourth meal, went to Qin; the drummer Fang Shu, went to the area of the Yellow River; Wu, the player of the spinning hand-drum, when to the Han River; Yang, the assistant musician, and Xiang, the player of the stone chimes, went to the sea.",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 18, printed label 18:10 (mapped to passage 9)"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.18.10",
+      "number": 10,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "周公謂魯公、曰。君子不施其親、不使大臣怨乎不以。故舊無大故、則不棄也。無求備於一人。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 18, passage 10"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.18.10.en.muller",
+          "language": "en",
+          "text": "The Duke of Zhou was talking to his son, the Duke of Lu. He said: “The noble man does not neglect his relatives and does not let the High Minister develop resentment about not being utilized. Therefore, he has never fired anyone unless there was a really good reason, and he does not seek to squeeze everything out of one man.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 18, passage 10"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.18.11",
+      "number": 11,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "周有八士。伯達、伯适、仲突、仲忽、叔夜、叔夏、季隨、季騧。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 18, passage 11"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.18.11.en.muller",
+          "language": "en",
+          "text": "There were eight Gentlemen in the Zhou: Bo Da, Bo Kuo, Zhong Tu, Zhong Hu, Shu Ye, Shu Xia, Ji Sui, and Ji Gua.",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 18, passage 11"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    }
+  ]
+}

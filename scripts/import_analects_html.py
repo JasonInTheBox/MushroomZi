@@ -14,8 +14,9 @@ from validate_corpus import build_book_validator, semantic_errors
 BOOK_ANCHOR = re.compile(r"^div-(\d+)$")
 NOTE_ANCHOR = re.compile(r"^note-\d+-\d+$")
 NOTE_LINK = re.compile(r"#(note-\d+-\d+)$")
-ORIGINAL_MARKER = re.compile(r"^\[(\d+-\d+)\]\s*(.*)$", re.DOTALL)
-TRANSLATION_MARKER = re.compile(r"^\[(\d+:\d+)\]\s*(.*)$", re.DOTALL)
+ORIGINAL_MARKER = re.compile(r"^\[(\d+-\d+(?:-\d+)?)(?:\s+』)?\]?\s*(.*)$", re.DOTALL)
+TRANSLATION_MARKER = re.compile(r"^\[(\d+:\d+(?:-\d+)?)\]\s*(.*)$", re.DOTALL)
+UNBRACKETED_TRANSLATION_MARKER = re.compile(r"^(\d+:\d+(?:-\d+)?)\s+(.*)$", re.DOTALL)
 COMMENT_MARKER = re.compile(r"^\[\s*Comment\s*\]\s*(.*)$", re.DOTALL | re.IGNORECASE)
 NOTE_NUMBER = re.compile(r"^\s*\d+\.\s*$")
 LEADING_NOTE_NUMBER = re.compile(r"^\s*\d+\.\s*")
@@ -39,6 +40,8 @@ class _AnalectsParser(HTMLParser):
         self.books = []
         self.notes = {}
         self.book = None
+        self.current_original = None
+        self.current_translation = None
         self.paragraph = None
         self.in_notes = False
         self.skipping_note_link = False
@@ -50,7 +53,7 @@ class _AnalectsParser(HTMLParser):
         if tag == "p":
             if self.paragraph is not None:
                 self.finish_paragraph()
-            self.paragraph = {"parts": [], "noteRefs": [], "bookAnchor": None}
+            self.paragraph = {"parts": [], "noteRefs": [], "bookAnchor": None, "style": attrs.get("style", "")}
         elif tag == "br" and self.paragraph is not None:
             self.paragraph["parts"].append(" ")
 
@@ -124,14 +127,60 @@ class _AnalectsParser(HTMLParser):
                 }
                 self.book["events"].append(event)
                 self.book["lastEvent"] = event
+                if kind == "original":
+                    self.current_original = event
+                    self.current_translation = None
+                elif kind == "translation":
+                    self.current_translation = event
                 return
 
-        if self.book["events"] and self.book.get("lastEvent"):
-            event = self.book["lastEvent"]
-            event["text"] = clean_text(f"{event['text']} {text}")
-            event["noteRefs"] = list(
-                dict.fromkeys(event["noteRefs"] + paragraph["noteRefs"])
-            )
+        match = UNBRACKETED_TRANSLATION_MARKER.match(text)
+        if match:
+            event = {
+                "kind": "translation",
+                "marker": match.group(1),
+                "text": clean_text(match.group(2)),
+                "noteRefs": list(dict.fromkeys(paragraph["noteRefs"])),
+            }
+            self.book["events"].append(event)
+            self.book["lastEvent"] = event
+            self.current_translation = event
+            return
+
+        style = paragraph["style"].casefold()
+        if "times new roman" in style:
+            kind_hint = "translation"
+        elif any(font in style for font in ("明朝", "simsun", "batang")) or CJK.search(text):
+            kind_hint = "original"
+        else:
+            kind_hint = None
+
+        last_event = self.book.get("lastEvent")
+        target = {
+            "original": self.current_original,
+            "translation": self.current_translation,
+        }.get(kind_hint)
+        if target is None and kind_hint is None:
+            target = last_event
+        if target:
+            target["text"] = clean_text(f"{target['text']} {text}")
+            target["noteRefs"] = list(dict.fromkeys(target["noteRefs"] + paragraph["noteRefs"]))
+            self.book["lastEvent"] = target
+            return
+        if kind_hint:
+            event = {
+                "kind": kind_hint,
+                "marker": None,
+                "text": text,
+                "noteRefs": list(dict.fromkeys(paragraph["noteRefs"])),
+            }
+            self.book["events"].append(event)
+            self.book["lastEvent"] = event
+            if kind_hint == "original":
+                self.current_original = event
+                self.current_translation = None
+            else:
+                self.current_translation = event
 
     def start_book(self, anchor, heading):
         match = BOOK_ANCHOR.fullmatch(anchor)
@@ -144,6 +193,8 @@ class _AnalectsParser(HTMLParser):
             "title": {"chinese": chinese, "pinyin": pinyin},
             "events": [],
         }
+        self.current_original = None
+        self.current_translation = None
         self.books.append(self.book)
 
     def result(self):
@@ -170,13 +221,13 @@ def _excerpt(text, limit=110):
     return text if len(text) <= limit else text[:limit].rstrip() + "…"
 
 
-def _passage_id(book_number, marker):
-    match = re.fullmatch(rf"{book_number}[-:](\d+)", marker or "")
-    return f"analects.{book_number:02}.{int(match.group(1)):02}" if match else None
+def _source_marker(event):
+    return event.get("marker") or "(unmarked)"
 
 
-def _marker_key(marker):
-    return marker.replace("-", ":") if marker else None
+def _marker_number(book_number, marker):
+    match = re.fullmatch(rf"{book_number}[-:](\d+)(?:-\d+)?", marker or "")
+    return int(match.group(1)) if match else None
 
 
 def validate_overrides(parsed, overrides):
@@ -188,8 +239,9 @@ def validate_overrides(parsed, overrides):
     source_counts = {}
     for book in parsed["books"]:
         for event in book["events"]:
-            kind, marker = event.get("kind"), event.get("marker")
-            if kind in ("original", "translation") and marker:
+            kind = event.get("kind")
+            if kind in ("original", "translation"):
+                marker = _source_marker(event)
                 key = (book["number"], kind, marker)
                 source_counts[key] = source_counts.get(key, 0) + 1
 
@@ -217,66 +269,102 @@ def validate_overrides(parsed, overrides):
     return result
 
 
+def _assign_book_events(book, override_map=None):
+    number = book["number"]
+    override_map = override_map or {}
+    result, entries, occurrences, unresolved, duplicates = {}, {}, {}, [], {}
+    current_passage = None
+    next_number = 1
+
+    for order, event in enumerate(book["events"], 1):
+        kind = event.get("kind")
+        if kind not in ("original", "translation"):
+            if kind == "comment" and current_passage in entries:
+                entry = entries[current_passage]
+                entry["comments"].append(event["text"])
+                entry["note_refs"] = list(dict.fromkeys(entry["note_refs"] + event.get("noteRefs", [])))
+            continue
+
+        marker = _source_marker(event)
+        source_key = (number, kind, marker)
+        occurrences[source_key] = occurrences.get(source_key, 0) + 1
+        event_key = (*source_key, occurrences[source_key])
+        group = duplicates.setdefault((kind, marker), {"occurrences": 0, "texts": set()})
+        group["occurrences"] += 1
+        group["texts"].add(event["text"])
+
+        if kind == "original":
+            passage_number = override_map.get(event_key)
+            if passage_number is None:
+                labeled_number = _marker_number(number, event.get("marker"))
+                passage_number = labeled_number if labeled_number is not None and labeled_number >= next_number else next_number
+            if passage_number in entries:
+                raise ValueError(f"multiple original source events map to book {number}, passage {passage_number}")
+            entries[passage_number] = {
+                "original": event,
+                "translation": None,
+                "comments": [],
+                "note_refs": list(event.get("noteRefs", [])),
+                "original_marker": event.get("marker"),
+                "translation_marker": None,
+                "order": order,
+            }
+            current_passage = passage_number
+            next_number = max(next_number, passage_number + 1)
+            result[event_key] = passage_number
+            continue
+
+        if current_passage is None:
+            unresolved.append({"kind": kind, "marker": marker, "text": event["text"], "order": order, "note_refs": event.get("noteRefs", []), "comments": [], "reason": "translation has no preceding original"})
+            continue
+        passage_number = override_map.get(event_key, current_passage)
+        entry = entries.get(passage_number)
+        if entry is None:
+            unresolved.append({"kind": kind, "marker": marker, "text": event["text"], "order": order, "note_refs": event.get("noteRefs", []), "comments": [], "reason": "translation maps to a passage without an original"})
+            continue
+        if entry["translation"] is not None:
+            unresolved.append({"kind": kind, "marker": marker, "text": event["text"], "order": order, "note_refs": event.get("noteRefs", []), "comments": [], "reason": "multiple translations map to one passage"})
+            continue
+        entry["translation"] = event
+        entry["translation_marker"] = event.get("marker")
+        entry["note_refs"] = list(dict.fromkeys(entry["note_refs"] + event.get("noteRefs", [])))
+        result[event_key] = passage_number
+
+    for passage_number, entry in entries.items():
+        if entry["translation"] is None:
+            unresolved.append({
+                "kind": "original",
+                "marker": entry["original_marker"] or "(unmarked)",
+                "text": entry["original"]["text"],
+                "order": entry["order"],
+                "passage_number": passage_number,
+                "reason": "no translation appears before the next original block",
+                "note_refs": entry["note_refs"],
+                "comments": entry["comments"],
+            })
+    return result, entries, unresolved, duplicates
+
+
 def resolve_source_mappings(parsed, overrides):
-    """Return event-occurrence mappings only when each book pairs one-to-one."""
+    """Assign passages in source order and reject translations without originals."""
     override_map = validate_overrides(parsed, overrides)
     result = {}
-
     for book in parsed["books"]:
-        number = book["number"]
-        occurrences, entries, distinct_by_marker = {}, {}, {}
-        for event in book["events"]:
-            kind, marker = event.get("kind"), event.get("marker")
-            if kind not in ("original", "translation") or not marker:
-                continue
-            source_key = (number, kind, marker)
-            occurrences[source_key] = occurrences.get(source_key, 0) + 1
-            key = (kind, marker, event["text"])
-            entries.setdefault(key, []).append(occurrences[source_key])
-            distinct_by_marker.setdefault((kind, marker), set()).add(event["text"])
-
-        assigned_by_kind = {"original": {}, "translation": {}}
-        for (kind, marker, text), indexes in entries.items():
-            explicit = {
-                override_map[(number, kind, marker, index)]
-                for index in indexes
-                if (number, kind, marker, index) in override_map
-            }
-            if len(explicit) > 1:
-                raise ValueError(f"conflicting overrides for repeated source block: {number} {marker}")
-            passage_number = next(iter(explicit), None)
-            if passage_number is None:
-                if len(distinct_by_marker[(kind, marker)]) > 1:
-                    raise ValueError(f"unresolved source mappings for repeated marker: {number} {marker}")
-                passage_id = _passage_id(number, marker)
-                if passage_id is None:
-                    raise ValueError(f"unresolved source mappings for invalid marker: {number} {marker}")
-                passage_number = int(passage_id.rsplit(".", 1)[1])
-            assigned_by_kind[kind].setdefault(passage_number, []).append((marker, text))
-            for index in indexes:
-                result[(number, kind, marker, index)] = passage_number
-
-        for kind, assignments in assigned_by_kind.items():
-            collisions = [passage for passage, sources in assignments.items() if len(sources) > 1]
-            if collisions:
-                raise ValueError(f"multiple {kind} source blocks map to passage(s) {collisions} in book {number}")
-        original_numbers = set(assigned_by_kind["original"])
-        translation_numbers = set(assigned_by_kind["translation"])
-        if original_numbers != translation_numbers:
-            missing_translations = sorted(original_numbers - translation_numbers)
-            missing_originals = sorted(translation_numbers - original_numbers)
-            raise ValueError(
-                f"unresolved source mappings in book {number}: "
-                f"missing translations for {missing_translations}; "
-                f"missing originals for {missing_originals}"
-            )
+        assignments, _, unresolved, _ = _assign_book_events(book, override_map)
+        unassigned = [item for item in unresolved if item["kind"] == "translation"]
+        if unassigned:
+            issue = unassigned[0]
+            raise ValueError(f"unresolved source mappings in book {book['number']}: {issue['reason']} ({issue['marker']})")
+        result.update(assignments)
     return result
 
 
 def _citation(book_number, passage_number, marker, locator=None):
-    marker_match = re.fullmatch(rf"{book_number}[-:](\d+)", marker or "")
-    if marker_match and int(marker_match.group(1)) == passage_number:
+    marker_number = _marker_number(book_number, marker)
+    if marker and re.fullmatch(rf"{book_number}[-:]\d+", marker) and marker_number == passage_number:
         citation = f"Book {book_number}, passage {passage_number}"
+    elif not marker:
+        citation = f"Book {book_number}, source order (mapped to passage {passage_number})"
     else:
         citation = f"Book {book_number}, printed label {marker} (mapped to passage {passage_number})"
     return f"{citation}, {locator}" if locator else citation
@@ -304,9 +392,9 @@ def build_corpus(parsed, overrides, existing_books):
         for event in book["events"]:
             kind, marker = event.get("kind"), event.get("marker")
             if kind in ("original", "translation"):
-                key = (number, kind, marker)
+                key = (number, kind, _source_marker(event))
                 occurrences[key] = occurrences.get(key, 0) + 1
-                passage_number = mappings[(number, kind, marker, occurrences[key])]
+                passage_number = mappings[(number, kind, _source_marker(event), occurrences[key])]
                 current_passage = passage_number
                 entry = entries.setdefault(passage_number, {
                     "original": None, "translation": None, "comments": [],
@@ -333,7 +421,7 @@ def build_corpus(parsed, overrides, existing_books):
         old_passages = {passage["number"]: passage for passage in existing.get("passages", [])}
         passages = []
         for passage_number, entry in sorted(entries.items()):
-            if entry["original"] is None or entry["translation"] is None:
+            if entry["original"] is None:
                 raise ValueError(f"unresolved source mappings for book {number}, passage {passage_number}")
             passage_id = f"analects.{number:02}.{passage_number:02}"
             old = old_passages.get(passage_number, {})
@@ -347,22 +435,23 @@ def build_corpus(parsed, overrides, existing_books):
             if variants is not None:
                 original["variants"] = variants
 
-            translation_marker = entry["translation_marker"]
-            translation = {
-                "id": f"{passage_id}.en.muller",
-                "language": "en",
-                "text": entry["translation"]["text"],
-                "translator": "A. Charles Muller",
-                "source": _source_record(_citation(number, passage_number, translation_marker)),
-                "rights": deepcopy(MULLER_RIGHTS),
-            }
             translations = [
-                item for item in old.get("translations", [])
-                if not (item.get("id") == translation["id"] or (
+                deepcopy(item) for item in old.get("translations", [])
+                if not (item.get("id") == f"{passage_id}.en.muller" or (
                     item.get("translator") == "A. Charles Muller" and item.get("source", {}).get("url") == SOURCE_URL
                 ))
             ]
-            translations.append(translation)
+            if entry["translation"] is not None:
+                translation_marker = entry["translation_marker"]
+                translation = {
+                    "id": f"{passage_id}.en.muller",
+                    "language": "en",
+                    "text": entry["translation"]["text"],
+                    "translator": "A. Charles Muller",
+                    "source": _source_record(_citation(number, passage_number, translation_marker)),
+                    "rights": deepcopy(MULLER_RIGHTS),
+                }
+                translations.append(translation)
 
             commentary = [
                 deepcopy(item) for item in old.get("commentary", [])
@@ -475,149 +564,109 @@ def write_books(books, output_dir):
 
 
 def build_mapping_report(parsed):
-    """Summarize source labels and only pair unique matching markers."""
-    books = []
-    total_originals = total_translations = total_comments = 0
-    linked_note_ids = set()
-    referenced_notes = set()
+    """Propose passage IDs by source order and retain every source occurrence."""
+    books, overrides = [], []
+    totals = {
+        "original_passages": 0,
+        "translation_blocks": 0,
+        "printed_original_markers": 0,
+        "printed_translation_markers": 0,
+        "comments": 0,
+    }
+    linked_note_ids, referenced_notes = set(), set()
 
     for book in parsed["books"]:
         number = book["number"]
-        original_groups, translation_groups = {}, {}
-        duplicates, unresolved, pairings = [], [], []
-        group_annotations = {}
-        current_original = None
-        original_count = translation_count = comment_count = 0
+        assignments, entries, unresolved, duplicate_groups = _assign_book_events(book)
+        occurrences = {}
+        pairings = []
+        for passage_number, entry in sorted(entries.items()):
+            original, translation = entry["original"], entry["translation"]
+            refs = entry["note_refs"]
+            notes = [{"id": note_id, "text": parsed["notes"].get(note_id, "")} for note_id in refs]
+            warnings = []
+            original_marker = entry["original_marker"]
+            original_label_number = _marker_number(number, original_marker)
+            if original_label_number is None:
+                warnings.append(f"unmarked original assigned to passage {passage_number}")
+            elif original_label_number != passage_number:
+                warnings.append(f"original label {original_marker} mapped to passage {passage_number}")
+            translation_marker = entry["translation_marker"]
+            if translation_marker:
+                translation_label_number = _marker_number(number, translation_marker)
+                if translation_label_number is None:
+                    warnings.append(f"translation label {translation_marker} mapped to passage {passage_number}")
+                elif translation_label_number != passage_number:
+                    warnings.append(f"translation label {translation_marker} mapped to passage {passage_number}")
+            pairings.append({
+                "passage_id": f"analects.{number:02}.{passage_number:02}",
+                "passage_number": passage_number,
+                "original_marker": original_marker or "(unmarked)",
+                "translation_marker": translation_marker or "—",
+                "original": original["text"],
+                "translation": translation["text"] if translation else None,
+                "comments": entry["comments"],
+                "notes": notes,
+                "warnings": warnings,
+            })
+            linked_note_ids.update(refs)
+            referenced_notes.update(refs)
 
-        for order, event in enumerate(book["events"], 1):
-            kind = event["kind"]
-            marker = event.get("marker") or "(unmarked)"
-            if kind in ("original", "translation"):
-                groups = original_groups if kind == "original" else translation_groups
-                group = groups.setdefault(marker, {})
-                entry = group.setdefault(event["text"], {
-                    "marker": marker,
-                    "text": event["text"],
-                    "order": order,
-                    "occurrences": 0,
-                    "note_refs": [],
-                })
-                entry["occurrences"] += 1
-                entry["order"] = min(entry["order"], order)
-                entry["note_refs"] = list(dict.fromkeys(entry["note_refs"] + event.get("noteRefs", [])))
-                if kind == "original":
-                    original_count += 1
-                    current_original = (marker, event["text"])
-                    group_annotations.setdefault(current_original, {"comments": [], "note_refs": []})
-                else:
-                    translation_count += 1
+        for item in unresolved:
+            refs = item.get("note_refs", [])
+            item["excerpt"] = _excerpt(item["text"])
+            item["notes"] = [{"id": note_id, "text": parsed["notes"].get(note_id, "")} for note_id in refs]
+            item["passage_id"] = (
+                f"analects.{number:02}.{item['passage_number']:02}"
+                if item.get("passage_number") is not None else None
+            )
+            linked_note_ids.update(refs)
+            referenced_notes.update(refs)
+
+        for event in book["events"]:
+            kind = event.get("kind")
+            if kind == "comment":
+                totals["comments"] += 1
+            elif kind in ("original", "translation"):
+                totals["original_passages" if kind == "original" else "translation_blocks"] += 1
+                if event.get("marker"):
+                    totals["printed_original_markers" if kind == "original" else "printed_translation_markers"] += 1
                 refs = event.get("noteRefs", [])
-                if current_original:
-                    annotation = group_annotations.setdefault(current_original, {"comments": [], "note_refs": []})
-                    annotation["note_refs"] = list(dict.fromkeys(annotation["note_refs"] + refs))
                 linked_note_ids.update(refs)
                 referenced_notes.update(refs)
-            elif kind == "comment":
-                comment_count += 1
-                if current_original:
-                    annotation = group_annotations.setdefault(current_original, {"comments": [], "note_refs": []})
-                    annotation["comments"].append(event["text"])
-                    annotation["note_refs"] = list(dict.fromkeys(annotation["note_refs"] + event.get("noteRefs", [])))
-                refs = event.get("noteRefs", [])
-                linked_note_ids.update(refs)
-                referenced_notes.update(refs)
-
-        total_originals += original_count
-        total_translations += translation_count
-        total_comments += comment_count
-
-        for kind, groups in (("original", original_groups), ("translation", translation_groups)):
-            for marker, text_groups in groups.items():
-                occurrences = sum(item["occurrences"] for item in text_groups.values())
-                if occurrences > 1:
-                    duplicates.append({
-                        "kind": kind,
-                        "marker": marker,
-                        "occurrences": occurrences,
-                        "distinct_texts": len(text_groups),
-                        "excerpts": [_excerpt(text) for text in text_groups],
+                marker = _source_marker(event)
+                key = (number, kind, marker)
+                occurrences[key] = occurrences.get(key, 0) + 1
+                passage_number = assignments.get((*key, occurrences[key]))
+                label_number = _marker_number(number, event.get("marker"))
+                if passage_number is not None and (label_number is None or label_number != passage_number):
+                    overrides.append({
+                        "bookNumber": number,
+                        "sourceKind": kind,
+                        "sourceMarker": marker,
+                        "occurrence": occurrences[key],
+                        "passageNumber": passage_number,
                     })
 
-        originals_by_key, translations_by_key = {}, {}
-        for marker, entries in original_groups.items():
-            originals_by_key.setdefault(_marker_key(marker), []).extend(entries.values())
-        for marker, entries in translation_groups.items():
-            translations_by_key.setdefault(_marker_key(marker), []).extend(entries.values())
-
-        all_keys = dict.fromkeys([*originals_by_key, *translations_by_key])
-        for key in all_keys:
-            original_entries = originals_by_key.get(key, [])
-            translation_entries = translations_by_key.get(key, [])
-            if len(original_entries) == len(translation_entries) == 1:
-                original, translation = original_entries[0], translation_entries[0]
-                annotation = group_annotations.get(
-                    (original["marker"], original["text"]), {"comments": [], "note_refs": []}
-                )
-                refs = list(dict.fromkeys(annotation["note_refs"] + original["note_refs"] + translation["note_refs"]))
-                pairings.append({
-                    "passage_id": _passage_id(number, original["marker"]),
-                    "original_marker": original["marker"],
-                    "translation_marker": translation["marker"],
-                    "original": original["text"],
-                    "translation": translation["text"],
-                    "comments": annotation["comments"],
-                    "notes": [{"id": note_id, "text": parsed["notes"].get(note_id, "")} for note_id in refs],
-                })
-                continue
-
-            for kind, entries, candidates in (
-                ("original", original_entries, translation_entries),
-                ("translation", translation_entries, original_entries),
-            ):
-                if not entries:
-                    continue
-                candidate_kind = "translation" if kind == "original" else "original"
-                all_candidates = [entry for values in (translation_groups if kind == "original" else original_groups).values() for entry in values.values()]
-                for entry in entries:
-                    annotation = group_annotations.get(
-                        (entry["marker"], entry["text"]),
-                        {"comments": [], "note_refs": entry["note_refs"] if kind == "translation" else []},
-                    )
-                    nearby = sorted(
-                        all_candidates,
-                        key=lambda candidate: (
-                            candidate["marker"] != (key or "").replace(":", "-" if candidate_kind == "original" else ":"),
-                            abs(candidate["order"] - entry["order"]),
-                        ),
-                    )[:3]
-                    reason = "missing counterpart" if not candidates else "repeated marker is ambiguous"
-                    excerpt = _excerpt(entry["text"])
-                    unresolved.append({
-                        "kind": kind,
-                        "marker": entry["marker"],
-                        "reason": reason,
-                        "passage_id": _passage_id(number, entry["marker"]) if kind == "original" else None,
-                        "excerpt": excerpt,
-                        "comments": annotation["comments"],
-                        "notes": [
-                            {"id": note_id, "text": parsed["notes"].get(note_id, "")}
-                            for note_id in annotation["note_refs"]
-                        ],
-                        "candidates": [
-                            {
-                                "kind": candidate_kind,
-                                "marker": item["marker"],
-                                "passage_id": _passage_id(number, item["marker"]),
-                                "excerpt": _excerpt(item["text"], 75),
-                            }
-                            for item in nearby
-                        ],
-                    })
-
+        duplicates = [
+            {
+                "kind": kind,
+                "marker": marker,
+                "occurrences": group["occurrences"],
+                "distinct_texts": len(group["texts"]),
+                "excerpts": [_excerpt(text) for text in sorted(group["texts"])],
+            }
+            for (kind, marker), group in duplicate_groups.items()
+            if group["occurrences"] > 1
+        ]
         books.append({
             "number": number,
             "title": book["title"],
-            "counts": {"original_markers": original_count, "translation_markers": translation_count, "comments": comment_count},
+            "counts": {
+                "original_passages": sum(event["kind"] == "original" for event in book["events"]),
+                "translation_blocks": sum(event["kind"] == "translation" for event in book["events"]),
+                "comments": sum(event["kind"] == "comment" for event in book["events"]),
+            },
             "pairings": pairings,
             "unresolved": unresolved,
             "duplicates": duplicates,
@@ -627,15 +676,16 @@ def build_mapping_report(parsed):
     return {
         "counts": {
             "books": len(books),
-            "original_markers": total_originals,
-            "translation_markers": total_translations,
-            "comments": total_comments,
+            **totals,
             "linked_note_ids": len(linked_note_ids),
             "linked_notes_with_bodies": len(linked_note_ids & note_ids),
             "missing_note_bodies": sorted(linked_note_ids - note_ids),
             "unlinked_note_bodies": sorted(note_ids - referenced_notes),
+            "unresolved_entries": sum(len(book["unresolved"]) for book in books),
+            "numbering_adjustments": len(overrides),
         },
         "books": books,
+        "overrides": overrides,
     }
 
 
@@ -644,19 +694,20 @@ def render_mapping_report(report):
     lines = [
         "# Analects source mapping review",
         "",
-        "**Status: proposed; no corpus files were written.** Unique matching labels are shown as proposed pairings. Repeated or unmatched labels remain unresolved and require review before import.",
+        "**Status: approved source-order proposal; applied to the corpus.** Each original block starts a passage; the following translation block maps to it until the next original. Duplicate labels receive distinct passage numbers. Original blocks without translations remain source-only.",
         "",
         "Source: [A. Charles Muller, The Analects](http://www.acmuller.net/con-dao/analects.html), from the tracked HTML snapshot.",
         "",
-        "## Source totals",
+        "## Import summary",
         "",
         f"- Books: {counts['books']}",
-        f"- Classical Chinese blocks: {counts['original_markers']}",
-        f"- English translation blocks: {counts['translation_markers']}",
+        f"- Classical Chinese passages: {counts['original_passages']} ({counts['printed_original_markers']} printed labels)",
+        f"- English translation blocks: {counts['translation_blocks']} ({counts['printed_translation_markers']} printed labels)",
         f"- Inline comments: {counts['comments']}",
         f"- Distinct linked footnote IDs: {counts['linked_note_ids']} ({counts['linked_notes_with_bodies']} with note text)",
         f"- Unlinked footnote bodies: {len(counts['unlinked_note_bodies'])}",
-        f"- Unresolved marker entries: {sum(len(book['unresolved']) for book in report['books'])}",
+        f"- Source-only or unpaired entries: {counts['unresolved_entries']}",
+        f"- Numbering adjustments recorded: {counts['numbering_adjustments']}",
         "",
     ]
 
@@ -667,46 +718,42 @@ def render_mapping_report(report):
         lines.extend([
             f"## Book {book['number']}: {book['title']['chinese']} ({book['title']['pinyin']})",
             "",
-            f"Counts: {book['counts']['original_markers']} Chinese, {book['counts']['translation_markers']} English, {book['counts']['comments']} comments.",
+            f"Counts: {book['counts']['original_passages']} Chinese, {book['counts']['translation_blocks']} English, {book['counts']['comments']} comments.",
             "",
         ])
         if book["pairings"]:
             lines.extend([
-                "### Unique marker pairings",
+                "### Proposed source-order mapping",
                 "",
-                "| Proposed corpus ID | Printed labels | Classical Chinese excerpt | English excerpt | Muller comments / footnotes |",
+                "| Corpus ID | Printed labels | Classical Chinese excerpt | English excerpt | Mapping notes / Muller comments / footnotes |",
                 "|---|---|---|---|---|",
             ])
             for item in book["pairings"]:
-                annotations = [f"Comment: {_excerpt(text, 70)}" for text in item["comments"]]
+                annotations = list(item["warnings"])
+                annotations.extend(f"Comment: {_excerpt(text, 70)}" for text in item["comments"])
                 annotations.extend(f"{note['id']}: {_excerpt(note['text'], 70)}" for note in item["notes"])
                 lines.append(
-                    f"| {cell(item['passage_id'])} | {cell(item['original_marker'])} / {cell(item['translation_marker'])} | {cell(_excerpt(item['original'], 85))} | {cell(_excerpt(item['translation'], 85))} | {cell('; '.join(annotations) or '—')} |"
+                    f"| {cell(item['passage_id'])} | {cell(item['original_marker'])} / {cell(item['translation_marker'])} | {cell(_excerpt(item['original'], 85))} | {cell(_excerpt(item['translation'] or '—', 85))} | {cell('; '.join(annotations) or '—')} |"
                 )
             lines.append("")
         if book["unresolved"]:
             lines.extend([
-                "### Unresolved markers (no automatic pairing)",
+                "### Source-only or unpaired entries",
                 "",
-                "| Kind | Source label | Reason | Excerpt | Muller comments / footnotes | Source-order candidates |",
-                "|---|---|---|---|---|---|",
+                "| Kind | Source label | Reason | Excerpt | Muller footnotes |",
+                "|---|---|---|---|---|",
             ])
             for item in book["unresolved"]:
-                candidates = "; ".join(
-                    f"{candidate['kind']} {candidate['marker']} → {candidate['passage_id'] or 'no ID'}: {candidate['excerpt']}"
-                    for candidate in item["candidates"]
-                ) or "none"
-                annotations = [f"Comment: {_excerpt(text, 70)}" for text in item["comments"]]
-                annotations.extend(f"{note['id']}: {_excerpt(note['text'], 70)}" for note in item["notes"])
+                annotations = [f"{note['id']}: {_excerpt(note['text'], 70)}" for note in item["notes"]]
                 lines.append(
-                    f"| {cell(item['kind'])} | {cell(item['marker'])} | {cell(item['reason'])} | {cell(item['excerpt'])} | {cell('; '.join(annotations) or '—')} | {cell(candidates)} |"
+                    f"| {cell(item['kind'])} | {cell(item['marker'])} | {cell(item['reason'])} | {cell(item['excerpt'])} | {cell('; '.join(annotations) or '—')} |"
                 )
             lines.append("")
         if book["duplicates"]:
             lines.extend([
                 "### Repeated source labels",
                 "",
-                "Exact repeated text is represented once in proposed pairings and identified here. Different texts under one label remain unresolved.",
+                "Each occurrence remains a separate passage in source order, including repeated identical text.",
                 "",
                 "| Kind | Label | Occurrences | Distinct texts | Excerpts |",
                 "|---|---|---:|---:|---|",
@@ -753,7 +800,7 @@ def main(argv=None):
             report_path.write_text(render_mapping_report(report), encoding="utf-8")
             print(
                 f"Wrote proposed mapping report for {report['counts']['books']} books; "
-                f"{sum(len(book['unresolved']) for book in report['books'])} unresolved marker entries."
+                f"{report['counts']['unresolved_entries']} source-only or unpaired entries."
             )
             return 0
 

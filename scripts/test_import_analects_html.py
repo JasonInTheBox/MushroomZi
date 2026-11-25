@@ -57,6 +57,55 @@ class ParseSourceHtmlTest(unittest.TestCase):
         self.assertNotIn("1", translation["text"])
         self.assertEqual(parsed["notes"], {"note-1-1": "A short footnote."})
 
+    def test_unmarked_blocks_and_legacy_markers_preserve_source_order(self):
+        html = """<p><a id="div-1">1. 學而 Xue er</a></p>
+        <p style="font-family: 'ＭＳ 明朝'">無標記原文</p>
+        <p style="font-family: 'Times New Roman'">[1:1] First translation.</p>
+        <p style="font-family: 'ＭＳ 明朝'">[1-2 』 子曰。第二句。</p>
+        <p style="font-family: 'Times New Roman'">Second translation, first line.</p>
+        <p style="font-family: 'Times New Roman'">Second translation, continuation.</p>
+        <p style="font-family: 'ＭＳ 明朝'">[1-3] 子曰。第三句。</p>
+        <p style="font-family: 'Times New Roman'">1:3 Third translation.</p>"""
+        self.assertTrue(callable(parse_source_html), "source parser is not implemented")
+        events = parse_source_html(html)["books"][0]["events"]
+        self.assertEqual(
+            [(event["kind"], event["marker"], event["text"]) for event in events],
+            [
+                ("original", None, "無標記原文"),
+                ("translation", "1:1", "First translation."),
+                ("original", "1-2", "子曰。第二句。"),
+                ("translation", None, "Second translation, first line. Second translation, continuation."),
+                ("original", "1-3", "子曰。第三句。"),
+                ("translation", "1:3", "Third translation."),
+            ],
+        )
+
+    def test_unmarked_continuations_attach_to_the_open_passage(self):
+        html = """<p><a id="div-1">1. 學而 Xue er</a></p>
+        <p>[1-1] 原文第一段</p><p>[1:1] Translation first line.</p>
+        <p style="font-family: 'ＭＳ 明朝'">原文第二段</p>
+        <p style="font-family: 'Times New Roman'">Translation second line.</p>
+        <p>[1-2] 下一章句</p><p>[1:2] Next translation.</p>"""
+        events = parse_source_html(html)["books"][0]["events"]
+        self.assertEqual(
+            [(event["kind"], event["marker"], event["text"]) for event in events],
+            [
+                ("original", "1-1", "原文第一段 原文第二段"),
+                ("translation", "1:1", "Translation first line. Translation second line."),
+                ("original", "1-2", "下一章句"),
+                ("translation", "1:2", "Next translation."),
+            ],
+        )
+
+    def test_range_markers_are_preserved(self):
+        html = """<p><a id="div-13">13. 子路 Zi Lu</a></p>
+        <p>[13-29-30] 合併的原文。</p><p>[13:29-30] Combined translation.</p>"""
+        events = parse_source_html(html)["books"][0]["events"]
+        self.assertEqual(
+            [(event["kind"], event["marker"]) for event in events],
+            [("original", "13-29-30"), ("translation", "13:29-30")],
+        )
+
 
 class MappingReportTest(unittest.TestCase):
     def make_report(self, events):
@@ -69,39 +118,44 @@ class MappingReportTest(unittest.TestCase):
     def event(self, kind, marker, text, note_refs=None):
         return {"kind": kind, "marker": marker, "text": text, "noteRefs": note_refs or []}
 
-    def test_report_lists_unmatched_and_duplicate_markers(self):
+    def test_report_proposes_source_order_and_flags_unpaired_translations(self):
         report = self.make_report([
             self.event("original", "1-1", "甲文"),
             self.event("translation", "1:1", "First translation."),
-            self.event("translation", "1:1", "Alternate translation."),
             self.event("original", "1-2", "乙文"),
-            self.event("translation", "1:3", "Unpaired English."),
+            self.event("translation", "1:3", "Second translation."),
+            self.event("translation", "1:4", "Unpaired English."),
         ])
         book = report["books"][0]
-        unresolved = {(item["kind"], item["marker"]) for item in book["unresolved"]}
-        self.assertIn(("original", "1-2"), unresolved)
-        self.assertIn(("translation", "1:3"), unresolved)
-        duplicates = {(item["kind"], item["marker"]) for item in book["duplicates"]}
-        self.assertIn(("translation", "1:1"), duplicates)
-        issue = next(item for item in book["unresolved"] if item["marker"] == "1-2")
-        self.assertIn("乙文", issue["excerpt"])
-        self.assertTrue(issue["candidates"])
+        self.assertEqual(
+            [(item["passage_id"], item["translation_marker"]) for item in book["pairings"]],
+            [("analects.01.01", "1:1"), ("analects.01.02", "1:3")],
+        )
+        self.assertEqual([(item["kind"], item["marker"]) for item in book["unresolved"]], [("translation", "1:4")])
+        self.assertTrue(any("label 1:3" in warning for warning in book["pairings"][1]["warnings"]))
 
-    def test_report_deduplicates_exact_repeated_source_block(self):
+    def test_report_keeps_exact_repeated_source_blocks_as_distinct_passages(self):
         report = self.make_report([
             self.event("original", "1-1", "甲文"),
-            self.event("original", "1-1", "甲文"),
             self.event("translation", "1:1", "First translation."),
+            self.event("original", "1-1", "甲文"),
+            self.event("translation", "1:2", "Repeated passage translation."),
             self.event("original", "1-2", "乙文"),
-            self.event("original", "1-2", "丙文"),
-            self.event("translation", "1:2", "Second translation."),
+            self.event("translation", "1:3", "Second passage translation."),
         ])
         book = report["books"][0]
         duplicate = next(item for item in book["duplicates"] if item["marker"] == "1-1")
         self.assertEqual(duplicate["occurrences"], 2)
         self.assertEqual(duplicate["distinct_texts"], 1)
-        self.assertEqual(len([item for item in book["pairings"] if item["original_marker"] == "1-1"]), 1)
-        self.assertIn(("original", "1-2"), {(item["kind"], item["marker"]) for item in book["unresolved"]})
+        self.assertEqual(
+            [item["passage_id"] for item in book["pairings"]],
+            ["analects.01.01", "analects.01.02", "analects.01.03"],
+        )
+
+    def test_report_preserves_source_only_original(self):
+        report = self.make_report([self.event("original", "1-1", "甲文")])
+        self.assertIsNone(report["books"][0]["pairings"][0]["translation"])
+        self.assertEqual(report["books"][0]["pairings"][0]["passage_id"], "analects.01.01")
 
     def test_report_keeps_comments_and_footnotes_with_unresolved_source(self):
         report = self.make_report([
@@ -110,9 +164,10 @@ class MappingReportTest(unittest.TestCase):
             self.event("translation", "1:2", "Alternate translation."),
             self.event("comment", None, "Muller comment."),
         ])
-        issue = report["books"][0]["unresolved"][0]
-        self.assertIn("Muller comment.", issue["comments"])
-        self.assertEqual(issue["notes"], [{"id": "note-1-1", "text": "Footnote text."}])
+        passage = report["books"][0]["pairings"][0]
+        self.assertIn("Muller comment.", passage["comments"])
+        self.assertEqual(passage["notes"], [{"id": "note-1-1", "text": "Footnote text."}])
+        self.assertEqual(report["books"][0]["unresolved"][0]["marker"], "1:2")
 
     def test_report_mode_never_changes_book_files(self):
         self.assertTrue(callable(main), "report CLI is not implemented")
@@ -138,14 +193,37 @@ class MappingReportTest(unittest.TestCase):
         parsed = parse_source_html(source_path.read_text(encoding="utf-8"))
         report = build_mapping_report(parsed)
         self.assertEqual(report["counts"]["books"], 20)
-        self.assertEqual(report["counts"]["original_markers"], 483)
-        self.assertEqual(report["counts"]["translation_markers"], 485)
+        self.assertEqual(report["counts"]["original_passages"], 489)
+        self.assertEqual(report["counts"]["translation_blocks"], 488)
+        self.assertEqual(report["counts"]["printed_original_markers"], 488)
+        self.assertEqual(report["counts"]["printed_translation_markers"], 487)
         self.assertEqual(report["counts"]["comments"], 34)
         self.assertEqual(report["counts"]["linked_note_ids"], 59)
         self.assertEqual(report["counts"]["linked_notes_with_bodies"], 59)
-        report_items = [item for book in report["books"] for item in book["pairings"] + book["unresolved"]]
+        report_items = [item for book in report["books"] for item in book["pairings"]]
         self.assertEqual(sum(len(item["comments"]) for item in report_items), 34)
         self.assertEqual(len({note["id"] for item in report_items for note in item["notes"]}), 59)
+
+    def test_live_numbering_anomalies_keep_source_order_and_printed_labels(self):
+        parsed = parse_source_html(
+            (Path(__file__).resolve().parents[1] / "Analects of Confucius 論語.html").read_text(encoding="utf-8")
+        )
+        report = build_mapping_report(parsed)
+        book14 = {item["passage_number"]: item for item in report["books"][13]["pairings"]}
+        self.assertEqual(book14[37]["original"], book14[38]["original"])
+        self.assertEqual((book14[37]["translation_marker"], book14[38]["translation_marker"]), ("14:37", "14:38"))
+        self.assertEqual(book14[38]["original_marker"], "14-37")
+        self.assertEqual(book14[39]["original_marker"], "14-38")
+        self.assertIsNone(book14[28]["translation"])
+
+        book13 = {item["passage_number"]: item for item in report["books"][12]["pairings"]}
+        self.assertEqual((book13[29]["original_marker"], book13[29]["translation_marker"]), ("13-29-30", "13:29-30"))
+        book16 = {item["passage_number"]: item for item in report["books"][15]["pairings"]}
+        self.assertEqual(book16[3]["translation_marker"], "16:4")
+        book17 = {item["passage_number"]: item for item in report["books"][16]["pairings"]}
+        self.assertEqual((book17[10]["original_marker"], book17[11]["original_marker"]), ("17-10", "17-10"))
+        book18 = {item["passage_number"]: item for item in report["books"][17]["pairings"]}
+        self.assertEqual((book18[9]["translation_marker"], book18[10]["translation_marker"]), ("18:10", "18:10"))
 
     def test_override_resolves_one_marker_occurrence(self):
         parsed = {"books": [{"number": 1, "events": [
@@ -172,13 +250,27 @@ class MappingReportTest(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "passageNumber"):
             validate_overrides(parsed, overrides)
 
-    def test_unresolved_exception_blocks_corpus_write(self):
+    def test_translation_without_preceding_original_blocks_corpus_write(self):
         parsed = {"books": [{"number": 1, "events": [
-            self.event("original", "1-1", "甲文"),
             self.event("translation", "1:2", "Unmapped translation."),
         ]}], "notes": {}}
-        with self.assertRaisesRegex(ValueError, "unresolved source mappings"):
+        with self.assertRaisesRegex(ValueError, "translation has no preceding original"):
             resolve_source_mappings(parsed, {"schemaVersion": 1, "mappings": []})
+
+    def test_source_order_handles_duplicate_numbers(self):
+        parsed = {"books": [{"number": 1, "events": [
+            self.event("original", "1-1", "甲文"),
+            self.event("translation", "1:1", "First."),
+            self.event("original", "1-2", "乙文 A"),
+            self.event("translation", "1:2", "Second."),
+            self.event("original", "1-2", "乙文 B"),
+            self.event("translation", "1:3", "Repeated label passage."),
+            self.event("original", "1-3", "丙文"),
+        ]}], "notes": {}}
+        mappings = resolve_source_mappings(parsed, {"schemaVersion": 1, "mappings": []})
+        self.assertEqual(mappings[(1, "original", "1-2", 2)], 3)
+        self.assertEqual(mappings[(1, "translation", "1:3", 1)], 3)
+        self.assertEqual(mappings[(1, "original", "1-3", 1)], 4)
 
     def source_fixture(self):
         return {
@@ -248,6 +340,19 @@ class MappingReportTest(unittest.TestCase):
         self.assertEqual(note["text"], "A linked scholarly footnote.")
         self.assertEqual(note["author"], "A. Charles Muller")
 
+    def test_build_corpus_keeps_original_without_inventing_translation(self):
+        parsed = self.source_fixture()
+        parsed["books"][0]["events"] = [parsed["books"][0]["events"][0]]
+        passage = build_corpus(parsed, {"schemaVersion": 1, "mappings": []}, {})[0]["passages"][0]
+        self.assertEqual(passage["translations"], [])
+
+    def test_source_only_reimport_removes_stale_muller_translation(self):
+        parsed = self.source_fixture()
+        parsed["books"][0]["events"] = [parsed["books"][0]["events"][0]]
+        existing = {1: self.existing_book()}
+        passage = build_corpus(parsed, {"schemaVersion": 1, "mappings": []}, existing)[0]["passages"][0]
+        self.assertEqual([item["id"] for item in passage["translations"]], ["analects.01.01.en.other"])
+
     def test_build_corpus_cites_printed_label_when_override_changes_number(self):
         parsed = self.source_fixture()
         parsed["books"][0]["events"][1]["marker"] = "1:2"
@@ -272,14 +377,20 @@ class MappingReportTest(unittest.TestCase):
         self.assertEqual(passage["original"]["variants"]["simplified"], "子曰。学而时习之")
         self.assertIn("Another translation.", [item["text"] for item in passage["translations"]])
 
-    def test_write_refuses_unresolved_mappings_without_changing_files(self):
+    def test_write_refuses_invalid_override_without_changing_files(self):
         self.assertTrue(callable(main), "write CLI is not implemented")
         project_root = Path(__file__).resolve().parents[1]
         books_dir = project_root / "content" / "books"
         before = {path.name: path.read_bytes() for path in books_dir.glob("book-*.json")}
         with TemporaryDirectory() as temporary_directory:
             override_path = Path(temporary_directory) / "overrides.json"
-            override_path.write_text('{"schemaVersion":1,"mappings":[]}', encoding="utf-8")
+            override_path.write_text(
+                json.dumps({"schemaVersion": 1, "mappings": [{
+                    "bookNumber": 1, "sourceKind": "original", "sourceMarker": "99-99",
+                    "occurrence": 1, "passageNumber": 1,
+                }]}),
+                encoding="utf-8",
+            )
             self.assertNotEqual(main(["--write", "--overrides", str(override_path)]), 0)
         self.assertEqual(before, {path.name: path.read_bytes() for path in books_dir.glob("book-*.json")})
 
@@ -292,6 +403,12 @@ class MappingReportTest(unittest.TestCase):
             written = sorted(output_dir.glob("book-*.json"))
             self.assertEqual(len(written), 20)
             self.assertEqual(json.loads(written[0].read_text(encoding="utf-8")), books[0])
+
+    def test_writer_accepts_source_only_passage(self):
+        books = self.valid_writer_books()
+        books[13]["passages"][0]["translations"] = []
+        with TemporaryDirectory() as temporary_directory:
+            write_books(books, Path(temporary_directory) / "books")
 
     def test_writer_rejects_incomplete_corpus_without_touching_files(self):
         self.assertTrue(callable(write_books), "corpus writer is not implemented")

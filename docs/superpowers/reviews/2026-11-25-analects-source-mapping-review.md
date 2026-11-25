@@ -1,26 +1,27 @@
 # Analects source mapping review
 
-**Status: proposed; no corpus files were written.** Unique matching labels are shown as proposed pairings. Repeated or unmatched labels remain unresolved and require review before import.
+**Status: approved source-order proposal; applied to the corpus.** Each original block starts a passage; the following translation block maps to it until the next original. Duplicate labels receive distinct passage numbers. Original blocks without translations remain source-only.
 
 Source: [A. Charles Muller, The Analects](http://www.acmuller.net/con-dao/analects.html), from the tracked HTML snapshot.
 
-## Source totals
+## Import summary
 
 - Books: 20
-- Classical Chinese blocks: 483
-- English translation blocks: 485
+- Classical Chinese passages: 489 (488 printed labels)
+- English translation blocks: 488 (487 printed labels)
 - Inline comments: 34
 - Distinct linked footnote IDs: 59 (59 with note text)
 - Unlinked footnote bodies: 0
-- Unresolved marker entries: 43
+- Source-only or unpaired entries: 1
+- Numbering adjustments recorded: 54
 
 ## Book 1: 學而 (Xue er)
 
 Counts: 16 Chinese, 16 English, 10 comments.
 
-### Unique marker pairings
+### Proposed source-order mapping
 
-| Proposed corpus ID | Printed labels | Classical Chinese excerpt | English excerpt | Muller comments / footnotes |
+| Corpus ID | Printed labels | Classical Chinese excerpt | English excerpt | Mapping notes / Muller comments / footnotes |
 |---|---|---|---|---|
 | analects.01.01 | 1-1 / 1:1 | 子曰。學而時習之、不亦說乎。 有朋自遠方來、不亦樂乎。人不知而不慍、不亦君子乎。 | The Master said: “Isn't it a pleasure to study and practice what you have learned? Is… | Comment: “Noble man” is an English translation for the Chinese term junzi 君子, w… |
 | analects.01.02 | 1-2 / 1:2 | 有子曰。其爲人也孝弟、而好犯上者、鮮矣。不好犯上、而好作亂者、未之有也。君子務本、本立而道生。孝弟也者、其爲仁之本與。 | You Zi said: “There are few who have developed themselves filially and fraternally wh… | Comment: The word ren 仁 is perhaps the most fundamental concept in Confucian th… |
@@ -43,9 +44,9 @@ Counts: 16 Chinese, 16 English, 10 comments.
 
 Counts: 24 Chinese, 24 English, 6 comments.
 
-### Unique marker pairings
+### Proposed source-order mapping
 
-| Proposed corpus ID | Printed labels | Classical Chinese excerpt | English excerpt | Muller comments / footnotes |
+| Corpus ID | Printed labels | Classical Chinese excerpt | English excerpt | Mapping notes / Muller comments / footnotes |
 |---|---|---|---|---|
 | analects.02.01 | 2-1 / 2:1 | 子曰。爲政以德、譬如北辰居其所而衆星共之。 | The Master said: “If you govern with the power of your virtue, you will be like the N… | Comment: This is the Analects' first statement on government. Scholars of Chine… |
 | analects.02.02 | 2-2 / 2:2 | 子曰。詩三百、一言以蔽之、曰。思無邪』 。 | The Master said: “The 300 verses of the Book of Odes can be summed up in a single phr… | — |
@@ -76,9 +77,9 @@ Counts: 24 Chinese, 24 English, 6 comments.
 
 Counts: 24 Chinese, 24 English, 4 comments.
 
-### Unique marker pairings
+### Proposed source-order mapping
 
-| Proposed corpus ID | Printed labels | Classical Chinese excerpt | English excerpt | Muller comments / footnotes |
+| Corpus ID | Printed labels | Classical Chinese excerpt | English excerpt | Mapping notes / Muller comments / footnotes |
 |---|---|---|---|---|
 | analects.03.01 | 3-1 / 3:1 | 孔子謂季氏、八佾舞於庭、是可忍也、孰不可忍也 | Confucius, speaking about the head of the Qi family said, “He has eight rows of dance… | Comment: In this passage and the following one, Confucius is complaining about… |
 | analects.03.02 | 3-2 / 3:2 | 三家者以雍徹。子曰。“相維辟公、天子穆穆。 奚取於三家之堂 ” | The Three Families used the Yong Songs at the clearing of the sacrificial vessels. Co… | — |
@@ -109,9 +110,9 @@ Counts: 24 Chinese, 24 English, 4 comments.
 
 Counts: 26 Chinese, 26 English, 3 comments.
 
-### Unique marker pairings
+### Proposed source-order mapping
 
-| Proposed corpus ID | Printed labels | Classical Chinese excerpt | English excerpt | Muller comments / footnotes |
+| Corpus ID | Printed labels | Classical Chinese excerpt | English excerpt | Mapping notes / Muller comments / footnotes |
 |---|---|---|---|---|
 | analects.04.01 | 4-1 / 4:1 | 子曰。里仁爲美。擇不處仁、焉得知 | The Master said: “As for a neighborhood, it is its ren that makes it beautiful. If yo… | — |
 | analects.04.02 | 4-2 / 4:2 | 子曰。不仁者、不可以久處約、不可以長處樂。仁者安仁、知者利仁。 | The Master said: “If you lack ren you can't handle long periods of difficulty or long… | — |
@@ -144,9 +145,9 @@ Counts: 26 Chinese, 26 English, 3 comments.
 
 Counts: 27 Chinese, 27 English, 1 comments.
 
-### Unique marker pairings
+### Proposed source-order mapping
 
-| Proposed corpus ID | Printed labels | Classical Chinese excerpt | English excerpt | Muller comments / footnotes |
+| Corpus ID | Printed labels | Classical Chinese excerpt | English excerpt | Mapping notes / Muller comments / footnotes |
 |---|---|---|---|---|
 | analects.05.01 | 5-1 / 5:1 | 子謂公冶長、可妻也。雖在縲絏之中、非其罪也。以其子妻之。 | Confucius said of Gong Ye Chang that he was fit for marriage. Even though he was arre… | — |
 | analects.05.02 | 5-2 / 5:2 | 子謂南容、邦有道不廢、邦無道免於刑戮。以其兄之子妻之。 | Confucius said of Nan Yong that if the Way prevailed in the state he would never lack… | — |
@@ -180,9 +181,9 @@ Counts: 27 Chinese, 27 English, 1 comments.
 
 Counts: 28 Chinese, 28 English, 1 comments.
 
-### Unique marker pairings
+### Proposed source-order mapping
 
-| Proposed corpus ID | Printed labels | Classical Chinese excerpt | English excerpt | Muller comments / footnotes |
+| Corpus ID | Printed labels | Classical Chinese excerpt | English excerpt | Mapping notes / Muller comments / footnotes |
 |---|---|---|---|---|
 | analects.06.01 | 6-1 / 6:1 | 子曰。雍也可使南面。 | The Master said: “Yong could fulfill the role of ‘facing south’ (being a ruler).” | — |
 | analects.06.02 | 6-2 / 6:2 | 仲弓問子桑伯子。 子曰、可也簡。仲弓曰。居敬而行簡、以臨其民、不亦不可乎。居簡而行簡、無乃大簡乎。子曰。雍之言然。 | Zhong Gong asked about Zisang Bo Zi. Confucius said, “He will do. He is easygoing.” Z… | — |
@@ -217,9 +218,9 @@ Counts: 28 Chinese, 28 English, 1 comments.
 
 Counts: 37 Chinese, 37 English, 0 comments.
 
-### Unique marker pairings
+### Proposed source-order mapping
 
-| Proposed corpus ID | Printed labels | Classical Chinese excerpt | English excerpt | Muller comments / footnotes |
+| Corpus ID | Printed labels | Classical Chinese excerpt | English excerpt | Mapping notes / Muller comments / footnotes |
 |---|---|---|---|---|
 | analects.07.01 | 7-1 / 7:1 | 子曰。述而不作、信而好古、竊比於我老彭。 | The Master said: “I am a transmitter, rather than an original thinker. I trust and en… | — |
 | analects.07.02 | 7-2 / 7:2 | 子曰。默而識之、學而不厭、誨人不倦、何有於我哉 | The Master said: “Keeping silent and thinking; studying without satiety, teaching oth… | — |
@@ -261,11 +262,11 @@ Counts: 37 Chinese, 37 English, 0 comments.
 
 ## Book 8: 泰伯 (Tai Bo)
 
-Counts: 21 Chinese, 20 English, 1 comments.
+Counts: 21 Chinese, 21 English, 1 comments.
 
-### Unique marker pairings
+### Proposed source-order mapping
 
-| Proposed corpus ID | Printed labels | Classical Chinese excerpt | English excerpt | Muller comments / footnotes |
+| Corpus ID | Printed labels | Classical Chinese excerpt | English excerpt | Mapping notes / Muller comments / footnotes |
 |---|---|---|---|---|
 | analects.08.01 | 8-1 / 8:1 | 子曰。泰伯其可謂至德也已矣。三以天下讓、民無得而稱焉。 | The Master said: “Tai Bo can be said to have had a perfected level of virtue. He decl… | — |
 | analects.08.02 | 8-2 / 8:2 | 子曰。恭而無禮則勞。愼而無禮則葸。勇而無禮則亂。直而無禮則絞。君子篤於親、則民興於仁。故舊不遺、則民不偸。 | The Master said: “Courtesy without propriety is wasted energy. Caution without propri… | — |
@@ -284,23 +285,18 @@ Counts: 21 Chinese, 20 English, 1 comments.
 | analects.08.15 | 8-15 / 8:15 | 子曰。師摯之始、關雎之亂、洋洋乎盈耳哉。 | The Master said: “After Music Master Zhi took over, the finale of the Guanju was magn… | — |
 | analects.08.16 | 8-16 / 8:16 | 子曰。狂而不直、侗而不愿、悾悾而不信、吾不知之矣。 | The Master said: “I really don't know what to do with those who are ardent but not up… | — |
 | analects.08.17 | 8-17 / 8:17 | 子曰。學如不及、猶恐失之。 | The Master said: “Study as if you have not reached your goal— as if you were afraid o… | — |
+| analects.08.18 | 8-18 / 8:18 | 子曰。巍巍乎、舜禹之有天下也、而不與焉。 | Confucius said: “How sublime was the manner in which Shun and You handled the empire,… | Comment: Here we can a similarity in Confucius' understanding with that of the… |
 | analects.08.19 | 8-19 / 8:19 | 子曰。大哉堯之爲軍也、巍巍乎、唯天爲大、唯堯則之、蕩蕩乎、民無能名焉。巍巍乎、其有成功也、煥乎、其有文章。 | The Master said: “The rulership of Yao was so magnificent! He was so sublime that eve… | — |
 | analects.08.20 | 8-20 / 8:20 | 舜有臣五人、而天下治。武王曰。予有亂臣十人。孔子曰。才難、不其然乎、唐虞之際、於斯爲盛、有婦人焉、九人而已。三分天下有其二、以服事殷、周之德、其可謂至德也已矣。 | Shun, with five ministers, was able to successfully govern the empire. King Wu said,… | — |
 | analects.08.21 | 8-21 / 8:21 | 子曰。禹吾無間然矣、菲飮食、而致孝乎鬼神、惡衣服、而致美乎黻冕、卑宮室、而盡力乎溝恤、禹吾無間然矣。 | The Master said: “Yu was flawless in character. Surviving on the simplest food and dr… | — |
-
-### Unresolved markers (no automatic pairing)
-
-| Kind | Source label | Reason | Excerpt | Muller comments / footnotes | Source-order candidates |
-|---|---|---|---|---|---|
-| original | 8-18 | missing counterpart | 子曰。巍巍乎、舜禹之有天下也、而不與焉。 8:18 Confucius said: “How sublime was the manner in which Shun and You handled the empire… | Comment: Here we can a similarity in Confucius' understanding with that of the… | translation 8:17 → analects.08.17: The Master said: “Study as if you have not reached your goal— as if you wer…; translation 8:16 → analects.08.16: The Master said: “I really don't know what to do with those who are ardent…; translation 8:19 → analects.08.19: The Master said: “The rulership of Yao was so magnificent! He was so sublim… |
 
 ## Book 9: 子罕 (Zi nan)
 
 Counts: 31 Chinese, 31 English, 2 comments.
 
-### Unique marker pairings
+### Proposed source-order mapping
 
-| Proposed corpus ID | Printed labels | Classical Chinese excerpt | English excerpt | Muller comments / footnotes |
+| Corpus ID | Printed labels | Classical Chinese excerpt | English excerpt | Mapping notes / Muller comments / footnotes |
 |---|---|---|---|---|
 | analects.09.01 | 9-1 / 9:1 | 子罕言、利、與命、與仁。 | The master seldom spoke about advantage in connection with destiny or in connection w… | — |
 | analects.09.02 | 9-2 / 9:2 | 達巷黨人曰、大哉孔子、博學而無所成名。子聞之、謂門弟子曰、吾何執 執御乎、執射乎。吾執御矣。 | A man from Daxiang said: “How great Confucius is! His learning is so broad. However,… | — |
@@ -309,6 +305,8 @@ Counts: 31 Chinese, 31 English, 2 comments.
 | analects.09.05 | 9-5 / 9:5 | 子畏於匡。曰。文王旣沒、文不在茲乎。天之章喪斯文也。後死者不得與於斯文也。天之未喪斯文也。匡人其如予何。 | There was fear for the Master's life when he was in the district of Guang. He said, “… | note-9-18: “Wen” means literature or culture. King Wen was traditionally recogniz… |
 | analects.09.06 | 9-6 / 9:6 | 大宰問於子貢曰。夫子聖者與 何其多能也 子貢曰。固天縱之將聖、又多能也。子聞之曰。大宰知我乎。吾少也賤、故多能鄙事。君子多乎哉。不多也 。 | A high minister asked Zi Gong: “If your master is really a sage, why does he know so… | note-9-19: “The noble man is not a utensil.” |
 | analects.09.07 | 9-7 / 9:7 | 牢曰。子云。吾不試、故藝。 | Lao said: “Our teacher said, “I didn't have an official position, therefore, I develo… | — |
+| analects.09.08 | 9-8 / 9:8 | 子曰。吾有知乎哉。無知也。有鄙夫問於我、空空如也。我叩其兩端而竭焉。 | The Master said: “Do I possess knowledge? No, I do not possess it. Yet if even simple… | note-9-20: I have diverged from Legge and Waley in taking “completely empty-like”… |
+| analects.09.09 | 9-9 / 9:8 | 子曰。鳳鳥不至、河不出圖、吾已矣乎。 | The Master said: “The Phoenix has not come, the Yellow River has not produced at diag… | translation label 9:8 mapped to passage 9; note-9-21: Commentators and translators understand this chart/diagram variously.… |
 | analects.09.10 | 9-10 / 9:10 | 子見齊衰者、冕衣裳者、與瞽者、見之雖少必作。過之必趨。 | If the master saw someone in mourning, or in full ceremonial dress, or a blind person… | — |
 | analects.09.11 | 9-11 / 9:11 | 顏淵喟然歎曰。仰之彌高、鑽之彌堅、瞻之在前、忽焉在後 夫子循循然善誘人：搏我以文、約我以禮。欲罷不能、旣竭吾才、如有所立、卓爾。雖欲從之、末由也已 。 | Yan Yuan sighed in admiration saying: “Looking up to it, it gets higher. Boring into… | — |
 | analects.09.12 | 9-12 / 9:12 | 子疾病、子路使門人爲臣、病聞、曰。久矣哉、由之行詐也 無臣而爲有臣、吾誰欺 欺天乎。且予與其死於臣之手也、無＜4Ｄ2Ａ＞死於二三子之手乎。且予縱不得大葬、予死於道路乎。 | The Master was extremely ill, and Zi Lu wanted the disciples to become Confucius' “mi… | note-9-22: I.e., he wanted, in the case of Confucius' death, for it to appear tha… |
@@ -328,24 +326,13 @@ Counts: 31 Chinese, 31 English, 2 comments.
 | analects.09.26 | 9-26 / 9:26 | 子曰。三軍可奪師也、匹夫不可奪志也。 | The Master said: “You can snatch away the general of a large army, but you cannot sna… | — |
 | analects.09.27 | 9-27 / 9:27 | 子曰。衣敝縕袍、與衣孤貉者立、而不恥者、其由也與。不忮不求、何用不臧 』 子路終身誦之。子曰。是道也、何足以臧 。 | The Master said: “Standing in tattered work clothes among gentlemen clothed in fine f… | note-9-23: Book of Poems, number 67. |
 | analects.09.28 | 9-28 / 9:28 | 子曰。歲寒、然後知松柏之後彫也。 | The Master said: “Only after it turns winter are we aware of the survival of the Pine… | — |
+| analects.09.29 | 9-29 / 9:29 | 子曰。知者不惑。仁者不憂。勇者不懼。 | The Master said: “The wise are not confused, the humane are not anxious, the brave ar… | — |
+| analects.09.30 | 9-30 / 9:29 | 子曰。可與共學、未可與適道。可與適道、未可與立。可與立、未可與權。 | The Master said: “There are some with whom we can study, but with whom we cannot trav… | translation label 9:29 mapped to passage 30 |
 | analects.09.31 | 9-31 / 9:31 | 唐棣之華、偏其反而。豈不爾思 室是遠而。子曰。未之思也、未何遠之有 。 | As the flowers of the aspen plum Lean and turn, How could I not think of you? But you… | — |
-
-### Unresolved markers (no automatic pairing)
-
-| Kind | Source label | Reason | Excerpt | Muller comments / footnotes | Source-order candidates |
-|---|---|---|---|---|---|
-| original | 9-8 | repeated marker is ambiguous | 子曰。吾有知乎哉。無知也。有鄙夫問於我、空空如也。我叩其兩端而竭焉。 | note-9-20: I have diverged from Legge and Waley in taking “completely empty-like”… | translation 9:8 → analects.09.08: The Master said: “Do I possess knowledge? No, I do not possess it. Yet if e…; translation 9:8 → analects.09.08: The Master said: “The Phoenix has not come, the Yellow River has not produc…; translation 9:7 → analects.09.07: Lao said: “Our teacher said, “I didn't have an official position, therefore… |
-| translation | 9:8 | repeated marker is ambiguous | The Master said: “Do I possess knowledge? No, I do not possess it. Yet if even simple men come to ask a questi… | note-9-20: I have diverged from Legge and Waley in taking “completely empty-like”… | original 9-8 → analects.09.08: 子曰。吾有知乎哉。無知也。有鄙夫問於我、空空如也。我叩其兩端而竭焉。; original 9-9 → analects.09.09: 子曰。鳳鳥不至、河不出圖、吾已矣乎。; original 9-7 → analects.09.07: 牢曰。子云。吾不試、故藝。 |
-| translation | 9:8 | repeated marker is ambiguous | The Master said: “The Phoenix has not come, the Yellow River has not produced at diagram. Alas, I am finished.… | note-9-21: Commentators and translators understand this chart/diagram variously.… | original 9-8 → analects.09.08: 子曰。吾有知乎哉。無知也。有鄙夫問於我、空空如也。我叩其兩端而竭焉。; original 9-9 → analects.09.09: 子曰。鳳鳥不至、河不出圖、吾已矣乎。; original 9-10 → analects.09.10: 子見齊衰者、冕衣裳者、與瞽者、見之雖少必作。過之必趨。 |
-| original | 9-9 | missing counterpart | 子曰。鳳鳥不至、河不出圖、吾已矣乎。 | note-9-21: Commentators and translators understand this chart/diagram variously.… | translation 9:8 → analects.09.08: The Master said: “Do I possess knowledge? No, I do not possess it. Yet if e…; translation 9:8 → analects.09.08: The Master said: “The Phoenix has not come, the Yellow River has not produc…; translation 9:7 → analects.09.07: Lao said: “Our teacher said, “I didn't have an official position, therefore… |
-| original | 9-29 | repeated marker is ambiguous | 子曰。知者不惑。仁者不憂。勇者不懼。 | — | translation 9:29 → analects.09.29: The Master said: “The wise are not confused, the humane are not anxious, th…; translation 9:29 → analects.09.29: The Master said: “There are some with whom we can study, but with whom we c…; translation 9:28 → analects.09.28: The Master said: “Only after it turns winter are we aware of the survival o… |
-| translation | 9:29 | repeated marker is ambiguous | The Master said: “The wise are not confused, the humane are not anxious, the brave are not afraid.” | — | original 9-29 → analects.09.29: 子曰。知者不惑。仁者不憂。勇者不懼。; original 9-30 → analects.09.30: 子曰。可與共學、未可與適道。可與適道、未可與立。可與立、未可與權。; original 9-28 → analects.09.28: 子曰。歲寒、然後知松柏之後彫也。 |
-| translation | 9:29 | repeated marker is ambiguous | The Master said: “There are some with whom we can study, but with whom we cannot traverse on the same path. Th… | — | original 9-29 → analects.09.29: 子曰。知者不惑。仁者不憂。勇者不懼。; original 9-30 → analects.09.30: 子曰。可與共學、未可與適道。可與適道、未可與立。可與立、未可與權。; original 9-31 → analects.09.31: 唐棣之華、偏其反而。豈不爾思 室是遠而。子曰。未之思也、未何遠之有 。 |
-| original | 9-30 | missing counterpart | 子曰。可與共學、未可與適道。可與適道、未可與立。可與立、未可與權。 | — | translation 9:29 → analects.09.29: The Master said: “The wise are not confused, the humane are not anxious, th…; translation 9:29 → analects.09.29: The Master said: “There are some with whom we can study, but with whom we c…; translation 9:28 → analects.09.28: The Master said: “Only after it turns winter are we aware of the survival o… |
 
 ### Repeated source labels
 
-Exact repeated text is represented once in proposed pairings and identified here. Different texts under one label remain unresolved.
+Each occurrence remains a separate passage in source order, including repeated identical text.
 
 | Kind | Label | Occurrences | Distinct texts | Excerpts |
 |---|---|---:|---:|---|
@@ -356,9 +343,9 @@ Exact repeated text is represented once in proposed pairings and identified here
 
 Counts: 20 Chinese, 20 English, 0 comments.
 
-### Unique marker pairings
+### Proposed source-order mapping
 
-| Proposed corpus ID | Printed labels | Classical Chinese excerpt | English excerpt | Muller comments / footnotes |
+| Corpus ID | Printed labels | Classical Chinese excerpt | English excerpt | Mapping notes / Muller comments / footnotes |
 |---|---|---|---|---|
 | analects.10.01 | 10-1 / 10:1 | 孔子於鄕黨、恂恂如也、似不能言者。其在宗廟朝廷、便便然、唯謹爾。朝與下大夫言、侃侃如也。與上大夫言、誾誾如也。君在、踧踖如也、與與如也。 | When Confucius was in his village, he was quietly sincere, as if he could not speak.… | — |
 | analects.10.02 | 10-2 / 10:2 | 君召使擯、色勃如也、足躩如也。揖所與立、左右手、衣前後、檐如也。趨進、翼如也。賓退、必復命、曰。賓不顧矣。 | When the ruler summoned him to take care of important guests, his face took on a seri… | — |
@@ -383,21 +370,26 @@ Counts: 20 Chinese, 20 English, 0 comments.
 
 ## Book 11: 先進 (Xianjin)
 
-Counts: 23 Chinese, 24 English, 0 comments.
+Counts: 24 Chinese, 24 English, 0 comments.
 
-### Unique marker pairings
+### Proposed source-order mapping
 
-| Proposed corpus ID | Printed labels | Classical Chinese excerpt | English excerpt | Muller comments / footnotes |
+| Corpus ID | Printed labels | Classical Chinese excerpt | English excerpt | Mapping notes / Muller comments / footnotes |
 |---|---|---|---|---|
+| analects.11.01 | (unmarked) / 11:1 | 子曰。先進於禮樂、野人也。後進於禮樂、君子也。如用之、則吾從先進。 | The Master said: “The country folk develop their understanding of music and ritual ea… | unmarked original assigned to passage 1 |
 | analects.11.02 | 11-2 / 11:2 | 子曰。從我於陳蔡者、皆不及門也。 | Among those who followed me in Chen and Cai, none have come to see me since. | — |
 | analects.11.03 | 11-3 / 11:3 | 德行。顏淵、閔子騫、冉伯牛、仲弓。言語。宰我、子貢。政事。冉有、季路。文學。子游、子夏。 | The virtuous in conduct were Yan Yuan, Min Ziqian, Ran Boniu, and Zhong Gone; the art… | — |
 | analects.11.04 | 11-4 / 11:4 | 子曰。囘也、非助我者也 於吾言、無所不說。 | The Master said: “Hui is no help to me. He simply delights in everything I say.” | — |
+| analects.11.05 | 11-5 / 11:7 | 子曰。孝哉閔子騫、人不間於其父母皆弟之言。 | The Master said: “How filial Min Ziqian was! Others say nothing of him different from… | translation label 11:7 mapped to passage 5 |
 | analects.11.06 | 11-6 / 11:6 | 南容三復白圭。孔子以其兄之子妻之。 | Nan Rong frequently recited the line of the “White Jade Table.” Confucius gave him hi… | note-11-29: A verse from the Book of Odes (256): “A flaw in a white jade tablet ma… |
+| analects.11.07 | 11-7 / 11:7 | 季康子問。弟子孰爲好學 孔子對曰。有顏囘者、好學、不幸短命死矣。今也則亡。 | Ji Kang Zi asked which of the disciples loved to learn. Confucius replied: “Yanhui di… | — |
 | analects.11.08 | 11-8 / 11:8 | 顏淵死、顏路請子之車以爲之椁。子曰。才不才、亦各言其子也。鯉也死、有棺而無椁。吾不徒行、以爲之椁、以吾從大夫之後、不可徒行也。 | When Yan Yuan died, Yuan Lu (his father) asked the Master for his carriage so that he… | — |
 | analects.11.09 | 11-9 / 11:9 | 顏淵死、子曰。噫天喪予、天喪予 。 | When Yan Yuan died, the master cried: “How cruel! Heaven is killing me! Heaven is kil… | — |
 | analects.11.10 | 11-10 / 11:10 | 顏淵死、子哭之慟。從者曰。子慟矣。曰。有慟乎。非夫人之爲慟而誰爲 。 | When Yanhui died, the Master wept uncontrollably. The disciples said, “Master, you ar… | — |
 | analects.11.11 | 11-11 / 11:11 | 顏淵死、門人欲厚葬之、子曰。不可。門人厚葬之。子曰。囘也、視予猶父也、予不得視猶子也。非我也、夫二三子也。 | When Yanhui died, the disciples wanted to give him a lavish funeral. The Master told… | — |
 | analects.11.12 | 11-12 / 11:12 | 季路問事鬼神。子曰。未能事人、焉能事鬼 敢問死 曰。未知生、焉知死 。 | Chi Lu asked about serving the spirits. Confucius said, “If you can't yet serve men,… | — |
+| analects.11.13 | 11-13 / 11:14 | 閔子侍側、誾誾如也。子路、行行如也。冉有、子貢、侃侃如也。子樂。若由也、不得其死然。 | When Min Zi waited by the Master's side, he was calm and precise. Zi Lu was always re… | translation label 11:14 mapped to passage 13 |
+| analects.11.14 | 11-14 / 11:14 | 魯人爲長府。閔子騫曰。仍舊貫、如之何。何必改作 子曰。夫人不言、言必有中。 | The men of Lu were rebuilding the Main Treasury. Min Ziqian said: “Why don't we keep… | — |
 | analects.11.15 | 11-15 / 11:15 | 子曰。由之瑟、奚爲於丘之門 門人不敬子路。子曰。由也升堂矣。未入於室也 。 | Confucius had said, “What is the lute of You doing at my door?” and so the other disc… | — |
 | analects.11.16 | 11-16 / 11:16 | 子貢問。師與商也孰賢 子曰。師也過、商也不及。曰。然則師愈與 子曰。過猶不及。 | Zi Gong asked who was the most worthy between Shih and Shang. The Master said, “Shih… | — |
 | analects.11.17 | 11-17 / 11:17 | 季氏富於周公、而求也爲之聚斂而附益之。子曰。非吾徒也、小子鳴鼓而攻之可也 。 | Even though the head of the Chi family was “wealthier than the Duke of Zhou,” Qiu col… | — |
@@ -409,36 +401,22 @@ Counts: 23 Chinese, 24 English, 0 comments.
 | analects.11.23 | 11-23 / 11:23 | 子路使子羔爲費宰。子曰。賊夫人之子 子路曰。有民人焉、有社稷焉、何必讀書、然後爲學。子曰。是故惡夫侫者。 | Zi Lu got Zi Gao installed as Prefect of Bi. The Master said: “You are damaging someo… | — |
 | analects.11.24 | 11-24 / 11:24 | 子路、 曾砽、冉有、公西華侍坐。子曰。以吾一日長乎爾、毋吾以也。居則曰、不吾知也。 如或知爾、則何以哉。子路率爾而對、曰。千乘之國、攝乎大國之間、加之以師旅、因之以饑饉、… | Zi Lu (You), Zi Xi (Qiu), Zan You (Chi) and Gong Xihua (Dian) were sitting with the M… | — |
 
-### Unresolved markers (no automatic pairing)
-
-| Kind | Source label | Reason | Excerpt | Muller comments / footnotes | Source-order candidates |
-|---|---|---|---|---|---|
-| original | 11-5 | missing counterpart | 子曰。孝哉閔子騫、人不間於其父母皆弟之言。 | — | translation 11:4 → analects.11.04: The Master said: “Hui is no help to me. He simply delights in everything I…; translation 11:7 → analects.11.07: The Master said: “How filial Min Ziqian was! Others say nothing of him diff…; translation 11:3 → analects.11.03: The virtuous in conduct were Yan Yuan, Min Ziqian, Ran Boniu, and Zhong Gon… |
-| original | 11-7 | repeated marker is ambiguous | 季康子問。弟子孰爲好學 孔子對曰。有顏囘者、好學、不幸短命死矣。今也則亡。 | — | translation 11:7 → analects.11.07: Ji Kang Zi asked which of the disciples loved to learn. Confucius replied:…; translation 11:7 → analects.11.07: The Master said: “How filial Min Ziqian was! Others say nothing of him diff…; translation 11:6 → analects.11.06: Nan Rong frequently recited the line of the “White Jade Table.” Confucius g… |
-| translation | 11:7 | repeated marker is ambiguous | The Master said: “How filial Min Ziqian was! Others say nothing of him different from the report of his parent… | — | original 11-7 → analects.11.07: 季康子問。弟子孰爲好學 孔子對曰。有顏囘者、好學、不幸短命死矣。今也則亡。; original 11-5 → analects.11.05: 子曰。孝哉閔子騫、人不間於其父母皆弟之言。; original 11-6 → analects.11.06: 南容三復白圭。孔子以其兄之子妻之。 |
-| translation | 11:7 | repeated marker is ambiguous | Ji Kang Zi asked which of the disciples loved to learn. Confucius replied: “Yanhui did. Unfortunately he died… | — | original 11-7 → analects.11.07: 季康子問。弟子孰爲好學 孔子對曰。有顏囘者、好學、不幸短命死矣。今也則亡。; original 11-8 → analects.11.08: 顏淵死、顏路請子之車以爲之椁。子曰。才不才、亦各言其子也。鯉也死、有棺而無椁。吾不徒行、以爲之椁、以吾從大夫之後、不可徒行也。; original 11-6 → analects.11.06: 南容三復白圭。孔子以其兄之子妻之。 |
-| original | 11-13 | missing counterpart | 閔子侍側、誾誾如也。子路、行行如也。冉有、子貢、侃侃如也。子樂。若由也、不得其死然。 | — | translation 11:12 → analects.11.12: Chi Lu asked about serving the spirits. Confucius said, “If you can't yet s…; translation 11:14 → analects.11.14: When Min Zi waited by the Master's side, he was calm and precise. Zi Lu was…; translation 11:11 → analects.11.11: When Yanhui died, the disciples wanted to give him a lavish funeral. The Ma… |
-| original | 11-14 | repeated marker is ambiguous | 魯人爲長府。閔子騫曰。仍舊貫、如之何。何必改作 子曰。夫人不言、言必有中。 | — | translation 11:14 → analects.11.14: When Min Zi waited by the Master's side, he was calm and precise. Zi Lu was…; translation 11:14 → analects.11.14: The men of Lu were rebuilding the Main Treasury. Min Ziqian said: “Why don'…; translation 11:12 → analects.11.12: Chi Lu asked about serving the spirits. Confucius said, “If you can't yet s… |
-| translation | 11:14 | repeated marker is ambiguous | When Min Zi waited by the Master's side, he was calm and precise. Zi Lu was always ready for action. Ran You a… | — | original 11-14 → analects.11.14: 魯人爲長府。閔子騫曰。仍舊貫、如之何。何必改作 子曰。夫人不言、言必有中。; original 11-13 → analects.11.13: 閔子侍側、誾誾如也。子路、行行如也。冉有、子貢、侃侃如也。子樂。若由也、不得其死然。; original 11-12 → analects.11.12: 季路問事鬼神。子曰。未能事人、焉能事鬼 敢問死 曰。未知生、焉知死 。 |
-| translation | 11:14 | repeated marker is ambiguous | The men of Lu were rebuilding the Main Treasury. Min Ziqian said: “Why don't we keep its old style? Why do we… | — | original 11-14 → analects.11.14: 魯人爲長府。閔子騫曰。仍舊貫、如之何。何必改作 子曰。夫人不言、言必有中。; original 11-15 → analects.11.15: 子曰。由之瑟、奚爲於丘之門 門人不敬子路。子曰。由也升堂矣。未入於室也 。; original 11-13 → analects.11.13: 閔子侍側、誾誾如也。子路、行行如也。冉有、子貢、侃侃如也。子樂。若由也、不得其死然。 |
-| translation | 11:1 | missing counterpart | The Master said: “The country folk develop their understanding of music and ritual earlier. The nobility devel… | — | original 11-2 → analects.11.02: 子曰。從我於陳蔡者、皆不及門也。; original 11-3 → analects.11.03: 德行。顏淵、閔子騫、冉伯牛、仲弓。言語。宰我、子貢。政事。冉有、季路。文學。子游、子夏。; original 11-4 → analects.11.04: 子曰。囘也、非助我者也 於吾言、無所不說。 |
-
 ### Repeated source labels
 
-Exact repeated text is represented once in proposed pairings and identified here. Different texts under one label remain unresolved.
+Each occurrence remains a separate passage in source order, including repeated identical text.
 
 | Kind | Label | Occurrences | Distinct texts | Excerpts |
 |---|---|---:|---:|---|
-| translation | 11:7 | 2 | 2 | The Master said: “How filial Min Ziqian was! Others say nothing of him different from the report of his parent… / Ji Kang Zi asked which of the disciples loved to learn. Confucius replied: “Yanhui did. Unfortunately he died… |
-| translation | 11:14 | 2 | 2 | When Min Zi waited by the Master's side, he was calm and precise. Zi Lu was always ready for action. Ran You a… / The men of Lu were rebuilding the Main Treasury. Min Ziqian said: “Why don't we keep its old style? Why do we… |
+| translation | 11:7 | 2 | 2 | Ji Kang Zi asked which of the disciples loved to learn. Confucius replied: “Yanhui did. Unfortunately he died… / The Master said: “How filial Min Ziqian was! Others say nothing of him different from the report of his parent… |
+| translation | 11:14 | 2 | 2 | The men of Lu were rebuilding the Main Treasury. Min Ziqian said: “Why don't we keep its old style? Why do we… / When Min Zi waited by the Master's side, he was calm and precise. Zi Lu was always ready for action. Ran You a… |
 
 ## Book 12: 顏淵 (Yan Yuan)
 
 Counts: 24 Chinese, 24 English, 3 comments.
 
-### Unique marker pairings
+### Proposed source-order mapping
 
-| Proposed corpus ID | Printed labels | Classical Chinese excerpt | English excerpt | Muller comments / footnotes |
+| Corpus ID | Printed labels | Classical Chinese excerpt | English excerpt | Mapping notes / Muller comments / footnotes |
 |---|---|---|---|---|
 | analects.12.01 | 12-1 / 12:1 | 顏淵問仁。子曰。克己復禮、爲仁。一日克己復禮、天下歸仁焉。爲仁由己、而由人乎哉。顏淵曰。請問其目 子曰。非禮勿視、非禮勿聽、非禮勿言、非禮勿動。顏淵曰。囘雖不敏、請事斯語… | Yan Yuan asked about the meaning of humaneness. The Master said, “To completely overc… | Comment: This passage has always provided problems for translators and commenta…; note-12-30: For example, Wing-tsit Chan translates: |
 | analects.12.02 | 12-2 / 12:2 | 仲弓問仁。子曰。出門如見大賓。使民如承大祭。己所不欲、勿施於人。在邦無怨、在家無怨。 仲弓曰。雍雖不敏、請事斯語矣。 | Zhong Gong asked about the meaning of ren. The Master said: “When you are out in the… | — |
@@ -467,11 +445,11 @@ Counts: 24 Chinese, 24 English, 3 comments.
 
 ## Book 13: 子路 (Zi Lu)
 
-Counts: 28 Chinese, 28 English, 1 comments.
+Counts: 29 Chinese, 29 English, 1 comments.
 
-### Unique marker pairings
+### Proposed source-order mapping
 
-| Proposed corpus ID | Printed labels | Classical Chinese excerpt | English excerpt | Muller comments / footnotes |
+| Corpus ID | Printed labels | Classical Chinese excerpt | English excerpt | Mapping notes / Muller comments / footnotes |
 |---|---|---|---|---|
 | analects.13.01 | 13-1 / 13:1 | 子路問政。子曰。先之、勞之。請益。曰。無倦。 | Zi Lu asked about how to govern. Confucius said, “Lead the people and work hard for t… | — |
 | analects.13.02 | 13-2 / 13:2 | 仲弓爲季氏宰、問政。子曰。先有司、赦小過、擧賢才。曰。焉知賢才而擧之 曰。擧爾所不知、人其舍諸 。 | Zhong Gong, currently serving as prime minister to the head of the Chi family, asked… | — |
@@ -501,21 +479,26 @@ Counts: 28 Chinese, 28 English, 1 comments.
 | analects.13.26 | 13-26 / 13:26 | 子曰。君子泰而不驕。小人驕而不泰。 | The Master said: “The noble man is self-confident without being arrogant. The inferio… | — |
 | analects.13.27 | 13-27 / 13:27 | 子曰。剛、毅、木、訥、近仁。 | The Master said: “With firmness, strength, simplicity and caution in speaking, you wi… | — |
 | analects.13.28 | 13-28 / 13:28 | 子路問曰。何如斯可謂之士矣。子曰。切切、偲偲、怡怡如也、可謂士矣。朋友切切偲偲、兄弟怡怡。 | Zi Lu asked: “What sort of man deserves to be called a shi?” Confucius said, “If you… | — |
+| analects.13.29 | 13-29-30 / 13:29-30 | 子曰。善人教民七年、亦可以卽戎矣。子曰。以不教民戰、是謂棄之。 | The Master said: “Only when good men have instructed the people for seven years, may… | — |
 
 ## Book 14: 憲問 (Xian wen)
 
-Counts: 38 Chinese, 40 English, 0 comments.
+Counts: 41 Chinese, 40 English, 0 comments.
 
-### Unique marker pairings
+### Proposed source-order mapping
 
-| Proposed corpus ID | Printed labels | Classical Chinese excerpt | English excerpt | Muller comments / footnotes |
+| Corpus ID | Printed labels | Classical Chinese excerpt | English excerpt | Mapping notes / Muller comments / footnotes |
 |---|---|---|---|---|
 | analects.14.01 | 14-1 / 14:1 | 憲問恥。子曰。邦有道穀、邦無道穀。恥也。克、伐、怨、欲、不行焉、可以爲仁矣。子曰。可以爲難矣、仁則吾不知也。 | Xian asked about what is shameful. Confucius said, “When the Way prevails in your sta… | — |
 | analects.14.02 | 14-2 / 14:2 | 子曰。士而懷居、不足以爲士矣。。 | The Master said: “A shi who is addicted to comfort should not be called a shi.” | — |
 | analects.14.03 | 14-3 / 14:3 | 子曰。邦有道、危言、危行。邦無道、危行、言孫。 | The Master said: “When the government is just, you may speak boldly and act boldly; w… | — |
 | analects.14.04 | 14-4 / 14:4 | 子曰。有德者必有言。有言者不必有德。仁者必有勇。勇者不必有仁。 | The Master said: “The virtuous will certainly have something to say, but those who ha… | — |
 | analects.14.05 | 14-5 / 14:5 | 南宮适問於孔子曰。羿善射奡盪舟倶不得其死．然．禹稷躬稼而有天下夫子不答。南宮适出、子曰。君子哉若人 尚德哉若人 。 | Nan Gongguo said to Confucius: “Yi was skillful at archery and Ao shook a whole ship… | note-14-36: Yi and Ao are ancient legendary figures famous for their superhuman fe… |
-| analects.14.07 | 14-7 / 14:7 | 子曰、君子而不仁者有矣夫、未有小人而仁者也。 | The Master said: “There are some cases where a noble man may not be a perfectly human… | note-14-37: Translators and interpreters of the Analects are divided into the grou… |
+| analects.14.07 | 14-7 / 14:7 | 子曰、君子而不仁者有矣夫、未有小人而仁者也。 | The Master said: “There are some cases where a noble man may not be a perfectly human… | — |
+| analects.14.08 | 14-8 / 14:8 | 子曰、愛之能勿勞乎、忠焉能勿誨乎。 | The Master said: “Can you love someone without exerting yourself for them? Can you be… | — |
+| analects.14.11 | 14-11 / 14:11 | 子曰、貧而無怨難、富而無驕易。 | The Master said: “To be poor without resentment is difficult. To be rich without arro… | — |
+| analects.14.12 | 14-12 / 14:12 | 子路問成人、子曰、若臧武仲之知、公綽之不欲、卞莊子之勇、冉求之藝、文之以禮樂、亦可以爲成人矣、曰、今之成人者、何必然、見利思義、見危授命、久要不忘平生之言、亦可以爲成人矣… | Zi Lu asked what constitutes a “perfected man.” Confucius said: “If you have the wisd… | note-14-37: Translators and interpreters of the Analects are divided into the grou… |
+| analects.14.13 | 14-13 / 14:14 | 子問公叔文子於公明賈、曰。信乎。夫子不言不笑不取乎。公明賈對曰。以吿者過也 夫子時然後言、人不厭其言。樂然後笑、人不厭其笑。義然後取、人不厭其取。子曰。其然 豈其然乎。 | The Master asked Gong Mingjia about Gongshu Wen Zi: “Is it true that your master does… | translation label 14:14 mapped to passage 13 |
 | analects.14.15 | 14-15 / 14:15 | 子曰。晉文公譎而不正。齊桓公正而不譎。 | The Master said: Duke Wen of Jin was devious, and not upright. Duke Huan of Qi was up… | note-14-38: 晉文公: Jìn Wen Gong. (Reign 637-628 BCE) Duke Wen of Jin 晉. The second o…; note-14-39: 齊桓公: Qi Huan Gong. Duke Huan of Qi 齊, who died in 643 BCE. He was one… |
 | analects.14.16 | 14-16 / 14:16 | 子路曰。桓公殺公子糾、召忽死之、管仲不死。曰。未仁乎。 子曰。桓公九合諸侯、不以兵車、管仲之力也。如其仁 如其仁 。 | Zi Lu said, “When Huan Gong assassinated Gongzi Jiu, Zhao Hu followed him to his deat… | note-14-40: 公子糾:Gong Zijiu. A man of Qi 齊 during the Spring and Autumn period. You…; note-14-41: 召忽: Zhao Hu. A grandmaster of Qi 齊 during the Spring and Autumn period…; note-14-42: See note on 3:22 for bio of Guan Zhong. |
 | analects.14.17 | 14-17 / 14:17 | 子貢曰。管仲非仁者與桓公殺公子糾、不能死、又相之。 子曰。管仲相桓公、霸諸侯、一匡天下。民到于今受其賜。微管仲、吾其被髮左衽矣。豈若匹夫匹婦之爲諒也、自經於溝瀆、而莫之知… | Zi Gong said: “Guan Zhong was not a truly good man; when Huan Gong executed [his own… | note-14-43: 左衽: Fastening one's garment on the left side; a style of the nomadic t… |
@@ -529,6 +512,7 @@ Counts: 38 Chinese, 40 English, 0 comments.
 | analects.14.25 | 14-25 / 14:25 | 蘧伯玉使人於孔子。孔子與之坐、而問焉。曰。夫子何爲 對曰。夫子欲寡其過而未能也。 使者出。子曰。使乎。使乎。 | Qu Baoyu sent a messenger to Confucius. Confucius sat down with him and asked him, sa… | — |
 | analects.14.26 | 14-26 / 14:26 | 子曰。不在其位、不謀其政。曾子曰。君子思不出其位。 | The Master said: “If you don't have an official position, you should not make plans f… | — |
 | analects.14.27 | 14-27 / 14:27 | 子曰。君子恥其言而過其行。 | The Master said: “The noble man is humble in his speech but superb in his actions.” | — |
+| analects.14.28 | 14-28 / — | 子曰。君子道者三、我無能焉。仁者不憂。知者不惑。勇者不懼。子貢曰。夫子自道也 。 | — | — |
 | analects.14.29 | 14-29 / 14:29 | 子貢方人。子曰。賜也、賢乎哉。夫我則不暇 。 | Zi Gong was correcting people. Confucius said, “Si (Zi Gong) must be quite talented!… | — |
 | analects.14.30 | 14-30 / 14:30 | 子曰。不患人之不己知、患其不能也。 | The Master said: “I don't worry about being unknown. I worry about my lack of ability… | — |
 | analects.14.31 | 14-31 / 14:31 | 子曰。不逆詐』 、不億不信』 。抑亦先覺者、是賢乎。 | The Master said: “If you don't try to anticipate deception, and you don't plan for yo… | — |
@@ -538,30 +522,24 @@ Counts: 38 Chinese, 40 English, 0 comments.
 | analects.14.35 | 14-35 / 14:35 | 子曰。莫我知也夫 子貢曰。何爲其莫知子也。 子曰。不怨天、不尤人。下學而上達。知我者、其天乎。 | The Master said: “Aah! No one understands me!” Zi Gong said, “What do you mean, ‘No o… | — |
 | analects.14.36 | 14-36 / 14:36 | 公伯寮愬子路於季孫、子服景伯以吿、曰。夫子固有惑志於公伯寮、吾力猶能肆諸市朝。子曰。道之將行也與 命也。道之將廢也與 命也。公伯寮其如命何 。 | Gong Boliao had said bad things about Zi Lu to Lisun. Zifu Jingbo told Confucius abou… | — |
 | analects.14.37 | 14-37 / 14:37 | 子曰。賢者辟世、其次辟地、其次辟色、其次辟言。子曰。作者七人矣。。 | The Master said: “A worthy becomes free of the world, then he becomes free of his lan… | — |
-| analects.14.39 | 14-39 / 14:39 | 子撃磬於衞。有荷蕢而過孔氏之門者、曰。有心哉、撃磬乎。旣而曰。鄙哉、硜硜乎。莫己知也、斯已而已矣。深則厲、淺則揭。』 子曰。果哉。末之難矣。。 | Confucius was playing the jade chimes when in Wei. A man who passed by Confucius' doo… | — |
-| analects.14.40 | 14-40 / 14:40 | 子張曰。書云：高宗諒陰三年不言』 何謂也 子曰。何必高宗 古之人皆然。君薨、百官總己以聽於僴宰、三年。 | Zi Zhang said: The Book of History says: “Gaozong stayed in mourning for three years… | — |
-| analects.14.41 | 14-41 / 14:41 | 子曰。上好禮、則民易使也。 | The Master said: “If those in power love propriety, the people will be easy to manage… | — |
-| analects.14.42 | 14-42 / 14:42 | 子路問君子。子曰。脩己以敬。曰。如斯而已乎。曰。脩己以安人。曰。如斯而已乎。曰。脩己以安百姓。脩己以安百姓、堯舜其猶病諸。 | Zi Lu asked about the qualities of the noble man. Confucius said, “He cultivates hims… | — |
-| analects.14.43 | 14-43 / 14:43 | 原壤夷俟。子曰。幼而不孫弟、長而無述焉、老而不死、是爲賊。以杖叩其脛。 | Yuanrang was waiting for the Master in a sprawled-out position. Confucius said, “To b… | — |
-| analects.14.44 | 14-44 / 14:44 | 闕黨童子將命。或問之曰。益者與 子曰。吾見其居於位也、見其與先生竝行也。非求益者也、欲速成者也。 | A boy from the village of Que was working as a messenger. Someone asked Confucius, “I… | — |
+| analects.14.38 | 14-37 / 14:38 | 子曰。賢者辟世、其次辟地、其次辟色、其次辟言。子曰。作者七人矣。。 | The Master said: “The worthy avoid society; next, they avoid service to a particular… | original label 14-37 mapped to passage 38 |
+| analects.14.39 | 14-38 / 14:38 | 子路宿於石門。晨門曰。奚自 子路曰。自孔氏。曰。是知其不可而爲之者與 。 | Zi Lu was staying at outer stone gate (of the capital Qufu), the morning guard said,… | original label 14-38 mapped to passage 39; translation label 14:38 mapped to passage 39 |
+| analects.14.40 | 14-39 / 14:39 | 子撃磬於衞。有荷蕢而過孔氏之門者、曰。有心哉、撃磬乎。旣而曰。鄙哉、硜硜乎。莫己知也、斯已而已矣。深則厲、淺則揭。』 子曰。果哉。末之難矣。。 | Confucius was playing the jade chimes when in Wei. A man who passed by Confucius' doo… | original label 14-39 mapped to passage 40; translation label 14:39 mapped to passage 40 |
+| analects.14.41 | 14-40 / 14:40 | 子張曰。書云：高宗諒陰三年不言』 何謂也 子曰。何必高宗 古之人皆然。君薨、百官總己以聽於僴宰、三年。 | Zi Zhang said: The Book of History says: “Gaozong stayed in mourning for three years… | original label 14-40 mapped to passage 41; translation label 14:40 mapped to passage 41 |
+| analects.14.42 | 14-41 / 14:41 | 子曰。上好禮、則民易使也。 | The Master said: “If those in power love propriety, the people will be easy to manage… | original label 14-41 mapped to passage 42; translation label 14:41 mapped to passage 42 |
+| analects.14.43 | 14-42 / 14:42 | 子路問君子。子曰。脩己以敬。曰。如斯而已乎。曰。脩己以安人。曰。如斯而已乎。曰。脩己以安百姓。脩己以安百姓、堯舜其猶病諸。 | Zi Lu asked about the qualities of the noble man. Confucius said, “He cultivates hims… | original label 14-42 mapped to passage 43; translation label 14:42 mapped to passage 43 |
+| analects.14.44 | 14-43 / 14:43 | 原壤夷俟。子曰。幼而不孫弟、長而無述焉、老而不死、是爲賊。以杖叩其脛。 | Yuanrang was waiting for the Master in a sprawled-out position. Confucius said, “To b… | original label 14-43 mapped to passage 44; translation label 14:43 mapped to passage 44 |
+| analects.14.45 | 14-44 / 14:44 | 闕黨童子將命。或問之曰。益者與 子曰。吾見其居於位也、見其與先生竝行也。非求益者也、欲速成者也。 | A boy from the village of Que was working as a messenger. Someone asked Confucius, “I… | original label 14-44 mapped to passage 45; translation label 14:44 mapped to passage 45 |
 
-### Unresolved markers (no automatic pairing)
+### Source-only or unpaired entries
 
-| Kind | Source label | Reason | Excerpt | Muller comments / footnotes | Source-order candidates |
-|---|---|---|---|---|---|
-| original | 14-13 | missing counterpart | 子問公叔文子於公明賈、曰。信乎。夫子不言不笑不取乎。公明賈對曰。以吿者過也 夫子時然後言、人不厭其言。樂然後笑、人不厭其笑。義然後取、人不厭其取。子曰。其然 豈其然乎。 | — | translation 14:12 → analects.14.12: Zi Lu asked what constitutes a “perfected man.” Confucius said: “If you hav…; translation 14:14 → analects.14.14: The Master asked Gong Mingjia about Gongshu Wen Zi: “Is it true that your m…; translation 14:11 → analects.14.11: The Master said: “To be poor without resentment is difficult. To be rich wi… |
-| original | 14-28 | missing counterpart | 子曰。君子道者三、我無能焉。仁者不憂。知者不惑。勇者不懼。子貢曰。夫子自道也 。 | — | translation 14:27 → analects.14.27: The Master said: “The noble man is humble in his speech but superb in his a…; translation 14:29 → analects.14.29: Zi Gong was correcting people. Confucius said, “Si (Zi Gong) must be quite…; translation 14:26 → analects.14.26: The Master said: “If you don't have an official position, you should not ma… |
-| original | 14-38 | repeated marker is ambiguous | 子路宿於石門。晨門曰。奚自 子路曰。自孔氏。曰。是知其不可而爲之者與 。 | — | translation 14:38 → analects.14.38: The Master said: “The worthy avoid society; next, they avoid service to a p…; translation 14:38 → analects.14.38: Zi Lu was staying at outer stone gate (of the capital Qufu), the morning gu…; translation 14:37 → analects.14.37: The Master said: “A worthy becomes free of the world, then he becomes free… |
-| translation | 14:38 | repeated marker is ambiguous | The Master said: “The worthy avoid society; next, they avoid service to a particular state; next, they leave w… | — | original 14-38 → analects.14.38: 子路宿於石門。晨門曰。奚自 子路曰。自孔氏。曰。是知其不可而爲之者與 。; original 14-37 → analects.14.37: 子曰。賢者辟世、其次辟地、其次辟色、其次辟言。子曰。作者七人矣。。; original 14-39 → analects.14.39: 子撃磬於衞。有荷蕢而過孔氏之門者、曰。有心哉、撃磬乎。旣而曰。鄙哉、硜硜乎。莫己知也、斯已而已矣。深則厲、淺則揭。』 子曰。果哉。末之難矣。。 |
-| translation | 14:38 | repeated marker is ambiguous | Zi Lu was staying at outer stone gate (of the capital Qufu), the morning guard said, where are you from? Zi Lu… | — | original 14-38 → analects.14.38: 子路宿於石門。晨門曰。奚自 子路曰。自孔氏。曰。是知其不可而爲之者與 。; original 14-39 → analects.14.39: 子撃磬於衞。有荷蕢而過孔氏之門者、曰。有心哉、撃磬乎。旣而曰。鄙哉、硜硜乎。莫己知也、斯已而已矣。深則厲、淺則揭。』 子曰。果哉。末之難矣。。; original 14-40 → analects.14.40: 子張曰。書云：高宗諒陰三年不言』 何謂也 子曰。何必高宗 古之人皆然。君薨、百官總己以聽於僴宰、三年。 |
-| translation | 14:8 | missing counterpart | The Master said: “Can you love someone without exerting yourself for them? Can you be sincere to someone witho… | — | original 14-7 → analects.14.07: 子曰、君子而不仁者有矣夫、未有小人而仁者也。; original 14-13 → analects.14.13: 子問公叔文子於公明賈、曰。信乎。夫子不言不笑不取乎。公明賈對曰。以吿者過也 夫子時然後言、人不厭其言。樂然後笑、人不厭其笑。義然後取、人不厭其取。子曰…; original 14-5 → analects.14.05: 南宮适問於孔子曰。羿善射奡盪舟倶不得其死．然．禹稷躬稼而有天下夫子不答。南宮适出、子曰。君子哉若人 尚德哉若人 。 |
-| translation | 14:11 | missing counterpart | The Master said: “To be poor without resentment is difficult. To be rich without arrogance is easy.” [14-12 』… | — | original 14-13 → analects.14.13: 子問公叔文子於公明賈、曰。信乎。夫子不言不笑不取乎。公明賈對曰。以吿者過也 夫子時然後言、人不厭其言。樂然後笑、人不厭其笑。義然後取、人不厭其取。子曰…; original 14-7 → analects.14.07: 子曰、君子而不仁者有矣夫、未有小人而仁者也。; original 14-15 → analects.14.15: 子曰。晉文公譎而不正。齊桓公正而不譎。 |
-| translation | 14:12 | missing counterpart | Zi Lu asked what constitutes a “perfected man.” Confucius said: “If you have the wisdom of Zang Wu Zhong, the… | note-14-37: Translators and interpreters of the Analects are divided into the grou… | original 14-13 → analects.14.13: 子問公叔文子於公明賈、曰。信乎。夫子不言不笑不取乎。公明賈對曰。以吿者過也 夫子時然後言、人不厭其言。樂然後笑、人不厭其笑。義然後取、人不厭其取。子曰…; original 14-15 → analects.14.15: 子曰。晉文公譎而不正。齊桓公正而不譎。; original 14-7 → analects.14.07: 子曰、君子而不仁者有矣夫、未有小人而仁者也。 |
-| translation | 14:14 | missing counterpart | The Master asked Gong Mingjia about Gongshu Wen Zi: “Is it true that your master doesn't speak, doesn't laugh… | — | original 14-13 → analects.14.13: 子問公叔文子於公明賈、曰。信乎。夫子不言不笑不取乎。公明賈對曰。以吿者過也 夫子時然後言、人不厭其言。樂然後笑、人不厭其笑。義然後取、人不厭其取。子曰…; original 14-15 → analects.14.15: 子曰。晉文公譎而不正。齊桓公正而不譎。; original 14-16 → analects.14.16: 子路曰。桓公殺公子糾、召忽死之、管仲不死。曰。未仁乎。 子曰。桓公九合諸侯、不以兵車、管仲之力也。如其仁 如其仁 。 |
+| Kind | Source label | Reason | Excerpt | Muller footnotes |
+|---|---|---|---|---|
+| original | 14-28 | no translation appears before the next original block | 子曰。君子道者三、我無能焉。仁者不憂。知者不惑。勇者不懼。子貢曰。夫子自道也 。 | — |
 
 ### Repeated source labels
 
-Exact repeated text is represented once in proposed pairings and identified here. Different texts under one label remain unresolved.
+Each occurrence remains a separate passage in source order, including repeated identical text.
 
 | Kind | Label | Occurrences | Distinct texts | Excerpts |
 |---|---|---:|---:|---|
@@ -570,13 +548,14 @@ Exact repeated text is represented once in proposed pairings and identified here
 
 ## Book 15: 衞靈公 (Wei Ling Gong)
 
-Counts: 39 Chinese, 39 English, 2 comments.
+Counts: 40 Chinese, 40 English, 2 comments.
 
-### Unique marker pairings
+### Proposed source-order mapping
 
-| Proposed corpus ID | Printed labels | Classical Chinese excerpt | English excerpt | Muller comments / footnotes |
+| Corpus ID | Printed labels | Classical Chinese excerpt | English excerpt | Mapping notes / Muller comments / footnotes |
 |---|---|---|---|---|
 | analects.15.01 | 15-1 / 15:1 | 衞靈公問陳於孔子。孔子對曰。俎豆之事、則嘗聞之矣。軍旅之事、未之學也。。 | Duke Ling of Wei asked Confucius about military tactics. Confucius said, “I know abou… | — |
+| analects.15.02 | 15-2 / — | 明日遂行 在陳絕糧。從者病、莫能興。子路慍見曰。君子亦有窮乎。子曰。君子固窮。小人斯濫矣。 | The next day, he and his disciples continued their travels. By the time they got to C… | — |
 | analects.15.03 | 15-3 / 15:3 | 子曰。賜也、女以予爲多學而識之者與 對曰。然、非與 曰。非也 予一以貫之。 | Confucius said, “Si, do you think that I am a person who studies widely and memorizes… | — |
 | analects.15.04 | 15-4 / 15:4 | 子曰。由、知德者鮮矣。。 | The Master said: “You, those who understand virtue are few and far between.” | — |
 | analects.15.05 | 15-5 / 15:5 | 子曰。無爲而治者、其舜也與 夫何爲哉。恭己正南面而已矣。 | The Master said: “Cannot Shun be considered as one who governed without overreaching… | — |
@@ -595,6 +574,7 @@ Counts: 39 Chinese, 39 English, 2 comments.
 | analects.15.19 | 15-19 / 15:19 | 子曰。君子病無能焉、不病人之不己知也。 | The Master said: “The noble man suffers from his own lack of ability, not from lack o… | — |
 | analects.15.20 | 15-20 / 15:20 | 子曰。君子疾沒世而名不稱焉。 | The Master said: “The noble man is concerned about the kind of reputation he will hav… | — |
 | analects.15.21 | 15-21 / 15:21 | 子曰。君子求諸己。小人求諸人。 | The Master said: “The noble man seeks within himself. The inferior man seeks within o… | — |
+| analects.15.22 | 15-22 / 15:22 | 子曰、君子矜而不爭、羣而不黨。 | The Master said: “The noble man is firm in his positions, but does not wrangle. He re… | — |
 | analects.15.23 | 15-23 / 15:23 | 子曰。君子不以言擧人。不以人廢言。 | The Master said: “The noble man does not promote a man because of his words, and does… | — |
 | analects.15.24 | 15-24 / 15:24 | 子貢問曰。有一言而可以終身行之者乎。子曰。其恕乎。己所不欲、勿施於人。 | Zi Gong asked: “Is there a single concept that we can take as a guide for the actions… | — |
 | analects.15.25 | 15-25 / 15:25 | 子曰。吾之於人也、誰毀誰譽。如有所譽者、其有所試矣。斯民也、三代之所以直道而行也。 | The Master said: “Among people, who should I criticize and who should I praise? If I… | note-15-46: The Xia, the Yin and the Zhou. |
@@ -615,23 +595,18 @@ Counts: 39 Chinese, 39 English, 2 comments.
 | analects.15.40 | 15-40 / 15:40 | 子曰。道不同、不相爲謀。 | The Master said: “If your paths are different, you cannot make plans together.” | — |
 | analects.15.41 | 15-41 / 15:41 | 子曰。辭、達而已矣。。 | The Master said: “Speak enough to make the point, and then leave it at that.” | — |
 
-### Unresolved markers (no automatic pairing)
-
-| Kind | Source label | Reason | Excerpt | Muller comments / footnotes | Source-order candidates |
-|---|---|---|---|---|---|
-| original | 15-2 | missing counterpart | 明日遂行 在陳絕糧。從者病、莫能興。子路慍見曰。君子亦有窮乎。子曰。君子固窮。小人斯濫矣。 The next day, he and his disciples continued their travels. By t… | — | translation 15:1 → analects.15.01: Duke Ling of Wei asked Confucius about military tactics. Confucius said, “I…; translation 15:3 → analects.15.03: Confucius said, “Si, do you think that I am a person who studies widely and…; translation 15:4 → analects.15.04: The Master said: “You, those who understand virtue are few and far between.… |
-| translation | 15:22 | missing counterpart | The Master said: “The noble man is firm in his positions, but does not wrangle. He readily makes friends, but… | — | original 15-23 → analects.15.23: 子曰。君子不以言擧人。不以人廢言。; original 15-21 → analects.15.21: 子曰。君子求諸己。小人求諸人。; original 15-24 → analects.15.24: 子貢問曰。有一言而可以終身行之者乎。子曰。其恕乎。己所不欲、勿施於人。 |
-
 ## Book 16: 季氏 (Ji shi)
 
 Counts: 13 Chinese, 13 English, 0 comments.
 
-### Unique marker pairings
+### Proposed source-order mapping
 
-| Proposed corpus ID | Printed labels | Classical Chinese excerpt | English excerpt | Muller comments / footnotes |
+| Corpus ID | Printed labels | Classical Chinese excerpt | English excerpt | Mapping notes / Muller comments / footnotes |
 |---|---|---|---|---|
 | analects.16.01 | 16-1 / 16:1 | 季氏將伐顓臾。冉有季路見於孔子、曰。季氏將有事於顓臾。孔子曰。求、無乃爾是過與。夫顓臾、昔者先王以爲東蒙主、且在邦域之中矣。是社稷之臣也、何以伐爲。冉有曰、夫子欲之、吾二… | The Ji family was about to attack Zhuanyu. Ran You (Ran Qiu) and Ji Lu (Zilu) went to… | note-16-47: Most translators render 兕 according to its modern meaning of “rhinocer…; note-16-48: The stronghold of the Ji family.; note-16-49: As commentators and other translators have noted, and as can be discer… |
 | analects.16.02 | 16-2 / 16:2 | 孔子曰。天下有道、則禮樂征伐、自天子出。天下無道、則禮樂征伐、自諸侯出。自諸侯出、蓋十世希不失矣。自大夫出、五世希不失矣。陪臣執國命、三世希不失矣。天下有道、則政不在大夫… | The Master said: “When the Way (just government) prevails in the realm, then ritual,… | — |
+| analects.16.03 | 16-3 / 16:4 | 孔子曰。祿之去公室、五世矣。政逮於大夫、四世矣。故夫三桓之子孫微矣。 | Confucius said, “It has been five generations since the assignment of emoluments left… | translation label 16:4 mapped to passage 3; note-16-50: Three chief ministers 三卿 in the state of Lu 魯 during the Spring and Au… |
+| analects.16.04 | 16-4 / 16:4 | 孔子曰。益者三友、損者三友。友直、友諒、友多聞。益矣。友便辟、友善柔、友便侫損矣。 | The Master said: “There are three kinds of friendship which are beneficial and three… | — |
 | analects.16.05 | 16-5 / 16:5 | 孔子曰。益者三樂、損者三樂。樂節禮樂、樂道人之善、樂多賢友、益矣。樂驕樂、樂佚遊、樂宴樂、損矣。 | The Master said: “There are three kinds of enjoyment which are beneficial and three k… | — |
 | analects.16.06 | 16-6 / 16:6 | 孔子曰。侍於君子有三愆：言未及之而言、謂之躁 。言及之而不言、謂之隱 。未見顏色而言、謂之瞽 。 | The Master said: “There are three common mistakes made by those who are of rank:” (1)… | — |
 | analects.16.07 | 16-7 / 16:7 | 孔子曰。君子有三戒。少之時、血氣未定、戒之在色。及其壯也、血氣方剛、戒之在岗。及其老也、血氣旣衰、戒之在得。 | The Master said: “The noble man is on guard against three things:” (1) When he is a y… | — |
@@ -642,18 +617,9 @@ Counts: 13 Chinese, 13 English, 0 comments.
 | analects.16.12 | 16-12 / 16:12 | 齊景公有馬千駟、死之日、民無德而稱焉。伯夷、叔齊餓於首陽之下、民到于今稱之。其斯之謂與 。 | Duke Ching of Qi had a thousand teams of horses, but when he died, there was nothing… | — |
 | analects.16.13 | 16-13 / 16:13 | 陳亢問於伯魚曰。子亦有異聞乎。對曰。未也。嘗獨立、鯉趨而過庭。曰。學詩乎。』 對曰。未也。』 不學詩、無以言 』 鯉退而學詩。他日、又獨立、鯉趨而過庭。曰。學禮乎。』 對… | Chenkang asked Boyu (Confucius' son): “Have you heard anything from your father diffe… | — |
 
-### Unresolved markers (no automatic pairing)
-
-| Kind | Source label | Reason | Excerpt | Muller comments / footnotes | Source-order candidates |
-|---|---|---|---|---|---|
-| original | 16-3 | missing counterpart | 孔子曰。祿之去公室、五世矣。政逮於大夫、四世矣。故夫三桓之子孫微矣。 | note-16-50: Three chief ministers 三卿 in the state of Lu 魯 during the Spring and Au… | translation 16:2 → analects.16.02: The Master said: “When the Way (just government) prevails in the realm, the…; translation 16:4 → analects.16.04: Confucius said, “It has been five generations since the assignment of emolu…; translation 16:1 → analects.16.01: The Ji family was about to attack Zhuanyu. Ran You (Ran Qiu) and Ji Lu (Zil… |
-| original | 16-4 | repeated marker is ambiguous | 孔子曰。益者三友、損者三友。友直、友諒、友多聞。益矣。友便辟、友善柔、友便侫損矣。 | — | translation 16:4 → analects.16.04: Confucius said, “It has been five generations since the assignment of emolu…; translation 16:4 → analects.16.04: The Master said: “There are three kinds of friendship which are beneficial…; translation 16:2 → analects.16.02: The Master said: “When the Way (just government) prevails in the realm, the… |
-| translation | 16:4 | repeated marker is ambiguous | Confucius said, “It has been five generations since the assignment of emoluments left the ducal house. It has… | note-16-50: Three chief ministers 三卿 in the state of Lu 魯 during the Spring and Au… | original 16-4 → analects.16.04: 孔子曰。益者三友、損者三友。友直、友諒、友多聞。益矣。友便辟、友善柔、友便侫損矣。; original 16-3 → analects.16.03: 孔子曰。祿之去公室、五世矣。政逮於大夫、四世矣。故夫三桓之子孫微矣。; original 16-2 → analects.16.02: 孔子曰。天下有道、則禮樂征伐、自天子出。天下無道、則禮樂征伐、自諸侯出。自諸侯出、蓋十世希不失矣。自大夫出、五世希不失矣。陪臣執國命、三世希不失矣。天… |
-| translation | 16:4 | repeated marker is ambiguous | The Master said: “There are three kinds of friendship which are beneficial and three kinds of friendship which… | — | original 16-4 → analects.16.04: 孔子曰。益者三友、損者三友。友直、友諒、友多聞。益矣。友便辟、友善柔、友便侫損矣。; original 16-5 → analects.16.05: 孔子曰。益者三樂、損者三樂。樂節禮樂、樂道人之善、樂多賢友、益矣。樂驕樂、樂佚遊、樂宴樂、損矣。; original 16-3 → analects.16.03: 孔子曰。祿之去公室、五世矣。政逮於大夫、四世矣。故夫三桓之子孫微矣。 |
-
 ### Repeated source labels
 
-Exact repeated text is represented once in proposed pairings and identified here. Different texts under one label remain unresolved.
+Each occurrence remains a separate passage in source order, including repeated identical text.
 
 | Kind | Label | Occurrences | Distinct texts | Excerpts |
 |---|---|---:|---:|---|
@@ -663,9 +629,9 @@ Exact repeated text is represented once in proposed pairings and identified here
 
 Counts: 25 Chinese, 25 English, 0 comments.
 
-### Unique marker pairings
+### Proposed source-order mapping
 
-| Proposed corpus ID | Printed labels | Classical Chinese excerpt | English excerpt | Muller comments / footnotes |
+| Corpus ID | Printed labels | Classical Chinese excerpt | English excerpt | Mapping notes / Muller comments / footnotes |
 |---|---|---|---|---|
 | analects.17.01 | 17-1 / 17:1 | 陽貨欲見孔子、孔子不見、歸孔子豚。孔子時其亡也、而往拜之。遇諸塗、謂孔子曰。來、予與爾言。曰。懷其寶而迷其邦、可謂仁乎。曰。不可。好從事而亟失時、可謂知乎。曰。不可。日月… | Yang Huo wanted to see Confucius but Confucius would not see him, so he sent Confuciu… | — |
 | analects.17.02 | 17-2 / 17:2 | 性相近也、習相遠也。子曰、唯上知與下愚不移。 | The Master said: “People are similar by nature, but through habituation become quite… | — |
@@ -676,47 +642,39 @@ Counts: 25 Chinese, 25 English, 0 comments.
 | analects.17.07 | 17-7 / 17:7 | 佛肸召、子欲往。子路曰。昔者由也聞諸夫子曰。親於其身爲不善者、君子不入也。佛肸以中牟畔、子之往也如之何。子曰。然、有是言也。不曰堅乎、磨而不磷。不曰白乎、涅而不緇。吾豈匏… | Bi Xi invited Confucius [to come and serve in his administration], and Confucius want… | note-17-51: A town in Wei, captured by the Jin. |
 | analects.17.08 | 17-8 / 17:8 | 子曰。小子、何莫學夫詩。詩可以興、可以觀、可以群、可以怨。邇之事父、遠之事君。多識於鳥、獸、草、木之名。 | The Master said: “My disciples, why not study the Book of Odes? The Odes can uplift y… | — |
 | analects.17.09 | 17-9 / 17:9 | 子謂伯魚曰。女爲周南召南矣乎。人而不爲周南、召南、其猶正牆面而立也與。 | Addressing Bo Yu, the Master said: “Have you studied the Zhou Nan and Shao Nan chapte… | — |
-| analects.17.11 | 17-11 / 17:11 | 子曰。鄕原、德之賊也 。 | The Master said: “The ‘conventional townsman’ is a thief of virtue.” | note-17-53: For a discussion of this saying, see Mencius 7B:37. |
-| analects.17.12 | 17-12 / 17:12 | 子曰。道聽而塗說、德之棄也 。 | The Master said: “To apprehend the Way and lecture on it before actualization is to t… | — |
-| analects.17.13 | 17-13 / 17:13 | 子曰。鄙夫。可與事君也與哉。其未得之也、患得之。旣得之、患失之。苟患失之、無所不至矣。 | The Master said: “These low-lifes! How can they ever serve a ruler?! When they don't… | — |
-| analects.17.14 | 17-14 / 17:14 | 子曰。古者民有三疾、今也或是之亡也。古之狂也肆、今之狂也蕩。古之矜也廉、今之矜也忿戻。古之愚也直、今之愚也詐而已矣。 | The Master said: “The ancients had three kinds of shortcomings, some aspects of which… | note-17-54: For the meaning of guang, please see the discussion connected to 13:21… |
-| analects.17.15 | 17-15 / 17:15 | 子曰。攷言令色、鮮矣仁。 | The Master said: “Skillful speech and flattering expressions are seldom indicative of… | — |
-| analects.17.16 | 17-16 / 17:16 | 子曰。惡紫之奪朱也。惡鄭聲之亂雅樂也。惡利口之覆邦家者。 | The Master said: “I hate purple because it steals the role of red; I hate the music o… | note-17-55: The “sounds of Zheng” 鄭聲 are also criticized in Analects 15-11.; note-17-56: I.e., the music of Ya 雅樂. I hate clever speech, because it undermines… |
-| analects.17.17 | 17-17 / 17:17 | 子曰。予欲無言 子貢曰。子如不言、則小子何述焉 子曰。天何言哉。四時行焉、百物生焉。天何言哉。 | The Master said: “I wish I could avoid talking.” Zi Gong said, “Master, if you didn't… | — |
-| analects.17.18 | 17-18 / 17:18 | 孺悲欲見孔子、孔子辭以疾、將命者出戶、取瑟而歌、使之聞之。 | Ru Bei wanted to see Confucius, but Confucius excused himself on the grounds of illne… | — |
-| analects.17.19 | 17-19 / 17:19 | 宰我問。三年之喪期已久矣。君子三年不爲禮、禮必壞。三年不爲樂、樂必崩。舊穀旣沒、新穀旣升。鑽燧改火、期可已矣。子曰、食夫稻、衣夫錦、於女安乎。曰、安。女安、則爲之。夫君子… | Zai Wo asked: “Isn't the three-year mourning period [for parents] too long? If the No… | note-17-57: 改火. This refers to the various kinds of wood used traditionally as dri… |
-| analects.17.20 | 17-20 / 17:20 | 子曰。飽食終日、無所用心、難矣哉。不有博奕者乎。爲之猶賢乎已 。 | The Master said: “What can be done with a man who stuffs his face with food all day,… | — |
-| analects.17.21 | 17-21 / 17:21 | 子路曰。君子尚勇乎。子曰。君子義以爲上。君子有勇而無義爲亂、小人有勇而無義爲盜。 | Zi Lu said: “Does the noble man esteem bravery?” Confucius said, “The noble man puts… | — |
-| analects.17.22 | 17-22 / 17:22 | 子貢曰。君子亦有惡乎。子曰。有惡。惡稱人之惡者、惡居下流而訕上者、惡勇而無禮者、惡果敢而窒者。曰。賜也亦有惡乎。惡徼以爲知者、惡不孫以爲勇者、惡訐以爲直者。 | Zi Gong asked, “Does the noble man also have things that he hates?” Confucius said, “… | — |
-| analects.17.23 | 17-23 / 17:23 | 子曰。唯女子與小人爲難養也。近之則不孫、遠之則怨。 | The Master said: “Girls and inferior men are hard to get along with. If you get famil… | — |
-
-### Unresolved markers (no automatic pairing)
-
-| Kind | Source label | Reason | Excerpt | Muller comments / footnotes | Source-order candidates |
-|---|---|---|---|---|---|
-| original | 17-10 | repeated marker is ambiguous | 子曰。禮云禮云。玉帛云乎哉。樂云樂云。鍾鼓云乎哉。 | note-17-52: Jade and silk clothing. In antiquity, a formal gift when the feudal lo… | translation 17:10 → analects.17.10: The Master said: “‘Ritual,’ they say, ‘ritual,’ they say: is nothing more t…; translation 17:10 → analects.17.10: The Master said: “If you show a tough face, but are weak inside, you are a…; translation 17:9 → analects.17.09: Addressing Bo Yu, the Master said: “Have you studied the Zhou Nan and Shao… |
-| original | 17-10 | repeated marker is ambiguous | 子曰。色厲而內荏、譬諸小人、其猶穿窬之盜也與 。 | — | translation 17:10 → analects.17.10: The Master said: “‘Ritual,’ they say, ‘ritual,’ they say: is nothing more t…; translation 17:10 → analects.17.10: The Master said: “If you show a tough face, but are weak inside, you are a…; translation 17:9 → analects.17.09: Addressing Bo Yu, the Master said: “Have you studied the Zhou Nan and Shao… |
-| translation | 17:10 | repeated marker is ambiguous | The Master said: “‘Ritual,’ they say, ‘ritual,’ they say: is nothing more than jade and silk? ‘Music’ they say… | note-17-52: Jade and silk clothing. In antiquity, a formal gift when the feudal lo… | original 17-10 → analects.17.10: 子曰。禮云禮云。玉帛云乎哉。樂云樂云。鍾鼓云乎哉。; original 17-10 → analects.17.10: 子曰。色厲而內荏、譬諸小人、其猶穿窬之盜也與 。; original 17-9 → analects.17.09: 子謂伯魚曰。女爲周南召南矣乎。人而不爲周南、召南、其猶正牆面而立也與。 |
-| translation | 17:10 | repeated marker is ambiguous | The Master said: “If you show a tough face, but are weak inside, you are a miserable fellow, like a thief burr… | — | original 17-10 → analects.17.10: 子曰。色厲而內荏、譬諸小人、其猶穿窬之盜也與 。; original 17-10 → analects.17.10: 子曰。禮云禮云。玉帛云乎哉。樂云樂云。鍾鼓云乎哉。; original 17-11 → analects.17.11: 子曰。鄕原、德之賊也 。 |
-| original | 17-24 | missing counterpart | 子曰。年四十而見惡焉、其終也已 。 | — | translation 17:23 → analects.17.23: The Master said: “Girls and inferior men are hard to get along with. If you…; translation 17:26 → analects.17.26: The Master said: “One who has reached the age of forty and is disliked, wil…; translation 17:22 → analects.17.22: Zi Gong asked, “Does the noble man also have things that he hates?” Confuci… |
-| translation | 17:26 | missing counterpart | The Master said: “One who has reached the age of forty and is disliked, will be disliked to the end.” | — | original 17-24 → analects.17.24: 子曰。年四十而見惡焉、其終也已 。; original 17-23 → analects.17.23: 子曰。唯女子與小人爲難養也。近之則不孫、遠之則怨。; original 17-22 → analects.17.22: 子貢曰。君子亦有惡乎。子曰。有惡。惡稱人之惡者、惡居下流而訕上者、惡勇而無禮者、惡果敢而窒者。曰。賜也亦有惡乎。惡徼以爲知者、惡不孫以爲勇者、惡訐以爲… |
+| analects.17.10 | 17-10 / 17:10 | 子曰。禮云禮云。玉帛云乎哉。樂云樂云。鍾鼓云乎哉。 | The Master said: “‘Ritual,’ they say, ‘ritual,’ they say: is nothing more than jade a… | note-17-52: Jade and silk clothing. In antiquity, a formal gift when the feudal lo… |
+| analects.17.11 | 17-10 / 17:10 | 子曰。色厲而內荏、譬諸小人、其猶穿窬之盜也與 。 | The Master said: “If you show a tough face, but are weak inside, you are a miserable… | original label 17-10 mapped to passage 11; translation label 17:10 mapped to passage 11 |
+| analects.17.12 | 17-11 / 17:11 | 子曰。鄕原、德之賊也 。 | The Master said: “The ‘conventional townsman’ is a thief of virtue.” | original label 17-11 mapped to passage 12; translation label 17:11 mapped to passage 12; note-17-53: For a discussion of this saying, see Mencius 7B:37. |
+| analects.17.13 | 17-12 / 17:12 | 子曰。道聽而塗說、德之棄也 。 | The Master said: “To apprehend the Way and lecture on it before actualization is to t… | original label 17-12 mapped to passage 13; translation label 17:12 mapped to passage 13 |
+| analects.17.14 | 17-13 / 17:13 | 子曰。鄙夫。可與事君也與哉。其未得之也、患得之。旣得之、患失之。苟患失之、無所不至矣。 | The Master said: “These low-lifes! How can they ever serve a ruler?! When they don't… | original label 17-13 mapped to passage 14; translation label 17:13 mapped to passage 14 |
+| analects.17.15 | 17-14 / 17:14 | 子曰。古者民有三疾、今也或是之亡也。古之狂也肆、今之狂也蕩。古之矜也廉、今之矜也忿戻。古之愚也直、今之愚也詐而已矣。 | The Master said: “The ancients had three kinds of shortcomings, some aspects of which… | original label 17-14 mapped to passage 15; translation label 17:14 mapped to passage 15; note-17-54: For the meaning of guang, please see the discussion connected to 13:21… |
+| analects.17.16 | 17-15 / 17:15 | 子曰。攷言令色、鮮矣仁。 | The Master said: “Skillful speech and flattering expressions are seldom indicative of… | original label 17-15 mapped to passage 16; translation label 17:15 mapped to passage 16 |
+| analects.17.17 | 17-16 / 17:16 | 子曰。惡紫之奪朱也。惡鄭聲之亂雅樂也。惡利口之覆邦家者。 | The Master said: “I hate purple because it steals the role of red; I hate the music o… | original label 17-16 mapped to passage 17; translation label 17:16 mapped to passage 17; note-17-55: The “sounds of Zheng” 鄭聲 are also criticized in Analects 15-11.; note-17-56: I.e., the music of Ya 雅樂. I hate clever speech, because it undermines… |
+| analects.17.18 | 17-17 / 17:17 | 子曰。予欲無言 子貢曰。子如不言、則小子何述焉 子曰。天何言哉。四時行焉、百物生焉。天何言哉。 | The Master said: “I wish I could avoid talking.” Zi Gong said, “Master, if you didn't… | original label 17-17 mapped to passage 18; translation label 17:17 mapped to passage 18 |
+| analects.17.19 | 17-18 / 17:18 | 孺悲欲見孔子、孔子辭以疾、將命者出戶、取瑟而歌、使之聞之。 | Ru Bei wanted to see Confucius, but Confucius excused himself on the grounds of illne… | original label 17-18 mapped to passage 19; translation label 17:18 mapped to passage 19 |
+| analects.17.20 | 17-19 / 17:19 | 宰我問。三年之喪期已久矣。君子三年不爲禮、禮必壞。三年不爲樂、樂必崩。舊穀旣沒、新穀旣升。鑽燧改火、期可已矣。子曰、食夫稻、衣夫錦、於女安乎。曰、安。女安、則爲之。夫君子… | Zai Wo asked: “Isn't the three-year mourning period [for parents] too long? If the No… | original label 17-19 mapped to passage 20; translation label 17:19 mapped to passage 20; note-17-57: 改火. This refers to the various kinds of wood used traditionally as dri… |
+| analects.17.21 | 17-20 / 17:20 | 子曰。飽食終日、無所用心、難矣哉。不有博奕者乎。爲之猶賢乎已 。 | The Master said: “What can be done with a man who stuffs his face with food all day,… | original label 17-20 mapped to passage 21; translation label 17:20 mapped to passage 21 |
+| analects.17.22 | 17-21 / 17:21 | 子路曰。君子尚勇乎。子曰。君子義以爲上。君子有勇而無義爲亂、小人有勇而無義爲盜。 | Zi Lu said: “Does the noble man esteem bravery?” Confucius said, “The noble man puts… | original label 17-21 mapped to passage 22; translation label 17:21 mapped to passage 22 |
+| analects.17.23 | 17-22 / 17:22 | 子貢曰。君子亦有惡乎。子曰。有惡。惡稱人之惡者、惡居下流而訕上者、惡勇而無禮者、惡果敢而窒者。曰。賜也亦有惡乎。惡徼以爲知者、惡不孫以爲勇者、惡訐以爲直者。 | Zi Gong asked, “Does the noble man also have things that he hates?” Confucius said, “… | original label 17-22 mapped to passage 23; translation label 17:22 mapped to passage 23 |
+| analects.17.24 | 17-23 / 17:23 | 子曰。唯女子與小人爲難養也。近之則不孫、遠之則怨。 | The Master said: “Girls and inferior men are hard to get along with. If you get famil… | original label 17-23 mapped to passage 24; translation label 17:23 mapped to passage 24 |
+| analects.17.25 | 17-24 / 17:26 | 子曰。年四十而見惡焉、其終也已 。 | The Master said: “One who has reached the age of forty and is disliked, will be disli… | original label 17-24 mapped to passage 25; translation label 17:26 mapped to passage 25 |
 
 ### Repeated source labels
 
-Exact repeated text is represented once in proposed pairings and identified here. Different texts under one label remain unresolved.
+Each occurrence remains a separate passage in source order, including repeated identical text.
 
 | Kind | Label | Occurrences | Distinct texts | Excerpts |
 |---|---|---:|---:|---|
 | original | 17-10 | 2 | 2 | 子曰。禮云禮云。玉帛云乎哉。樂云樂云。鍾鼓云乎哉。 / 子曰。色厲而內荏、譬諸小人、其猶穿窬之盜也與 。 |
-| translation | 17:10 | 2 | 2 | The Master said: “‘Ritual,’ they say, ‘ritual,’ they say: is nothing more than jade and silk? ‘Music’ they say… / The Master said: “If you show a tough face, but are weak inside, you are a miserable fellow, like a thief burr… |
+| translation | 17:10 | 2 | 2 | The Master said: “If you show a tough face, but are weak inside, you are a miserable fellow, like a thief burr… / The Master said: “‘Ritual,’ they say, ‘ritual,’ they say: is nothing more than jade and silk? ‘Music’ they say… |
 
 ## Book 18: 微子 (Weizi)
 
 Counts: 11 Chinese, 11 English, 0 comments.
 
-### Unique marker pairings
+### Proposed source-order mapping
 
-| Proposed corpus ID | Printed labels | Classical Chinese excerpt | English excerpt | Muller comments / footnotes |
+| Corpus ID | Printed labels | Classical Chinese excerpt | English excerpt | Mapping notes / Muller comments / footnotes |
 |---|---|---|---|---|
 | analects.18.01 | 18-1 / 18:1 | 微子去之。箕子爲之奴。比干諫而死。孔子曰。殷有三仁焉 。 | Weizi left him; Jizi was enslaved by him; Bi Gan admonished him, and died for it. Con… | — |
 | analects.18.02 | 18-2 / 18:2 | 柳下惠爲士師、三黜。人曰。子未可以去乎。曰。直道而事人、焉往而不三黜 枉道而事人、何必去父母之邦 。 | Hui Liuxia was chief criminal judge, and was fired three times. Someone said, “Why do… | — |
@@ -726,32 +684,25 @@ Counts: 11 Chinese, 11 English, 0 comments.
 | analects.18.06 | 18-6 / 18:6 | 長沮桀溺耦而耕。孔子過之、使子路問津焉。長沮曰。夫執輿者爲誰 子路曰。爲孔丘。曰。是魯孔丘與 曰。是也。曰。是知津矣。問於桀溺、桀溺曰。子爲誰 曰。爲仲由。曰。是魯孔丘之… | Zhang Zuo and Jie Ni were working together in the fields when Confucius was passing b… | — |
 | analects.18.07 | 18-7 / 18:7 | 子路從而後、遇丈人、以杖荷蓧子路問曰。子見夫子乎。丈人曰。四體不勤、五穀不分、孰爲夫子 植其杖而芸。子路拱而立。止子路宿、殺雞爲黍而食之、見其二子焉。明日、子路行以吿。子… | Zi Lu, having fallen behind the group, met an old man carrying a basket on a pole. He… | — |
 | analects.18.08 | 18-8 / 18:8 | 逸民：伯夷、叔齊、虞仲、夷逸、朱張、柳下惠、少連。子曰。不降其志、不辱其身、伯夷叔齊與 謂柳下惠、少連。降志辱身矣。言中倫、行中慮、其斯而已矣。謂虞仲、夷逸。隱居放言、身… | Among men who have abandoned society are Bo Yi, Shu Qi, Yu Zhong,Yiyi, Zhu Zhang, Hui… | — |
+| analects.18.09 | 18-9 / 18:10 | 大師摯適齊。亞飯干適楚。三飯繚適蔡。四飯缺適秦。鼓方叔、入於河。播鼗武、入於漢。少師陽、擊磬襄、入於海。 | The head musician Zhi, went to Qi; Gan, the musician for the second meal, went to Chu… | translation label 18:10 mapped to passage 9 |
+| analects.18.10 | 18-10 / 18:10 | 周公謂魯公、曰。君子不施其親、不使大臣怨乎不以。故舊無大故、則不棄也。無求備於一人。 | The Duke of Zhou was talking to his son, the Duke of Lu. He said: “The noble man does… | — |
 | analects.18.11 | 18-11 / 18:11 | 周有八士。伯達、伯适、仲突、仲忽、叔夜、叔夏、季隨、季騧。 | There were eight Gentlemen in the Zhou: Bo Da, Bo Kuo, Zhong Tu, Zhong Hu, Shu Ye, Sh… | — |
-
-### Unresolved markers (no automatic pairing)
-
-| Kind | Source label | Reason | Excerpt | Muller comments / footnotes | Source-order candidates |
-|---|---|---|---|---|---|
-| original | 18-9 | missing counterpart | 大師摯適齊。亞飯干適楚。三飯繚適蔡。四飯缺適秦。鼓方叔、入於河。播鼗武、入於漢。少師陽、擊磬襄、入於海。 | — | translation 18:8 → analects.18.08: Among men who have abandoned society are Bo Yi, Shu Qi, Yu Zhong,Yiyi, Zhu…; translation 18:10 → analects.18.10: The head musician Zhi, went to Qi; Gan, the musician for the second meal, w…; translation 18:7 → analects.18.07: Zi Lu, having fallen behind the group, met an old man carrying a basket on… |
-| original | 18-10 | repeated marker is ambiguous | 周公謂魯公、曰。君子不施其親、不使大臣怨乎不以。故舊無大故、則不棄也。無求備於一人。 | — | translation 18:10 → analects.18.10: The head musician Zhi, went to Qi; Gan, the musician for the second meal, w…; translation 18:10 → analects.18.10: The Duke of Zhou was talking to his son, the Duke of Lu. He said: “The nobl…; translation 18:8 → analects.18.08: Among men who have abandoned society are Bo Yi, Shu Qi, Yu Zhong,Yiyi, Zhu… |
-| translation | 18:10 | repeated marker is ambiguous | The head musician Zhi, went to Qi; Gan, the musician for the second meal, went to Chu; Liao, the musician for… | — | original 18-10 → analects.18.10: 周公謂魯公、曰。君子不施其親、不使大臣怨乎不以。故舊無大故、則不棄也。無求備於一人。; original 18-9 → analects.18.09: 大師摯適齊。亞飯干適楚。三飯繚適蔡。四飯缺適秦。鼓方叔、入於河。播鼗武、入於漢。少師陽、擊磬襄、入於海。; original 18-8 → analects.18.08: 逸民：伯夷、叔齊、虞仲、夷逸、朱張、柳下惠、少連。子曰。不降其志、不辱其身、伯夷叔齊與 謂柳下惠、少連。降志辱身矣。言中倫、行中慮、其斯而已矣。謂虞仲… |
-| translation | 18:10 | repeated marker is ambiguous | The Duke of Zhou was talking to his son, the Duke of Lu. He said: “The noble man does not neglect his relative… | — | original 18-10 → analects.18.10: 周公謂魯公、曰。君子不施其親、不使大臣怨乎不以。故舊無大故、則不棄也。無求備於一人。; original 18-11 → analects.18.11: 周有八士。伯達、伯适、仲突、仲忽、叔夜、叔夏、季隨、季騧。; original 18-9 → analects.18.09: 大師摯適齊。亞飯干適楚。三飯繚適蔡。四飯缺適秦。鼓方叔、入於河。播鼗武、入於漢。少師陽、擊磬襄、入於海。 |
 
 ### Repeated source labels
 
-Exact repeated text is represented once in proposed pairings and identified here. Different texts under one label remain unresolved.
+Each occurrence remains a separate passage in source order, including repeated identical text.
 
 | Kind | Label | Occurrences | Distinct texts | Excerpts |
 |---|---|---:|---:|---|
-| translation | 18:10 | 2 | 2 | The head musician Zhi, went to Qi; Gan, the musician for the second meal, went to Chu; Liao, the musician for… / The Duke of Zhou was talking to his son, the Duke of Lu. He said: “The noble man does not neglect his relative… |
+| translation | 18:10 | 2 | 2 | The Duke of Zhou was talking to his son, the Duke of Lu. He said: “The noble man does not neglect his relative… / The head musician Zhi, went to Qi; Gan, the musician for the second meal, went to Chu; Liao, the musician for… |
 
 ## Book 19: 子張 (Zi Zhang)
 
 Counts: 25 Chinese, 25 English, 0 comments.
 
-### Unique marker pairings
+### Proposed source-order mapping
 
-| Proposed corpus ID | Printed labels | Classical Chinese excerpt | English excerpt | Muller comments / footnotes |
+| Corpus ID | Printed labels | Classical Chinese excerpt | English excerpt | Mapping notes / Muller comments / footnotes |
 |---|---|---|---|---|
 | analects.19.01 | 19-1 / 19:1 | 子張曰。士見危致命、見得思義、祭思敬、喪思哀、其可已矣。 | Zi Zhang said: “The shi who faced with danger can abandon his life; who seeing an opp… | — |
 | analects.19.02 | 19-2 / 19:2 | 子張曰。執德不弘、信道不篤、焉能爲有 焉能爲亡 。 | Zi Zhang said: “Keeping one's virtue without extending it; trusting the Way without e… | — |
@@ -783,9 +734,9 @@ Counts: 25 Chinese, 25 English, 0 comments.
 
 Counts: 3 Chinese, 3 English, 0 comments.
 
-### Unique marker pairings
+### Proposed source-order mapping
 
-| Proposed corpus ID | Printed labels | Classical Chinese excerpt | English excerpt | Muller comments / footnotes |
+| Corpus ID | Printed labels | Classical Chinese excerpt | English excerpt | Mapping notes / Muller comments / footnotes |
 |---|---|---|---|---|
 | analects.20.01 | 20-1 / 20:1 | 堯曰。咨。爾舜。天之曆數在爾躬、允執其中。四海困窮、天祿永終。舜亦以命禹。曰。予小子履、敢用玄牡、敢昭吿于皇皇后帝。有罪不敢赦、帝臣不蔽、簡在帝心。朕躬有罪、無以萬方。萬… | Yao said, “Ah, Shun, the heavenly succession has fallen on you. Hold firm to the cent… | note-20-59: Most translators take 百姓 as “the common people.” However, the earlier… |
 | analects.20.02 | 20-2 / 20:2 | 子張問於孔子、曰、何如斯可以從政矣。子曰。尊五美、屛四惡、斯可以從政矣。子張曰。何謂五美。子曰。君子惠而不費、勞而不怨、欲而不貪、泰而不驕、威而不猛。子張曰。何謂惠而不費… | Zi Zhang asked Confucius, saying “How should one best handle the affairs of governmen… | — |

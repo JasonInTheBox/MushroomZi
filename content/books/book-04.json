@@ -1,0 +1,981 @@
+{
+  "schemaVersion": 1,
+  "book": {
+    "id": "analects.book.04",
+    "number": 4,
+    "title": {
+      "chinese": "里仁",
+      "pinyin": "Li ren"
+    }
+  },
+  "passages": [
+    {
+      "id": "analects.04.01",
+      "number": 1,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。里仁爲美。擇不處仁、焉得知",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 4, passage 1"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.04.01.en.muller",
+          "language": "en",
+          "text": "The Master said: “As for a neighborhood, it is its ren that makes it beautiful. If you choose to live in a place that lacks ren, how can you grow in wisdom?”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 4, passage 1"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.04.02",
+      "number": 2,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。不仁者、不可以久處約、不可以長處樂。仁者安仁、知者利仁。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 4, passage 2"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.04.02.en.muller",
+          "language": "en",
+          "text": "The Master said: “If you lack ren you can't handle long periods of difficulty or long periods of comfort. Humane men are comfortable in ren. The wise take advantage of ren.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 4, passage 2"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.04.03",
+      "number": 3,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。唯仁者、能好人、能惡人。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 4, passage 3"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.04.03.en.muller",
+          "language": "en",
+          "text": "The Master said: “Only the humane person is able to really like others or to really dislike them.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 4, passage 3"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.04.04",
+      "number": 4,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。苟志於仁矣、無惡也。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 4, passage 4"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.04.04.en.muller",
+          "language": "en",
+          "text": "The Master said: “If you are really committed to ren, you will not have resentments.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 4, passage 4"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.04.04.muller.comment.01",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "In the prior passage, it has been stated that the man of ren is capable of hating people. Here it would seem that although he has that capability, if he makes an effort to exercise his innate goodness, he will not hold that malice.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 4, passage 4, inline comment 1"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        },
+        {
+          "id": "analects.04.04.muller.note.07",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "Legge translates: “If the will be set on virtue, there will be no practice of wickedness.” But we rarely see 惡 as an entity of “evil” or “wickedness” in texts of this period. Ames and Rosemont say: “If indeed one's purposes are set on authoritative conduct, one could do no wrong.” But 惡 is not generally used to indicate “wrongdoing.” It usually means ugliness, hatefulness, to be ugly, be hateful, or hated, etc. Arthur Waley tries — rightly I think — to maintain continuity with the previous passage by saying “He whose heart is in the smallest degree set on Goodness will dislike no one.” I prefer (as I usually do), the reading of Bruce Brooks: “If once he sets his mind on ren, he will have no hatred.”",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 4, passage 4, footnote note-4-7"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.04.05",
+      "number": 5,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。富與貴、是人之所欲也。 不以其道得之、不處也。貧與賤、是人之惡也。 不以其道得之、不去也。君子去仁、惡乎成名。君子無終食之間違仁、造次必於是、顚沛必於是。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 4, passage 5"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.04.05.en.muller",
+          "language": "en",
+          "text": "Confucius said, “Riches and honors are what all men desire. But if they cannot be attained in accordance with the Way they should not be kept. Poverty and low status are what all men hate. But if they cannot be avoided while staying in accordance with the Way, you should not avoid them. If a noble man departs from his fundamental goodness, how can he be worthy of that name? A noble man never leaves his fundamental goodness for even the time of a single meal. In moments of haste he acts according to it. In times of difficulty or confusion he acts according to it.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 4, passage 5"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.04.06",
+      "number": 6,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。我未見好仁者、惡不仁者。好仁者、無以尚之。惡不仁者、其爲仁矣、不使不仁者加乎其身。有能一日用其力於仁矣乎。我未見力不足者。蓋有之矣、我未之見也。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 4, passage 6"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.04.06.en.muller",
+          "language": "en",
+          "text": "The Master said: “I have never seen one who really loves ren or really hates non-ren. If you really loved ren you would not place anything above it. If you really hated the non-ren, you would not let it near you. Is there anyone who has devoted his strength to ren for a single day? I have not seen anyone who has lacked the strength to do so. Perhaps there has been such a case, but I have never seen it.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 4, passage 6"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.04.07",
+      "number": 7,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。人之過也、各於其黨。觀過、斯知仁矣。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 4, passage 7"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.04.07.en.muller",
+          "language": "en",
+          "text": "The Master said: “People err according to their own level. It is by observing a person's mistakes that you can know his/her goodness.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 4, passage 7"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.04.07.muller.comment.01",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "No one is perfect, free from error. But when someone makes a mistake in a human relationship, we can tell by the type of mistake, and by the person's way of dealing with it, what her/his true character is like.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 4, passage 7, inline comment 1"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.04.08",
+      "number": 8,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。朝聞道、夕死可矣",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 4, passage 8"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.04.08.en.muller",
+          "language": "en",
+          "text": "The Master said: “If I can hear the Way in the morning, in the evening I can die content.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 4, passage 8"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.04.09",
+      "number": 9,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。士志於道、而恥惡衣惡食者、未足與議也",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 4, passage 9"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.04.09.en.muller",
+          "language": "en",
+          "text": "“A shi who is set on the way, but is ashamed of old clothes and coarse food, is not worth consulting.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 4, passage 9"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.04.09.muller.comment.01",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "The title shi is translated into English with such terms as “elite”, “knight”, “scholar,” etc. While the shi of later Chinese history is more definitely a scholar than a knight, in the Analects, what Confucius is referring to is a level of spiritual/moral development, as well as academic and martial cultivation which is clearly above that of the average person. Thus, we can understand the shi to be a person who is well on the way toward becoming a “noble man,” but is not quite there yet. I am reluctant to render shi, as either “scholar” or “knight” because of the limitations in meaning that occur with these English words.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 4, passage 9, inline comment 1"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.04.10",
+      "number": 10,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。君子之於天下也、無適也、無莫也、義之與比。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 4, passage 10"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.04.10.en.muller",
+          "language": "en",
+          "text": "The Master said: “When the noble man deals with the world he is not prejudiced for or against anything. He does what is Right.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 4, passage 10"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.04.10.muller.note.08",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "Cf. Daodejing Ch. 79: “The Heavenly Way has no favorites: It always raises up the Good.” 天道無親、常與善人。",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 4, passage 10, footnote note-4-8"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.04.11",
+      "number": 11,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。君子懷德、小人懷土。 君子懷刑、小人懷惠。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 4, passage 11"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.04.11.en.muller",
+          "language": "en",
+          "text": "The Master said: “The noble man cares about virtue; the inferior man cares about material things. The noble man seeks discipline; the inferior man seeks favors.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 4, passage 11"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.04.12",
+      "number": 12,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。放於利而行、多怨。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 4, passage 12"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.04.12.en.muller",
+          "language": "en",
+          "text": "The Master said: “If you do everything with a concern for your own advantage, you will be resented by many people.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 4, passage 12"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.04.13",
+      "number": 13,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。能以禮讓爲國乎、何有 不能以禮讓爲國、如禮何",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 4, passage 13"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.04.13.en.muller",
+          "language": "en",
+          "text": "The Master said: “If you can govern the country by putting propriety first, what else will you need to do? If you can't govern your country by putting propriety first, how could you even call it propriety?”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 4, passage 13"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.04.14",
+      "number": 14,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。不患無位、患所以立。 不患莫己知、求爲可知也。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 4, passage 14"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.04.14.en.muller",
+          "language": "en",
+          "text": "The Master said: “I don't worry about not having a good position; I worry about the means I use to gain position. I don't worry about being unknown; I seek to be known in the right way.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 4, passage 14"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.04.15",
+      "number": 15,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰、參乎、吾道一以貫之。曾子曰、唯。子出。門人問曰、何謂也。曾子曰、夫子之道、忠恕而已矣。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 4, passage 15"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.04.15.en.muller",
+          "language": "en",
+          "text": "The Master said: “Shan, my Way is penetrated by a single thread.” Ceng Zi said, “Yes.” When the Master left, some disciples asked what he meant. Ceng Zi said, “Our master's Way is to be loyal and have a sense of reciprocity, and that's it.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 4, passage 15"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.04.16",
+      "number": 16,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。君子喩於義、小人喩於利。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 4, passage 16"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.04.16.en.muller",
+          "language": "en",
+          "text": "The Master said: “The noble man is aware of fairness, the inferior man is aware of advantage.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 4, passage 16"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.04.17",
+      "number": 17,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。見賢思齊焉。 見不賢而內自省也。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 4, passage 17"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.04.17.en.muller",
+          "language": "en",
+          "text": "The Master said: “When you see a good person, think of becoming like her/him. When you see someone not so good, reflect on your own weak points.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 4, passage 17"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.04.18",
+      "number": 18,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。事父母几諫。見志不從、又敬不違、勞而不怨。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 4, passage 18"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.04.18.en.muller",
+          "language": "en",
+          "text": "The Master said: “When you serve your mother and father it is okay to try to correct them once in a while. But if you see that they are not going to listen to you, keep your respect for them and don't distance yourself from them. Work without complaining.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 4, passage 18"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.04.19",
+      "number": 19,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。父母在、不遠游、游必有方。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 4, passage 19"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.04.19.en.muller",
+          "language": "en",
+          "text": "The Master said: “While your parents are alive, it is better not to travel far away. If you do travel, you should have a precise destination.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 4, passage 19"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.04.20",
+      "number": 20,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。三年無改於父之道、可謂孝矣。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 4, passage 20"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.04.20.en.muller",
+          "language": "en",
+          "text": "The Master said: “If, for three years (after your father's death) you don't alter his ways of doing things, you can certainly be called ‘filial.’”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 4, passage 20"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.04.21",
+      "number": 21,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。父母之年、不可不知也：一則以喜、一則以懼。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 4, passage 21"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.04.21.en.muller",
+          "language": "en",
+          "text": "The Master said: “Your parents' age should not be ignored. Sometimes it will be a source of joy, and sometimes it will be a source of apprehension.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 4, passage 21"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.04.22",
+      "number": 22,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。古者言之不出、恥躬之不逮也。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 4, passage 22"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.04.22.en.muller",
+          "language": "en",
+          "text": "The Master said: “The ancients were hesitant to speak, fearing that their actions would not do justice to their words.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 4, passage 22"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.04.23",
+      "number": 23,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。以約失之者、鮮矣。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 4, passage 23"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.04.23.en.muller",
+          "language": "en",
+          "text": "The Master said: “If you are strict with yourself, your mistakes will be few.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 4, passage 23"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.04.24",
+      "number": 24,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。君子欲訥於言、而敏於行。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 4, passage 24"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.04.24.en.muller",
+          "language": "en",
+          "text": "The Master said: “The noble man desires to be hesitant in speech, but sharp in action.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 4, passage 24"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.04.25",
+      "number": 25,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。德不孤、必有鄰。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 4, passage 25"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.04.25.en.muller",
+          "language": "en",
+          "text": "The Master said: “If you are virtuous, you will not be lonely. You will always have friends.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 4, passage 25"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.04.26",
+      "number": 26,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子游曰。事君數、斯辱矣。 朋友數、斯疏矣。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 4, passage 26"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.04.26.en.muller",
+          "language": "en",
+          "text": "Zi You said: “In serving your prince, frequent remonstrance will lead to disgrace. With friends, frequent remonstrance will lead to separation.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 4, passage 26"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    }
+  ]
+}

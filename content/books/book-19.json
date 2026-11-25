@@ -1,0 +1,880 @@
+{
+  "schemaVersion": 1,
+  "book": {
+    "id": "analects.book.19",
+    "number": 19,
+    "title": {
+      "chinese": "子張",
+      "pinyin": "Zi Zhang"
+    }
+  },
+  "passages": [
+    {
+      "id": "analects.19.01",
+      "number": 1,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子張曰。士見危致命、見得思義、祭思敬、喪思哀、其可已矣。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 19, passage 1"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.19.01.en.muller",
+          "language": "en",
+          "text": "Zi Zhang said: “The shi who faced with danger can abandon his life; who seeing an opportunity for gain, thinks of fairness; who at rituals is reverent and who at funerals is sorrowful: he is worth something.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 19, passage 1"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.19.02",
+      "number": 2,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子張曰。執德不弘、信道不篤、焉能爲有 焉能爲亡 。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 19, passage 2"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.19.02.en.muller",
+          "language": "en",
+          "text": "Zi Zhang said: “Keeping one's virtue without extending it; trusting the Way without enriching it. What can you gain? And what can you get rid of?”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 19, passage 2"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.19.03",
+      "number": 3,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子夏之門人、問交於子張。子張曰。子夏云何。對曰。子夏曰。可者與之、其不可者拒之。』 子張曰。異乎吾所聞：君子尊賢而容衆、嘉善而矜不能。』 我之大賢與、於人何所不容。我之不賢與、人將拒我、如之何其拒人也 。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 19, passage 3"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.19.03.en.muller",
+          "language": "en",
+          "text": "The disciples of Zi Xia were asked Zi Zhang about “associations.” Zi Zhang asked in response: “What does your teacher tell you?” One replied, “Associate with the capable and keep away from the incapable.” Zi Zhang said, “This is different from what I have heard. The noble man venerates the worthy but accepts everyone. He praises the good and pities the incapable. Now if I were a worthy, whom should I not accept? If I am unworthy, shall people cast me aside? How can you just push people away like this?”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 19, passage 3"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.19.04",
+      "number": 4,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子夏曰。雖小道、必有可觀者焉。致遠恐泥、是以君子不爲也。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 19, passage 4"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.19.04.en.muller",
+          "language": "en",
+          "text": "Zi Xia said, “If somewhat has just a small attainment of the way, it can be observed. But if he tries to extend it too far, it will lose its functioning. Therefore, the noble man does not do this.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 19, passage 4"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.19.05",
+      "number": 5,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子夏曰。日知其所亡、月無忘其所能、可謂好學也已矣。。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 19, passage 5"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.19.05.en.muller",
+          "language": "en",
+          "text": "Zi Xia said: “Someone who is aware every day of what he lacks, and every month does not forget what he has developed, can be called ‘a lover of learning.’”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 19, passage 5"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.19.06",
+      "number": 6,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子夏曰。博學而篤志、切問而近思。仁在其中矣。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 19, passage 6"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.19.06.en.muller",
+          "language": "en",
+          "text": "Zi Xia said: “Studying widely and thickening your will, questioning earnestly and reflecting on things at hand: ren lies in this.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 19, passage 6"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.19.07",
+      "number": 7,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子夏曰。百工居肆以成其事。君子學以致其道。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 19, passage 7"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.19.07.en.muller",
+          "language": "en",
+          "text": "Zi Xia said: “The artisans stay in their shops in order to accomplish their works. The noble man studies in order to actualize his Way.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 19, passage 7"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.19.08",
+      "number": 8,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子夏曰。小人之過也必文。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 19, passage 8"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.19.08.en.muller",
+          "language": "en",
+          "text": "Zi Xia said: “The inferior man always glosses over his errors.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 19, passage 8"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.19.09",
+      "number": 9,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子夏曰。君子有三變。望之儼然、卽之也溫、聽其言也厲。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 19, passage 9"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.19.09.en.muller",
+          "language": "en",
+          "text": "Zi Xia said: “The noble man has three appearances. From afar, he appears majestic; close up, he seems warm; listening to his speech, he seems polished.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 19, passage 9"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.19.10",
+      "number": 10,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子夏曰。君子信而後勞其民。未信、則以爲厲己也。信而後諫。未信、則以爲謗己也。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 19, passage 10"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.19.10.en.muller",
+          "language": "en",
+          "text": "Zi Xia said: “After the ruler has the trust of the people, they will toil for him. If he doesn't have their trust, they will regard him as oppressive. Only after gaining his trust will they criticize him openly. If he doesn't trust them, he will take their criticism as backstabbing. ”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 19, passage 10"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.19.11",
+      "number": 11,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子夏曰。大德不踰閑。小德出入可也。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 19, passage 11"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.19.11.en.muller",
+          "language": "en",
+          "text": "Zi Xia said: “As long as you don't transgress the norm of great virtue, you may utilize small virtues freely.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 19, passage 11"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.19.12",
+      "number": 12,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子游曰。子夏之門人小子、當洒掃、應對、進退、則可矣、抑末也。本之則無。如之何 子夏聞之曰。噫、言游過矣。君子之道、孰先傳焉、孰後倦焉。譬諸草木、區以別矣。君子之道、焉可誣也。有始有卒者、其惟聖人乎。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 19, passage 12"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.19.12.en.muller",
+          "language": "en",
+          "text": "Zi Yu said: “The disciples of Zi Xia can clean the floor, respond to questions, and come forward and retire, but these are trivial matters — when it comes to the essentials, they are lost. Why is it so?” Zi Xia, hearing of it said, “What? Isn't this a bit of an exaggeration? In the Way of the Noble Man, those who advance first are summoned, and those who are late fall away. It is like the various plants that are categorized by their species. How can the Way of the Noble Man be deceptive? Who, but a sage, can both take the initiative and bring matters to their completion?”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 19, passage 12"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.19.12.muller.note.58",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "Those translators who read 孰 here as “mature,” seem to be ignoring basic Chinese grammatical sensibilities, as its position at the head of the phrase makes it obvious that its basic meaning of “who” is implied.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 19, passage 12, footnote note-19-58"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.19.13",
+      "number": 13,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子夏曰。仕而優則學。學而優則仕。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 19, passage 13"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.19.13.en.muller",
+          "language": "en",
+          "text": "Zi Xia said: “After you have accomplished your job, then study. After you have accomplished your studies, then get a job.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 19, passage 13"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.19.14",
+      "number": 14,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子游曰。喪致乎哀而止。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 19, passage 14"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.19.14.en.muller",
+          "language": "en",
+          "text": "Zi Lu said: “When mourning has expended itself in grief, it should end.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 19, passage 14"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.19.15",
+      "number": 15,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子游曰。吾友張也、爲難能也。然而未仁。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 19, passage 15"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.19.15.en.muller",
+          "language": "en",
+          "text": "Zi Lu said: “My friend Zhang can handle difficulty, but is not yet perfect in ren.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 19, passage 15"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.19.16",
+      "number": 16,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "曾子曰。堂堂乎張也 難與竝爲仁矣。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 19, passage 16"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.19.16.en.muller",
+          "language": "en",
+          "text": "Ceng Zi said: “How imposing Zhang is. It is difficult to practice ren with him.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 19, passage 16"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.19.17",
+      "number": 17,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "曾子曰。吾聞諸夫子：人未有自致者也必也、親喪乎。』 。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 19, passage 17"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.19.17.en.muller",
+          "language": "en",
+          "text": "Ceng Zi said: “I have heard this from our master: ‘If a man has not yet fully experienced himself, he will when his parents die.’”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 19, passage 17"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.19.18",
+      "number": 18,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "曾子曰。吾聞諸夫子：孟莊子之孝也、其他可能也、其不改父之臣與父之政、是難能也。』 。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 19, passage 18"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.19.18.en.muller",
+          "language": "en",
+          "text": "Ceng Zi said: “I heard our Master say, ‘In other matters, the filial piety of Ming Zhong Zi was nothing special. But his running his government without changing his father's ministers or systems— this was quite difficult.’”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 19, passage 18"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.19.19",
+      "number": 19,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "孟氏使陽膚爲士師、問於曾子。曾子曰。上失其道、民散久矣。如得其情、則哀矜而勿喜。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 19, passage 19"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.19.19.en.muller",
+          "language": "en",
+          "text": "Yangfu, having been appointed Minister of Justice by the Meng clan, consulted with Ceng Zi. Tseng said, “When those in power lose their sense of justice, the people will scatter from them, and it will be a long time before they return. When you are aware of their suffering, then you should be sorrowful, never joyful.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 19, passage 19"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.19.20",
+      "number": 20,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子貢曰。紂之不善、不如是之甚也。是以君子惡居下流、天下之惡皆歸焉。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 19, passage 20"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.19.20.en.muller",
+          "language": "en",
+          "text": "Zi Gong said, “Zhou could not really have been that bad. Therefore the Noble Man dislikes residing in the lower reaches, where all the evil of the world accumulates.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 19, passage 20"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.19.21",
+      "number": 21,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子貢曰。君子之過也、如日月之食焉。過也、人皆見之。更也、人皆仰之。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 19, passage 21"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.19.21.en.muller",
+          "language": "en",
+          "text": "Zi Gong said: “The faults of the noble man are like the eclipses of the sun and moon— everyone sees them. But when he corrects them, everyone looks up to him.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 19, passage 21"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.19.22",
+      "number": 22,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "衞公孫朝問於子貢曰。仲尼焉學 子貢曰。文武之道、未墜於地、在人。賢者識其大者、不賢者識其小者、莫不有文武之道焉。夫子焉不學、而亦何常師之有 。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 19, passage 22"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.19.22.en.muller",
+          "language": "en",
+          "text": "Gong Sunchao of Wei asked Zi Gong: “From whom did Confucius get his learning?” Zi Gong said, “The Way of King Wen and King Wu (the legendary sage-kings of antiquity) has not yet sunk into the ground. The Worthies have assimilated the major points, and the less-than-worthy have assimilated the minor points. There is no place where the Way of Wen and Wu does not exist, so how could the Master not learn it? Why would he need to get it from a certain teacher?”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 19, passage 22"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.19.23",
+      "number": 23,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "叔孫武叔語大夫於朝曰。子貢賢於仲尼。子服景伯以吿子貢。子貢曰。譬之宮牆：賜之牆也及肩、窺見屋家之好。夫子之牆數仞、不得其門而入、不見宗廟之美、百官之富。得其門者或寡矣。夫子之云、不亦宜乎。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 19, passage 23"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.19.23.en.muller",
+          "language": "en",
+          "text": "Shusun Wushu, addressing the major officers of his court, said: “Zi Gong is superior to Confucius.” Zifu Jingbo told this to Zi Gong, who commented, “Let me use a simile of a castle and its wall. My wall is only shoulder high, which you may look over and see the desirables that lie inside. My Master's wall is several tens of feet high and if you can't find the door and enter by it, you will not see the beauty of its ancestral temple, nor the splendor of its hundred officers. Those who find the door are few indeed. Are not my Master's words even more difficult to grasp?”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 19, passage 23"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.19.24",
+      "number": 24,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "叔孫武叔毀仲尼。子貢曰。無以爲也 仲尼不可毀也。他人之賢者、丘陵也、猶可踰也。仲尼、日月也、無得而踰焉。人雖欲自絕、其何傷於日月乎。多見其不知量也 。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 19, passage 24"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.19.24.en.muller",
+          "language": "en",
+          "text": "Shusun Wushu's disparaged Confucius. Zi Gong said, “It is ridiculous talking this way. Confucius cannot be slandered. The virtue of other men is like a small hill, which can be climbed over. Confucius is like the sun and the moon. There is no way they can be climbed over. Even if you want to cut yourself off from the sun and moon, how can you hurt them? It is easy to see that Wushu does not know value.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 19, passage 24"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.19.25",
+      "number": 25,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "陳子禽謂子貢曰。子爲恭也、仲尼豈賢於子乎。子貢曰。君子一言以爲知、一言以爲不知。言不可不愼也。夫子之不可及也、猶天之不可階而升也。夫子之得邦家者、所謂立之斯立、道之斯行、綏之斯來、動之斯和。其生也榮、其死也哀。如之何其可及也。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 19, passage 25"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.19.25.en.muller",
+          "language": "en",
+          "text": "Chen Ziqin addresses Zi Gong, saying, “You are too humble. How could Zhongni (Confucius) be more worthy than you?” Zi Gong said, “By a single word the Noble Man shows his intelligence, and by a single word he shows his ignorance. Hence, one must be careful when choosing one's words. The level of the Master cannot be reached, just as the heavens cannot be ascended to using a stairway. If our master had attained control of the state or clan, it would have been as it is said: ‘By his establishment they took their positions; when he led, they followed; due to his gentleness, they came; when he motivated them, they worked in harmony. In life he was glorious, in death he is mourned.’ Who could attain to such a level?”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 19, passage 25"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    }
+  ]
+}

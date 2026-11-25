@@ -1,0 +1,981 @@
+{
+  "schemaVersion": 1,
+  "book": {
+    "id": "analects.book.17",
+    "number": 17,
+    "title": {
+      "chinese": "陽貨",
+      "pinyin": "Yang Huo"
+    }
+  },
+  "passages": [
+    {
+      "id": "analects.17.01",
+      "number": 1,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "陽貨欲見孔子、孔子不見、歸孔子豚。孔子時其亡也、而往拜之。遇諸塗、謂孔子曰。來、予與爾言。曰。懷其寶而迷其邦、可謂仁乎。曰。不可。好從事而亟失時、可謂知乎。曰。不可。日月逝矣、歲不我與。孔子曰。諾、吾將仕矣。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 17, passage 1"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.17.01.en.muller",
+          "language": "en",
+          "text": "Yang Huo wanted to see Confucius but Confucius would not see him, so he sent Confucius a piglet as a present. Confucius timed his visit of thanks when Yang Huo was not at home. They happened to meet on the road, and Yang said to Confucius, “Come, I want to have a word with you.” And he said, “Hiding one's treasure in one's bosom and letting one's country lose its way—can such a one be called truly humane?” Confucius responded, “No, he can't.” “Liking to be involved in public affairs but always missing the timing — can he be called wise?” “No, he can't.” “The days and months slip away, and time is not on our side.” Confucius said, “Ok, I'll take the job.” Comment: A somewhat unusual narrative in the Analects, as Confucius clearly loses the argument to a higher moral ground, accepting judgment, at the same time admitting his deep desire to serve the government.",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 17, passage 1"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.17.02",
+      "number": 2,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "性相近也、習相遠也。子曰、唯上知與下愚不移。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 17, passage 2"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.17.02.en.muller",
+          "language": "en",
+          "text": "The Master said: “People are similar by nature, but through habituation become quite different from each other.” Confucius said: “Only the most wise and the most foolish do not change.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 17, passage 2"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.17.03",
+      "number": 3,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子之武城、聞弦歌之聲、夫子莞爾而笑曰。割鷄焉用牛刀。子游對曰。昔者、偃也聞諸夫子曰。君子學道則愛人。小人學道則易使也。 子曰。二三子、偃之言是也。前言戲之耳 。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 17, passage 3"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.17.03.en.muller",
+          "language": "en",
+          "text": "When the Master went to Wu Cheng he heard the sound of singing accompanied by lutes, he laughed a bit and said, “Why would one need an ox-cleaver to kill a chicken?” Zi Yu replied, “In the past, I heard you saying, “If the Noble Man learns the Way, he will care about people. If regular people learn the Way, they become easy to employ. ” Confucius said, “My disciple, Yan is right. What I said before was only a joke.””",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 17, passage 3"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.17.04",
+      "number": 4,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "公山弗擾以費畔、召、子欲往。子路不說。曰、末之也已、何必公山氏之之也。子曰。夫召我者、而豈徒哉。如有用我者、吾其爲東周乎。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 17, passage 4"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.17.04.en.muller",
+          "language": "en",
+          "text": "Gongshan Furao, staging a rebellion from Bi [against the Ji family], sent an invitation to Confucius, and the Master wanted to go. Zi Lu, displeased with this, said, “Indeed we may have nowhere to go, but why must we go to see Gongshan?” Confucius said, “If some invites me, how could it be a total waste? If there is someone who is willing to make use of me, shall I not make his land an Eastern Zhou?”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 17, passage 4"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.17.05",
+      "number": 5,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子張問仁於孔子。孔子曰。能行五者於天下、爲仁矣。請問之 曰。恭、寛、信、敏、惠。恭則不侮、寛則得衆、信則人任焉、敏則有功、惠則足以使人。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 17, passage 5"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.17.05.en.muller",
+          "language": "en",
+          "text": "Zi Zhang asked Confucius about fundamental human goodness. Confucius said, “If you can practice these five things with all the people, you can be called a fundamentally good person.” Zi Zhang asked what they were. Confucius said, “Courtesy, generosity, honesty, persistence, and kindness. If you are courteous, you will not be disrespected; if you are generous, you will gain everything. If you are honest, people will rely on you. If you are persistent you will get results. If you are kind, you can employ people.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 17, passage 5"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.17.06",
+      "number": 6,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。由也、女聞六言六蔽矣乎。對曰、未也。居、吾語女。好仁不好學、其蔽也愚。好知不好學、其蔽也蕩。好信不好學、其蔽也賊。好直不好學、其蔽也絞。好勇不好學、其蔽也亂。好剛不好學、其蔽也狂。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 17, passage 6"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.17.06.en.muller",
+          "language": "en",
+          "text": "The Master said: “You, have you heard the six phrases about the six distortions?” You answered that he hadn't. “Then stay a moment,” Confucius said, “and I will tell you.” If you love being kind to others, but don't like to study, then your kindness will be distorted into simplicity. If you love wisdom, but don't like to study, then your wisdom will be distorted into aimlessness. If you love trustworthiness, but don't like to study, then your trust will be distorted into harm. If you love candor, but don't like to study, your candor will be distorted into rudeness. If you love boldness, but don't like to study, your boldness will be distorted into unruliness. If you love persistence, but don't like to study, your persistence will be distorted into rashness.",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 17, passage 6"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.17.07",
+      "number": 7,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "佛肸召、子欲往。子路曰。昔者由也聞諸夫子曰。親於其身爲不善者、君子不入也。佛肸以中牟畔、子之往也如之何。子曰。然、有是言也。不曰堅乎、磨而不磷。不曰白乎、涅而不緇。吾豈匏瓜也哉、焉能繫而不食。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 17, passage 7"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.17.07.en.muller",
+          "language": "en",
+          "text": "Bi Xi invited Confucius [to come and serve in his administration], and Confucius wanted to go. Zi Lu said, “Didn't I once hear you say that the Noble Man will not enter the place of one who has associated himself with evil? Bi Xi has taken Zhongmou against its will, so how can the Master go there?” Confucius said, “Indeed, I did say such a thing. But is it not said that if you polish something hard, it will not wear thin? And it is not said that if something is truly white, if you try to dye it black, it won't change color? Shall I be like a gourd that can be hung, but never eaten?”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 17, passage 7"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.17.07.muller.note.51",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "A town in Wei, captured by the Jin.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 17, passage 7, footnote note-17-51"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.17.08",
+      "number": 8,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。小子、何莫學夫詩。詩可以興、可以觀、可以群、可以怨。邇之事父、遠之事君。多識於鳥、獸、草、木之名。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 17, passage 8"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.17.08.en.muller",
+          "language": "en",
+          "text": "The Master said: “My disciples, why not study the Book of Odes? The Odes can uplift you, can make you observant, can help you to get along with people, can help you to use your anger [in a proper way]. Applied near at hand, you can serve your father; applied at a distance, you can serve your ruler. You can learn much about the names of birds, beasts, plants, and trees.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 17, passage 8"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.17.09",
+      "number": 9,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子謂伯魚曰。女爲周南召南矣乎。人而不爲周南、召南、其猶正牆面而立也與。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 17, passage 9"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.17.09.en.muller",
+          "language": "en",
+          "text": "Addressing Bo Yu, the Master said: “Have you studied the Zhou Nan and Shao Nan chapters? Isn't the one who does not learn the Zhou Nan and Shao Nan chapters just like someone who stands directly facing a wall?”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 17, passage 9"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.17.10",
+      "number": 10,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。禮云禮云。玉帛云乎哉。樂云樂云。鍾鼓云乎哉。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 17, passage 10"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.17.10.en.muller",
+          "language": "en",
+          "text": "The Master said: “‘Ritual,’ they say, ‘ritual,’ they say: is nothing more than jade and silk? ‘Music’ they say, ‘Music’ they say: is it nothing more than bells and drums?”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 17, passage 10"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.17.10.muller.note.52",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "Jade and silk clothing. In antiquity, a formal gift when the feudal lords met each other or the king. Also used as an offering to gods.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 17, passage 10, footnote note-17-52"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.17.11",
+      "number": 11,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。色厲而內荏、譬諸小人、其猶穿窬之盜也與 。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 17, printed label 17-10 (mapped to passage 11)"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.17.11.en.muller",
+          "language": "en",
+          "text": "The Master said: “If you show a tough face, but are weak inside, you are a miserable fellow, like a thief burrowing through the walls.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 17, printed label 17:10 (mapped to passage 11)"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.17.12",
+      "number": 12,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。鄕原、德之賊也 。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 17, printed label 17-11 (mapped to passage 12)"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.17.12.en.muller",
+          "language": "en",
+          "text": "The Master said: “The ‘conventional townsman’ is a thief of virtue.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 17, printed label 17:11 (mapped to passage 12)"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.17.12.muller.note.53",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "For a discussion of this saying, see Mencius 7B:37.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 17, printed label 17-11 (mapped to passage 12), footnote note-17-53"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.17.13",
+      "number": 13,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。道聽而塗說、德之棄也 。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 17, printed label 17-12 (mapped to passage 13)"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.17.13.en.muller",
+          "language": "en",
+          "text": "The Master said: “To apprehend the Way and lecture on it before actualization is to throw away your accumulation of virtue.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 17, printed label 17:12 (mapped to passage 13)"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.17.14",
+      "number": 14,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。鄙夫。可與事君也與哉。其未得之也、患得之。旣得之、患失之。苟患失之、無所不至矣。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 17, printed label 17-13 (mapped to passage 14)"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.17.14.en.muller",
+          "language": "en",
+          "text": "The Master said: “These low-lifes! How can they ever serve a ruler?! When they don't have something, they make themselves miserable in getting it. Once they get it, they go nuts about losing it. Once they are worried about losing it, there is nothing they won't do.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 17, printed label 17:13 (mapped to passage 14)"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.17.15",
+      "number": 15,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。古者民有三疾、今也或是之亡也。古之狂也肆、今之狂也蕩。古之矜也廉、今之矜也忿戻。古之愚也直、今之愚也詐而已矣。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 17, printed label 17-14 (mapped to passage 15)"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.17.15.en.muller",
+          "language": "en",
+          "text": "The Master said: “The ancients had three kinds of shortcomings, some aspects of which are now lost. The wild (guang) of antiquity were unbounded; the wild of today are dissipated. The proud of antiquity were gallant; the proud of today are hot-tempered. The simple-minded of antiquity were straightforward; the simple-minded of today are liars.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 17, printed label 17:14 (mapped to passage 15)"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.17.15.muller.note.54",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "For the meaning of guang, please see the discussion connected to 13:21.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 17, printed label 17-14 (mapped to passage 15), footnote note-17-54"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.17.16",
+      "number": 16,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。攷言令色、鮮矣仁。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 17, printed label 17-15 (mapped to passage 16)"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.17.16.en.muller",
+          "language": "en",
+          "text": "The Master said: “Skillful speech and flattering expressions are seldom indicative of true goodness. ”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 17, printed label 17:15 (mapped to passage 16)"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.17.17",
+      "number": 17,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。惡紫之奪朱也。惡鄭聲之亂雅樂也。惡利口之覆邦家者。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 17, printed label 17-16 (mapped to passage 17)"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.17.17.en.muller",
+          "language": "en",
+          "text": "The Master said: “I hate purple because it steals the role of red; I hate the music of Zheng,” because it is are confused with the classical music",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 17, printed label 17:16 (mapped to passage 17)"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.17.17.muller.note.55",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "The “sounds of Zheng” 鄭聲 are also criticized in Analects 15-11.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 17, printed label 17-16 (mapped to passage 17), footnote note-17-55"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        },
+        {
+          "id": "analects.17.17.muller.note.56",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "I.e., the music of Ya 雅樂. I hate clever speech, because it undermines the state and the clans.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 17, printed label 17-16 (mapped to passage 17), footnote note-17-56"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.17.18",
+      "number": 18,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。予欲無言 子貢曰。子如不言、則小子何述焉 子曰。天何言哉。四時行焉、百物生焉。天何言哉。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 17, printed label 17-17 (mapped to passage 18)"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.17.18.en.muller",
+          "language": "en",
+          "text": "The Master said: “I wish I could avoid talking.” Zi Gong said, “Master, if you didn't speak, what would we disciples have to pass on?” Confucius said, “Does Heaven speak? Yet the four seasons continue to change, and all things are born. Does Heaven speak?”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 17, printed label 17:17 (mapped to passage 18)"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.17.19",
+      "number": 19,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "孺悲欲見孔子、孔子辭以疾、將命者出戶、取瑟而歌、使之聞之。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 17, printed label 17-18 (mapped to passage 19)"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.17.19.en.muller",
+          "language": "en",
+          "text": "Ru Bei wanted to see Confucius, but Confucius excused himself on the grounds of illness. When his messenger went to the door, the master picked up his lute and began to sing so that Bei could hear him.",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 17, printed label 17:18 (mapped to passage 19)"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.17.20",
+      "number": 20,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "宰我問。三年之喪期已久矣。君子三年不爲禮、禮必壞。三年不爲樂、樂必崩。舊穀旣沒、新穀旣升。鑽燧改火、期可已矣。子曰、食夫稻、衣夫錦、於女安乎。曰、安。女安、則爲之。夫君子之居喪、食旨不甘、聞樂不樂、居處不安、故不爲也。今女安、則爲之。宰我出。子曰、予之不仁也。子生三年、然後免於父母之懷。夫三年之喪、天下之通喪也。予也、有三年之愛於其父母乎。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 17, printed label 17-19 (mapped to passage 20)"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.17.20.en.muller",
+          "language": "en",
+          "text": "Zai Wo asked: “Isn't the three-year mourning period [for parents] too long? If the Noble Man does not exercise ritual for three years, the rituals will certainly deteriorate; if music is not played for three years, it will certainly vitiate. Last year's grain is already gone, this years' grain has already sprouted. And the seasonal cycle for the use of wood for producing fire by friction has already passed through. One year is enough. ” Confucius said, “Are you comfortable with eating good rice and wearing fine silk [soon after your parents have died]?” “Yes, I am fine with it.” “If you are OK with it, then go ahead and do it. When the Noble Man is in mourning, he cannot enjoy the taste of delicious food, cannot enjoy the sound of music, and cannot be comfortable in his own home, and therefore he won't do such a thing. Now, if you are comfortable with it, then do it.” Zai Wo left. Confucius said, “How inhumane Zai Wo is! It is only after three years that a child avoids his parent's embrace. The three-year period of mourning is observed throughout society. Wasn't Zai Wo loved three years by his parents?”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 17, printed label 17:19 (mapped to passage 20)"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.17.20.muller.note.57",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "改火. This refers to the various kinds of wood used traditionally as drill for making fire. The early Chinese used elm or willow in spring, jujube or apricot tree in early summer, mulberry in late summer, oak in autumn, and pagoda or sandalwood tree in winter. This is called a full cycle.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 17, printed label 17-19 (mapped to passage 20), footnote note-17-57"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.17.21",
+      "number": 21,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。飽食終日、無所用心、難矣哉。不有博奕者乎。爲之猶賢乎已 。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 17, printed label 17-20 (mapped to passage 21)"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.17.21.en.muller",
+          "language": "en",
+          "text": "The Master said: “What can be done with a man who stuffs his face with food all day, without exercising his mind. He could at least play cards or chess or something. It would be better than nothing.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 17, printed label 17:20 (mapped to passage 21)"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.17.22",
+      "number": 22,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子路曰。君子尚勇乎。子曰。君子義以爲上。君子有勇而無義爲亂、小人有勇而無義爲盜。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 17, printed label 17-21 (mapped to passage 22)"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.17.22.en.muller",
+          "language": "en",
+          "text": "Zi Lu said: “Does the noble man esteem bravery?” Confucius said, “The noble man puts fairness first. If the noble man is brave without fairness, he will be rebellious. If the inferior man is brave without fairness, he will become an outlaw.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 17, printed label 17:21 (mapped to passage 22)"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.17.23",
+      "number": 23,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子貢曰。君子亦有惡乎。子曰。有惡。惡稱人之惡者、惡居下流而訕上者、惡勇而無禮者、惡果敢而窒者。曰。賜也亦有惡乎。惡徼以爲知者、惡不孫以爲勇者、惡訐以爲直者。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 17, printed label 17-22 (mapped to passage 23)"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.17.23.en.muller",
+          "language": "en",
+          "text": "Zi Gong asked, “Does the noble man also have things that he hates?” Confucius said, “He does. He hates those who advertise the faults of others. He hates those who abide in lowliness and slander the great. He hates those who are bold without propriety. He hates those who are convinced of their own perfection, and closed off to anything else. How about you, what do you hate?” Zi Gong said, “I hate those who take a little bit of clarity as wisdom; I hate those who take disobedience as courage; I hate those who take disclosing people's weak points to be straightforwardness.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 17, printed label 17:22 (mapped to passage 23)"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.17.24",
+      "number": 24,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。唯女子與小人爲難養也。近之則不孫、遠之則怨。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 17, printed label 17-23 (mapped to passage 24)"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.17.24.en.muller",
+          "language": "en",
+          "text": "The Master said: “Girls and inferior men are hard to get along with. If you get familiar with them, they lose their humility; if you are distant, they resent it.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 17, printed label 17:23 (mapped to passage 24)"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.17.25",
+      "number": 25,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。年四十而見惡焉、其終也已 。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 17, printed label 17-24 (mapped to passage 25)"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.17.25.en.muller",
+          "language": "en",
+          "text": "The Master said: “One who has reached the age of forty and is disliked, will be disliked to the end.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 17, printed label 17:26 (mapped to passage 25)"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    }
+  ]
+}

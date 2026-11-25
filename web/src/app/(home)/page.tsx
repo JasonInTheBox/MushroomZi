@@ -69,12 +69,14 @@ export default function HomePage() {
                   <li key={passage.id} className="flex justify-between gap-4">
                     <span>Passage {passage.number}</span>
                     <span className="flex gap-4">
-                      <Link
-                        href={`/en/passage/${passage.id}`}
-                        aria-label={`Read Book ${book.number}, passage ${passage.number} in English`}
-                      >
-                        English
-                      </Link>
+                      {passage.translations.some((translation) => translation.language === "en") && (
+                        <Link
+                          href={`/en/passage/${passage.id}`}
+                          aria-label={`Read Book ${book.number}, passage ${passage.number} in English`}
+                        >
+                          English
+                        </Link>
+                      )}
                       <Link
                         href={`/zh/passage/${passage.id}`}
                         lang="zh-Hant"

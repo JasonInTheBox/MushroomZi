@@ -2,14 +2,15 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllPassages } from "@/lib/content";
 
-const languages = ["en", "zh"] as const;
-
-export const dynamicParams = false; 
+export const dynamicParams = false;
 
 export function generateStaticParams() {
-    return getAllPassages().flatMap(({ id }) => 
-        languages.map((lang) => ({ lang, id })),
-    );
+    return getAllPassages().flatMap((passage) => [
+        ...(passage.translations.some((translation) => translation.language === "en")
+            ? [{ lang: "en", id: passage.id }]
+            : []),
+        { lang: "zh", id: passage.id },
+    ]);
 }
 
 export default async function PassagePage({
@@ -23,7 +24,9 @@ export default async function PassagePage({
         notFound();
     }
 
-    const passages = getAllPassages();
+    const passages = getAllPassages().filter(
+        (item) => lang === "zh" || item.translations.some((translation) => translation.language === "en"),
+    );
     const passageIndex = passages.findIndex((item) => item.id === id);
     const passage = passages[passageIndex];
 
@@ -57,9 +60,11 @@ export default async function PassagePage({
         <main className="mx-auto max-w-3xl px-6 py-10">
             <nav className="mb-12 flex justify-between">
                 <Link href="/">Mushroom Zi 蘑菇子</Link>
-                <Link href={`/${otherLanguage}/passage/${passage.id}`}>
-                    {lang === "en" ? "中文" : "English"}
-                </Link>
+                {(lang === "en" || englishTranslation) && (
+                    <Link href={`/${otherLanguage}/passage/${passage.id}`}>
+                        {lang === "en" ? "中文" : "English"}
+                    </Link>
+                )}
             </nav>
 
             <article>

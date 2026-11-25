@@ -1,0 +1,931 @@
+{
+  "schemaVersion": 1,
+  "book": {
+    "id": "analects.book.02",
+    "number": 2,
+    "title": {
+      "chinese": "爲政",
+      "pinyin": "Wei zheng"
+    }
+  },
+  "passages": [
+    {
+      "id": "analects.02.01",
+      "number": 1,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。爲政以德、譬如北辰居其所而衆星共之。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 2, passage 1"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.02.01.en.muller",
+          "language": "en",
+          "text": "The Master said: “If you govern with the power of your virtue, you will be like the North Star. It just stays in its place while all the other stars position themselves around it.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 2, passage 1"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.02.01.muller.comment.01",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "This is the Analects' first statement on government. Scholars of Chinese thought have commonly placed great emphasis on a supposed radical distinction between Confucian “authoritative” government and Daoist “laissez-faire” government. But numerous Confucian passages such as this which suggest of the ruler's governance by a mere attunement with an inner principle of goodness, without unnecessary external action, quite like the Daoist wu-wei are far more numerous than has been noted. This is one good reason for us to be careful when making the commonplace Confucian/Daoist generalizations without qualification.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 2, passage 1, inline comment 1"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.02.02",
+      "number": 2,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。詩三百、一言以蔽之、曰。思無邪』 。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 2, passage 2"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.02.02.en.muller",
+          "language": "en",
+          "text": "The Master said: “The 300 verses of the Book of Odes can be summed up in a single phrase: ‘Don't think in an evil way.’”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 2, passage 2"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.02.03",
+      "number": 3,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。道之以政、齊之以刑、民免而無恥。道之以德、齊之以禮、有恥且格。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 2, passage 3"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.02.03.en.muller",
+          "language": "en",
+          "text": "The Master said: “If you govern the people legalistically and control them by punishment, they will avoid crime, but have no personal sense of shame. If you govern them by means of virtue and control them with propriety, they will gain their own sense of shame, and thus correct themselves.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 2, passage 3"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.02.04",
+      "number": 4,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。吾十有五而志于學、三十而立、四十而不惑、五十而知天命、六十而耳順、七十而從心所欲、不踰矩。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 2, passage 4"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.02.04.en.muller",
+          "language": "en",
+          "text": "The Master said: “At fifteen my heart was set on learning; at thirty I stood firm; at forty I was unperturbed; at fifty I knew the mandate of heaven; at sixty my ear was obedient; at seventy I could follow my heart's desire without transgressing the norm.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 2, passage 4"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.02.05",
+      "number": 5,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "孟懿子問孝。子曰。無違。樊遲御、子吿之曰。孟孫問孝於我、我對曰、無違。樊遲曰。何謂也 子曰。生、事之以禮; 死、葬之以禮、祭之以禮。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 2, passage 5"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.02.05.en.muller",
+          "language": "en",
+          "text": "Mengyi Zi asked about the meaning of filial piety. Confucius said, “It means ‘not diverging (from your parents).’” Later, when Fan Chi was driving him, Confucius told Fan Chi, “Mengsun asked me about the meaning of filial piety, and I told him ‘not diverging.’” Fan Chi said, “What did you mean by that?” Confucius said, “When your parents are alive, serve them with propriety; when they die, bury them with propriety, and then worship them with propriety.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 2, passage 5"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.02.06",
+      "number": 6,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "孟武伯問孝。子曰。父母唯其疾之憂。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 2, passage 6"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.02.06.en.muller",
+          "language": "en",
+          "text": "Mengwu Bo asked about the meaning of filial piety. Confucius said, “The main concern of your parents is about your health.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 2, passage 6"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.02.06.muller.comment.01",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "When we are separated from our parents for long periods of time, we can set their minds at ease by letting them know that we are in good health.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 2, passage 6, inline comment 1"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.02.07",
+      "number": 7,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子游問孝。子曰。今之孝者、是謂能養。至於犬馬、皆能有養。不敬、何以別乎。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 2, passage 7"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.02.07.en.muller",
+          "language": "en",
+          "text": "Zi You asked about the meaning of filial piety. Confucius said, “Nowadays filial piety means being able to feed your parents. But everyone does this for even horses and dogs. Without respect, what's the difference?”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 2, passage 7"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.02.08",
+      "number": 8,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子夏問孝。子曰。色難。有事、弟子服其勞。有酒食、先生饌、曾是以爲孝乎。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 2, passage 8"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.02.08.en.muller",
+          "language": "en",
+          "text": "Zi Xia asked about filial piety. Confucius said, “What is important is the expression you show in your face. You should not understand ‘filial’ to mean merely the young doing physical tasks for their parents, or giving them food and wine when it is available.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 2, passage 8"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.02.09",
+      "number": 9,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。吾與囘言終日、不違、如愚。退而省其私、亦足以發、囘也不愚。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 2, passage 9"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.02.09.en.muller",
+          "language": "en",
+          "text": "The Master said: “I can talk with Hui for a whole day without him differing with me in any way— as if he is stupid. But when he retires and I observe his personal affairs, it is quite clear that he is not stupid.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 2, passage 9"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.02.09.muller.comment.01",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "Hui (Yan Yuan) was Confucius' favorite disciple, who is praised in many passages of the Analects. He died at a young age, probably around thirty, a fact which Confucius lamented.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 2, passage 9, inline comment 1"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.02.10",
+      "number": 10,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。視其所以、觀其所由、察其所安。人焉廋哉。人焉廋哉",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 2, passage 10"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.02.10.en.muller",
+          "language": "en",
+          "text": "The Master said: “See a person's means (of getting things). Observe their motives. Examine that in which they rest. How can a person conceal their character? How can a person conceal their character?”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 2, passage 10"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.02.10.muller.comment.01",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "People think that they are successfully hiding the devious thoughts that are going on in their minds. But as the Doctrine of the Mean teaches, “The sincerity on the inside shows on the outside.” When someone is deceitful, everyone knows it. When someone is good and honest, everyone knows it.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 2, passage 10, inline comment 1"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.02.11",
+      "number": 11,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。溫故而知新、可以爲師矣。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 2, passage 11"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.02.11.en.muller",
+          "language": "en",
+          "text": "The Master said: “Reviewing what you have learned and learning anew, you are fit to be a teacher.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 2, passage 11"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.02.12",
+      "number": 12,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。君子不器。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 2, passage 12"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.02.12.en.muller",
+          "language": "en",
+          "text": "The Master said: “The noble man is not a utensil.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 2, passage 12"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.02.12.muller.comment.01",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "The noble man is not a technician, to be used by others to do a single job. On another level, his mind is not narrowly oriented by a specific task. The junzi thinks broadly and does not limit himself quickly into a certain world-view, and cannot easily be used as a cog in someone else's machine.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 2, passage 12, inline comment 1"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.02.13",
+      "number": 13,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子貢問君子。子曰。先行其言、而后從之。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 2, passage 13"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.02.13.en.muller",
+          "language": "en",
+          "text": "Zi Gong asked about the character of the noble man. Confucius said, “First he practices what he preaches and then he follows it.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 2, passage 13"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.02.14",
+      "number": 14,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。君子周而不比、小人比而不周。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 2, passage 14"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.02.14.en.muller",
+          "language": "en",
+          "text": "The Master said: “The noble man is all-embracing and not partial. The inferior man is partial and not all-embracing.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 2, passage 14"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.02.15",
+      "number": 15,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。學而不思則罔、思而不學則殆。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 2, passage 15"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.02.15.en.muller",
+          "language": "en",
+          "text": "The Master said: “To study and not think is a waste. To think and not study is dangerous.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 2, passage 15"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.02.16",
+      "number": 16,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。攻乎異端、斯害也己。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 2, passage 16"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.02.16.en.muller",
+          "language": "en",
+          "text": "The Master said: “To throw oneself into strange teachings is quite dangerous.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 2, passage 16"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.02.17",
+      "number": 17,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。由、誨女知之乎。 知之爲知之、不知爲不知。是知也。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 2, passage 17"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.02.17.en.muller",
+          "language": "en",
+          "text": "The Master said: “You, shall I teach you about knowledge? What you know, you know, what you don't know, you don't know. This is knowledge.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 2, passage 17"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.02.17.muller.comment.01",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "The stage of “knowing what you know and knowing what you don't know” is not easy to attain. It has been noted in the teachings of other religious traditions to be a very high level of attainment.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 2, passage 17, inline comment 1"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.02.18",
+      "number": 18,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子張學干祿。子曰。多聞闕疑、愼言其餘、則寡尤。多見闕殆、愼行其餘、則寡悔。言寡尤、行寡悔、祿在其中矣。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 2, passage 18"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.02.18.en.muller",
+          "language": "en",
+          "text": "Zi Zhang was studying to get an upgrade in his civil service rank. [Advising him about self-improvement,] Confucius said, “Listen widely to remove your doubts and be careful when speaking about the rest and your mistakes will be few. See much and get rid of what is dangerous and be careful in acting on the rest and your causes for regret will be few. Speaking without fault, acting without causing regret: ‘upgrading’ consists in this.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 2, passage 18"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.02.19",
+      "number": 19,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "哀公聞曰。何爲則民服 孔子對曰。擧直錯諸枉、則民服; 擧枉錯諸直、則民不服。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 2, passage 19"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.02.19.en.muller",
+          "language": "en",
+          "text": "The Duke of Ai asked: “How can I make the people follow me?” Confucius replied: “Advance the upright and set aside the crooked, and the people will follow you. Advance the crooked and set aside the upright, and the people will not follow you.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 2, passage 19"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.02.20",
+      "number": 20,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "季康子問：使民敬、忠以勤、如之何 子曰。臨之以莊、則敬; 孝慈、則忠; 擧善而教不能、則勤。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 2, passage 20"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.02.20.en.muller",
+          "language": "en",
+          "text": "Ji Kang Zi asked: “How can I make the people reverent and loyal, so they will work positively for me?” Confucius said, “Approach them with dignity, and they will be reverent. Be filial and compassionate and they will be loyal. Promote the able and teach the incompetent, and they will work positively for you.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 2, passage 20"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.02.21",
+      "number": 21,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "或謂孔子曰。子奚不爲政 子曰。書云：孝乎惟孝、友于兄弟、施於有政。』 是亦爲政、奚其爲爲政",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 2, passage 21"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.02.21.en.muller",
+          "language": "en",
+          "text": "Someone asked Confucius: “Why are you not involved in government?” Confucius said, “What does the Book of History say about filial piety? ‘Just by being a good son and friendly to ones brothers and sisters you can have an effect on government.’ Since this is also ‘doing government,’ why do I need to do ‘doing government?’”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 2, passage 21"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.02.22",
+      "number": 22,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。人而無信、不知其可也。大車無輗、小車無軏 , 其何以行之哉",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 2, passage 22"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.02.22.en.muller",
+          "language": "en",
+          "text": "The Master said: “If a person lacks trustworthiness, I don't know what s/he can be good for. When a pin is missing from the yoke-bar of a large wagon, or from the collar-bar of a small wagon, how can it go?”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 2, passage 22"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.02.23",
+      "number": 23,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子張問：十世可知也 子曰。殷因於夏禮、所損益、可知也。 周因於殷禮、所損益、可知也。其或繼周者、雖百世、可知也。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 2, passage 23"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.02.23.en.muller",
+          "language": "en",
+          "text": "Zi Zhang asked whether the state of affairs ten generations hence could be known. Confucius said, “The Shang based its propriety on that of the Yin, and what it added and subtracted is knowable. The Zhou has based its propriety on that of the Shang and what it added and subtracted is knowable. In this way, what continues from the Zhou, even if 100 generations hence, is knowable.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 2, passage 23"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.02.24",
+      "number": 24,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。非其鬼而祭之、諂也。見義不爲、無勇也。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 2, passage 24"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.02.24.en.muller",
+          "language": "en",
+          "text": "The Master said: “To worship to other than one's own ancestral spirits is flattery. If you see what is right and fail to act on it, you lack courage.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 2, passage 24"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    }
+  ]
+}

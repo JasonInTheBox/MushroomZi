@@ -1,6 +1,6 @@
 # Analects HTML Corpus Import Design
 
-**Status:** Approved by the user on 2026-11-25 (UTC). The user selected the local-first stack, chose to import Muller’s inline comments and footnotes with the text and translation, and requested review of proposed mappings before corpus files are written.
+**Status:** Implemented after the user approved source-order mapping on 2026-11-25 (UTC). All 20 books are imported, including Muller’s inline comments and footnotes. One source original has no translation in the snapshot and remains source-only.
 
 ## Intent
 
@@ -14,8 +14,8 @@ Turn the tracked `Analects of Confucius 論語.html` snapshot into the project�
 - Preserve quotations and citations that appear inside Muller’s notes as part of the note text; do not present those writers’ works as separately imported entries.
 - Record the user-authorized attribution basis for imported source translations and annotations. This remains user authorization, not an independently verified third-party license.
 - Preserve existing generated commentary and themes when refreshing imported source fields.
-- Detect unpaired, duplicated, or unresolved source markers and refuse to write an incomplete corpus. Resolve source numbering anomalies through a small, explicit mapping file and retain the HTML’s printed marker in citations where it differs from the corpus number.
-- Produce a proposed mapping report without modifying corpus files. The user reviews and approves the exceptions before the importer writes any corpus data.
+- Detect unpaired and repeated source markers. Pair translation blocks with the current original in source order, retain repeated source entries, and keep an original source-only when the HTML has no translation. Resolve numbering anomalies through a small, explicit mapping file and retain the HTML’s printed marker in citations where it differs from the corpus number.
+- Produce a mapping report without modifying corpus files. The user reviewed and approved the source-order proposal before the corpus write.
 - Validate the completed corpus with the existing JSON Schema and semantic validator.
 
 ## Non-goals
@@ -33,7 +33,7 @@ Turn the tracked `Analects of Confucius 論語.html` snapshot into the project�
 
 ## Current source findings
 
-The snapshot has 20 book headings, 483 Classical Chinese markers, 485 English markers, and 59 distinct linked footnote references. The marker counts do not align cleanly: some Chinese or English labels are missing, repeated, or duplicated. For example, Book 14 repeats a Chinese marker for two different texts, and Book 17 repeats marker 17-10 for different texts. A best-effort positional match could silently attach the wrong translation or note, so extraction must audit and explicitly resolve these cases before writing canonical JSON.
+The parser finds 20 book headings, 489 original passage blocks (488 printed labels), 488 translation blocks (487 printed labels), 34 inline comments, and 59 linked footnote references with bodies. It recognizes malformed closing markers, unbracketed English labels, and the Book 13 `29-30` range. Book 14 repeats original label `14-37` with identical text; both occurrences are retained as passages 37 and 38, which shifts later IDs. Book 17 repeats `17-10` for different texts; both are retained as passages 10 and 11. The imported corpus has one source-only original, Book 14 passage 28. The 54 reviewed mapping exceptions are recorded in `content/source-import-overrides.json` and the full proposal is preserved in the mapping review.
 
 ## Data and architecture
 
@@ -42,7 +42,7 @@ The snapshot has 20 book headings, 483 Classical Chinese markers, 485 English ma
 - Mark imported translations and scholarly interpretations with the existing `licensed` status and the user-authorized attribution wording. Use the Muller source URL, passage citation, and note/comment locator.
 - Store imported comments and notes in `passage.commentary` with `kind: scholarly_interpretation`, `author: A. Charles Muller`, and English language. Use stable IDs based on passage ID, entry kind, and source note locator.
 - Keep generated commentary entries and `themes` already present for a passage. New passages receive empty generated commentary and themes until curated.
-- Keep source-label corrections in a small, reviewed import mapping. The report shows source labels, proposed corpus IDs, short Chinese and English excerpts, and linked comment/note references. The importer does not write when a verse, translation, comment, or note cannot be assigned with confidence; after a complete report is reviewed and approved, a separate write step updates corpus files.
+- Keep source-label corrections in a small, reviewed import mapping. The report shows source labels, proposed corpus IDs, short Chinese and English excerpts, and linked comment/note references. The importer rejects translation blocks that have no preceding original and keeps missing translations empty rather than inventing content.
 - Add focused fixtures and tests for HTML text extraction, comment continuation, note-link association, duplicate labels, mismatch reporting, and preservation of existing generated content.
 - Document the import/check commands, source provenance, chosen stack, and remaining review steps in the existing project docs. The site continues to consume JSON only.
 
@@ -50,4 +50,4 @@ The snapshot has 20 book headings, 483 Classical Chinese markers, 485 English ma
 
 Run the importer in report/check mode first and show the proposed mappings to the user. Only after the user approves them, write and validate all book files. Run the Python validator tests and corpus validator, plus the frontend lint/type/build checks because the larger corpus will create many more static passage routes. Spot-check representative passages with multiple inline comments and multiple footnotes, a passage whose source marker needs normalization, and the existing generated daily passages.
 
-The source markup is not a clean data interchange format. The import report and explicit mapping checks are required to prevent silent source-to-translation mismatches. Text normalization must remain limited to whitespace and removed HTML/footnote marker markup; edits to wording require separate editorial review.
+The source markup is not a clean data interchange format. The import report and explicit mapping checks prevent silent source-to-translation mismatches. Text normalization remains limited to whitespace and removed HTML/footnote marker markup; wording edits require separate editorial review. The reader omits English links and static English routes for the source-only passage while keeping its Chinese route available.

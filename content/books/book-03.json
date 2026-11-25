@@ -1,0 +1,948 @@
+{
+  "schemaVersion": 1,
+  "book": {
+    "id": "analects.book.03",
+    "number": 3,
+    "title": {
+      "chinese": "八佾",
+      "pinyin": "Ba yi"
+    }
+  },
+  "passages": [
+    {
+      "id": "analects.03.01",
+      "number": 1,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "孔子謂季氏、八佾舞於庭、是可忍也、孰不可忍也",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 3, passage 1"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.03.01.en.muller",
+          "language": "en",
+          "text": "Confucius, speaking about the head of the Qi family said, “He has eight rows of dancers in his court. If he does this, what will he not do?”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 3, passage 1"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.03.01.muller.comment.01",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "In this passage and the following one, Confucius is complaining about a lower-level aristocrat using ceremonies that were officially prescribed for much higher-level nobility. “Eight rows of dancers,” was the amount allowable to only the most elite of the nobility. The head of the Qi family is often criticized in the Analects for similar improprieties.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 3, passage 1, inline comment 1"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.03.02",
+      "number": 2,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "三家者以雍徹。子曰。“相維辟公、天子穆穆。 奚取於三家之堂 ”",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 3, passage 2"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.03.02.en.muller",
+          "language": "en",
+          "text": "The Three Families used the Yong Songs at the clearing of the sacrificial vessels. Confucius said, Attended on by Lords and Princes: How magnificent is the Son of Heaven! How could these words be used in the halls of the Three Families?",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 3, passage 2"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.03.03",
+      "number": 3,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。人而不仁、如禮何。人而不仁、如樂何",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 3, passage 3"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.03.03.en.muller",
+          "language": "en",
+          "text": "The Master said: “If a man has no ren what can his propriety be like? If a man has no ren what can his music be like?”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 3, passage 3"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.03.03.muller.comment.01",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "Since ren is the essence of all positive human attributes, without it, how can they truly operate?",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 3, passage 3, inline comment 1"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.03.04",
+      "number": 4,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "林放問禮之本。子曰。大哉問禮、與齊奢也、寧儉; 喪、與其易也、寧戚。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 3, passage 4"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.03.04.en.muller",
+          "language": "en",
+          "text": "Lin Fang asked about the fundamentals of ritual. Confucius said, “What an excellent question! In ritual, it is better to be frugal than extravagant; in funerals deep sorrow is better than ease.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 3, passage 4"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.03.05",
+      "number": 5,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。夷狄之有君、不如諸夏之亡也。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 3, passage 5"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.03.05.en.muller",
+          "language": "en",
+          "text": "The Master said: “The tribes of the East and North (Koreans and Mongolians), though having kings, are not equal to our people, even when lacking kings,”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 3, passage 5"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.03.05.muller.comment.01",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "Either Confucius is an outright ethnic chauvinist, or he is pointing to a real difference in the relative level of cultural development at that time between the central Chinese kingdoms and the peoples of the outlying regions.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 3, passage 5, inline comment 1"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.03.06",
+      "number": 6,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "季氏旅於泰山。子謂冉有曰。女弗能救與 對 曰。不能。子曰。嗚呼 曾謂泰山不如林放乎。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 3, passage 6"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.03.06.en.muller",
+          "language": "en",
+          "text": "The Ji family went to make a sacrifice at Mt. Tai. The master said to Ran You: “Can't you save them from this?” You responded: “I can't.” The master said: “Alas! Does this meant that Mt. Tai is not the equal of Lin Fang?”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 3, passage 6"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.03.06.muller.note.04",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "Legge's note to this passage says (with conversion to Pinyin): “The Tai mountain is the first of the ‘five mountains’ which are celebrated in Chinese literature, and have always received religious honors. It was in Lu, or rather on the borders between Lu and Ji, about two miles north of the present department city of Tai-an in Shandong. According to the ritual of China, sacrifice could only be offered to those mountains by the sovereign, and by the princes in whose States any of them happened to be. For the chief of the Ji family, therefore, to sacrifice to the Tai mountain was a great usurpation. Lin Pang, — see chap. iv, from which the reason of this reference to him may be understood. Ran You was one of the disciples of Confucius, and is now third, in the hall, on the west. He entered the service of the Ji family, and was a man of ability and resource. ”",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 3, passage 6, footnote note-3-4"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.03.07",
+      "number": 7,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。君子無所爭。必也射乎。揖讓而升、下而飮。其爭也君子。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 3, passage 7"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.03.07.en.muller",
+          "language": "en",
+          "text": "The Master said: “The noble man has nothing to compete for. But if he must compete, he does it in an archery match, wherein he ascends to his position, bowing in deference. Descending, he drinks the ritual cup. This is the competition of the noble man.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 3, passage 7"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.03.08",
+      "number": 8,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子夏問曰。巧笑倩兮、美目盼兮、素以爲絢兮。何爲也 子曰。繪事后素。曰。禮后乎。子曰。起予者商也 始可與言詩矣。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 3, passage 8"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.03.08.en.muller",
+          "language": "en",
+          "text": "Zi Xia quoted the following: Her tactful smile charms; Her eyes, fine and clear, Beautiful without accessories. And asked its meaning. Confucius said, “A painting is done on plain white paper.” Zi Xia said, “Then are rituals a secondary thing?” Confucius said, “Ah, Shang, you uplift me. Now we can really begin to discuss the Book of Odes.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 3, passage 8"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.03.08.muller.comment.01",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "Among all the ancient classical works available to scholars of the time, Confucius seems to place special value on the Book of Odes, for its strength in moral teachings as well as the intellectual stimulation it provided.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 3, passage 8, inline comment 1"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.03.10",
+      "number": 10,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。禘、自旣灌而往者、吾不欲觀之矣。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 3, passage 10"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.03.10.en.muller",
+          "language": "en",
+          "text": "The Master said: “At the Great Sacrifice, after the pouring of the libation, I have no further desire to watch.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 3, passage 10"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.03.11",
+      "number": 11,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "或問禘之說。子曰。不知也。 知其說者之於天下也、其如示諸斯乎。指其掌。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 3, passage 11"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.03.11.en.muller",
+          "language": "en",
+          "text": "Someone asked for an explanation of the Great Sacrifice. Confucius said, “I don't know. If there were someone who knew this, he could see the whole world as if it were this”: He pointed to the palm of his hand.",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 3, passage 11"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.03.12",
+      "number": 12,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "祭如在、祭神如神在。子曰。吾不與祭、如不祭。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 3, passage 12"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.03.12.en.muller",
+          "language": "en",
+          "text": "“Sacrificing as if present” means sacrificing to the spirits as if they were present. Confucius said, “If I do not personally offer the sacrifice, it is the same as not having sacrificed at all.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 3, passage 12"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.03.13",
+      "number": 13,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "王孫賈問曰。與其媚於奧、寧媚於竈; 何謂也 子曰。不然; 獲罪於天、無所禱; 也。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 3, passage 13"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.03.13.en.muller",
+          "language": "en",
+          "text": "Wang Sun Jia asked: “What do you think about the saying ‘It is better to sacrifice to the god of the stove than to the god of the family shrine.’?” Confucius said, “Not so. If you offend Heaven, there is no one you can pray to.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 3, passage 13"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.03.14",
+      "number": 14,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。周監於二代、郁郁乎文哉。吾從周。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 3, passage 14"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.03.14.en.muller",
+          "language": "en",
+          "text": "The Master said: “The people of the Zhou were able to observe the prior two dynasties and thus their culture flourished. I now follow the Zhou.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 3, passage 14"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.03.15",
+      "number": 15,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子入大廟、每事問。或曰。孰謂鄒人之子知禮乎。入大廟、每事問。子聞之、曰。是禮也。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 3, passage 15"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.03.15.en.muller",
+          "language": "en",
+          "text": "When Confucius entered the Grand Temple, he asked about everything. Someone said, “Who said Confucius is a master of ritual? He enters the Grand Temple and asks about everything!” Confucius, hearing this, said, “This is the ritual.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 3, passage 15"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.03.16",
+      "number": 16,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。射不主皮、爲力不同科、古之道也。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 3, passage 16"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.03.16.en.muller",
+          "language": "en",
+          "text": "The Master said: “In archery it is not important to pierce through the leather covering of the target, since not all men have the same strength. This is the Way of the ancients.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 3, passage 16"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.03.17",
+      "number": 17,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子貢欲去吿朔之餼羊。子曰。賜也 爾愛其羊、我愛其禮。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 3, passage 17"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.03.17.en.muller",
+          "language": "en",
+          "text": "Zi Gong wanted to do away with the sacrifice of the sheep on the first of the month. Confucius said, “Ci, you love the sheep; I love the ceremony.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 3, passage 17"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.03.18",
+      "number": 18,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。事君盡禮、人以爲諂也。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 3, passage 18"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.03.18.en.muller",
+          "language": "en",
+          "text": "The Master said: “If you use every single courtesy while serving your prince, the people will call you a sycophant.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 3, passage 18"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.03.19",
+      "number": 19,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "定公問：君使臣、臣事君、如之何 孔子對曰。君使臣以禮、臣事君以忠。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 3, passage 19"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.03.19.en.muller",
+          "language": "en",
+          "text": "Duke Ding asked how a ruler should employ his ministers and how a minister should serve his ruler. Confucius replied, saying: “The prince employs his ministers with propriety; the ministers serve their prince with good faith.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 3, passage 19"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.03.20",
+      "number": 20,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。關雎、樂而不淫、哀而不傷。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 3, passage 20"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.03.20.en.muller",
+          "language": "en",
+          "text": "The Master said: “The Guanju allows for pleasure without being lewd and allows for grief without being too painful.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 3, passage 20"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.03.20.muller.note.05",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "The Guanju ( “The Cry of the Ospreys”) is the first poem in the Book of Odes. It begins by describing a lover's grief at being separated from his lady and ends by describing their joyful union. (Waley, 99)",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 3, passage 20, footnote note-3-5"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.03.21",
+      "number": 21,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "哀公問社於宰我。宰我對曰。夏后氏以松、殷人以柏、周人以栗、曰、使民戰栗。子聞之、曰。成事不說, 遂事不諫、旣往不咎。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 3, passage 21"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.03.21.en.muller",
+          "language": "en",
+          "text": "The Duke of Ai asked Zai Wo about sacred temple grounds. Zai Wo said, “The Xia emperor planted them with pines; the Xiang people planted them with cypress and the Zhou people planted them with chestnut, thinking to cause people to be in awe of these trees.” Confucius, hearing this, said, “Don't bother explaining that which has already been done; don't bother criticizing that which is already gone; don't bother blaming that which is already past.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 3, passage 21"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.03.22",
+      "number": 22,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。管仲之器小哉。或曰。管仲儉乎。曰。管氏有三歸、官事不攝、焉得儉 然則管仲知禮乎。曰。邦君樹塞門、管氏亦樹塞門。邦君爲兩君之好、有反坫 , 管氏亦有反坫 。管氏而知禮、孰不知禮",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 3, passage 22"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.03.22.en.muller",
+          "language": "en",
+          "text": "The Master said: “Guan Zhong was quite limited in capacity.” Someone asked: “Wasn't Guan Zhong frugal?” Confucius said, “Guan had three sets of wives and his officers never worked overtime. How can he be considered to have been frugal?” “But then did Guan Zhong understand propriety?” Confucius said, “The princes of the states have a special ritual screen at their door, and so did Guan Zhong (even though he was not of the proper rank to do this). When the princes of state had a friendly meeting, they would ritually turn their cups over on the table. Guan also turned his cups over on the table. If Guan Zhong understood propriety, then who doesn't?”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 3, passage 22"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.03.22.muller.note.06",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "管仲: Guan Zhong. (? –645 BCE) Spring and Autumn period 春秋時代 statesman, originally from the area of Yingshui 潁水. Familiar name was Yi Wu 夷吾, styled Zhong 仲, also known as Jing 敬, thus also known as Guan Zingzhong 管敬仲 and Guanzi 管子. He the prime minister 宰相 who switched loyalties after the assassination of his original lord to serve Duke Huan 桓公 of Qi 齊. He is considered to be responsible for many of the duke's administrative achievements. It was based upon the recommendation of his friend Bao Shu 鮑叔 that Duke Huan took him into his service, and Huan would go on to become known as one of the Five Hegemons 五覇. He is reputed to be the author of the Guanzi 管子.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 3, passage 22, footnote note-3-6"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.03.23",
+      "number": 23,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子語魯大師樂、曰。樂其可知也：始作、翕如也。 從之、純如也、皦如也、繹如也、以成。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 3, passage 23"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.03.23.en.muller",
+          "language": "en",
+          "text": "Confucius, when talking with the Grand Music Master of Lu, said, “In my understanding of music, the piece should be begun in unison. Afterwards, if it is pure, clear and without break, it will be perfect.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 3, passage 23"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.03.24",
+      "number": 24,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "儀封人請見、曰。君子之至於斯也、吾未嘗不得見也。從者見之。出曰。二三子何患於喪乎。天下之無道也久矣、天將以夫子爲木鐸。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 3, passage 24"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.03.24.en.muller",
+          "language": "en",
+          "text": "The border guard at Yi requested an audience with the Master, saying: “Whenever a noble man comes here, I never miss the opportunity to see him.” The disciples sent him in. When he came out, he said, “Friends, don't have any doubts about your master failing. The world has certainly lacked the Way for a long time now, but Heaven will use your master to awaken everyone.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 3, passage 24"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.03.26",
+      "number": 26,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。居上不寛、爲禮不敬、臨喪不哀、吾何以觀之哉",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 3, passage 26"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.03.26.en.muller",
+          "language": "en",
+          "text": "The Master said: “Men of high office who are narrow-minded; propriety without respect and funerals without grief: how can I bear to look at such things?!”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 3, passage 26"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    }
+  ]
+}

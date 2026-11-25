@@ -1,0 +1,1049 @@
+{
+  "schemaVersion": 1,
+  "book": {
+    "id": "analects.book.06",
+    "number": 6,
+    "title": {
+      "chinese": "雍也",
+      "pinyin": "Yong ye"
+    }
+  },
+  "passages": [
+    {
+      "id": "analects.06.01",
+      "number": 1,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。雍也可使南面。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 6, passage 1"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.06.01.en.muller",
+          "language": "en",
+          "text": "The Master said: “Yong could fulfill the role of ‘facing south’ (being a ruler).”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 6, passage 1"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.06.02",
+      "number": 2,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "仲弓問子桑伯子。 子曰、可也簡。仲弓曰。居敬而行簡、以臨其民、不亦不可乎。居簡而行簡、無乃大簡乎。子曰。雍之言然。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 6, passage 2"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.06.02.en.muller",
+          "language": "en",
+          "text": "Zhong Gong asked about Zisang Bo Zi. Confucius said, “He will do. He is easygoing.” Zhong Gong said, “Maybe if you are easygoing but abide in reverence it is all right. But if you abide in easygoingness and are also easygoing in your activities, wouldn't that be excessive?” Confucius said, “Yong is right.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 6, passage 2"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.06.03",
+      "number": 3,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "哀公問、弟子孰爲好學。孔子對曰。有顏囘者。好學、不遷怒、不貳過。不幸短命死矣、今也則亡、未聞好學者也。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 6, passage 3"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.06.03.en.muller",
+          "language": "en",
+          "text": "The Duke of Ai asked which disciple loved to study. Confucius answered: “There was Yanhui. He loved to study, he didn't transfer his anger to the wrong person, and he didn't repeat his mistakes. Unfortunately he died young. Since then I have not yet met anyone who loves to study the way he did.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 6, passage 3"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.06.06",
+      "number": 6,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子謂仲弓、曰、犁牛之子騂且角、雖欲勿用、山川其舍諸？。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 6, passage 6"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.06.06.en.muller",
+          "language": "en",
+          "text": "Confucius, speaking of Zhong Gong said: “The calf of a brindled ox could be all red and have good horns. But even if we decide not to use it, would nature [lit. ‘the mountains and rivers’] cast it away?”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 6, passage 6"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.06.06.muller.note.11",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "I.e., fit the specifications for a sacrificial animal.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 6, passage 6, footnote note-6-11"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        },
+        {
+          "id": "analects.06.06.muller.note.12",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "Legge says: “The father of Zhong Gong (See V. ii.) was a man of bad character and some would have visited this upon his son, which drew forth Confucius' remark.” (186)",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 6, passage 6, footnote note-6-12"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.06.07",
+      "number": 7,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。囘也、其心三月不違仁、其餘則日月至焉而已矣。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 6, passage 7"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.06.07.en.muller",
+          "language": "en",
+          "text": "The Master said: “Hui could keep his mind on ren for three months without lapse. Others are lucky if they can do it for one day out of a month.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 6, passage 7"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.06.08",
+      "number": 8,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "季康子問：仲由可使從政也與 子曰。由也果、於從政乎何有 曰。賜也可使政也與 曰。賜也達、於從政乎何有 曰。求也可使從政也與 曰。求也藝、於從政乎何有 。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 6, passage 8"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.06.08.en.muller",
+          "language": "en",
+          "text": "Jikang Zi asked whether Zhongyou was capable of serving in the government. Confucius said, “You is efficient. What problem could he have in handling government work?” Kang asked: “Is Ci capable of serving in the government?” Confucius said, “Ci is intelligent. What problem could he have in handling government work?” “And what about Qiu?” Confucius said, “Qiu is talented. What difficulty would he have in handling government work?”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 6, passage 8"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.06.09",
+      "number": 9,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "季氏使閔子騫爲費宰。閔子騫曰。善爲我辭焉 如有復我者、則吾必在汶上矣。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 6, passage 9"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.06.09.en.muller",
+          "language": "en",
+          "text": "The head of the Qi family sent to Min Ziqian to ask him to govern Pi for them. Min Ziqian said, “Please decline for me politely. If they pursue me further, I shall have to go live on the banks of the Wen River.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 6, passage 9"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.06.09.muller.note.13",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "Which was out of the range of Qi's influence.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 6, passage 9, footnote note-6-13"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.06.10",
+      "number": 10,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "伯牛有疾、子問之、自牖執其手、曰。亡之、命矣夫 斯人也。有斯疾也 斯人也。有斯疾也。 。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 6, passage 10"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.06.10.en.muller",
+          "language": "en",
+          "text": "Boniu was sick and Confucius came to see him. He held his hand through the window and said, “He is dying! How awful it is that this kind of man should be sick like this! How awful it is that this kind of man should be sick like this!”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 6, passage 10"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.06.11",
+      "number": 11,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。賢哉、囘也 一簞食、一瓢飮、在陋巷、人不堪其憂、囘也不改其樂。賢哉、囘也 。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 6, passage 11"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.06.11.en.muller",
+          "language": "en",
+          "text": "The Master said: “Hui was indeed a worthy! With a single bamboo bowl of rice and gourd-cup of water he lived in a back alley. Others could not have endured his misery, but Hui never changed from his happy disposition. Hui was a worthy indeed!” Comment In Confucian and Daoist thought, the term xian (“worthy”) means “good, kind, intelligent, courageous,” etc. But it is also a technical term for a person of a high level of moral and intellectual advancement. Generally speaking, it indicates someone who is “almost perfect” but who is not a “divine being,” a sage.",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 6, passage 11"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.06.12",
+      "number": 12,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "冉求曰。非不說子之道、力不足也。子曰。力不足者、中道而廢。今女畫。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 6, passage 12"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.06.12.en.muller",
+          "language": "en",
+          "text": "Yenqiu said: “It is not that I don't enjoy your Way, but my strength is not enough.” Confucius said, “Those whose strength is not enough give up half way. You are now limiting yourself.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 6, passage 12"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.06.13",
+      "number": 13,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子謂子夏曰。女爲君子儒 無爲小人儒 。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 6, passage 13"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.06.13.en.muller",
+          "language": "en",
+          "text": "Confucius said to Zi Xia: “Be a noble scholar; don't be a petty scholar.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 6, passage 13"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.06.14",
+      "number": 14,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子游爲武城宰。子曰。女得人焉爾乎。曰、有澹臺滅明者。行不由徑、非公事、未嘗至於偃之室也。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 6, passage 14"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.06.14.en.muller",
+          "language": "en",
+          "text": "Zi You became the governor of Wucheng. The Master said, “Have you been able to employ any good people?” Zi You answered: “I have found Dantai Mieming, who never takes short cuts in his work and does not come to my home unless he has real business to discuss.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 6, passage 14"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.06.15",
+      "number": 15,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。孟之反不伐。奔而殿、將入門、策其馬、曰。非敢後也、馬不進也。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 6, passage 15"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.06.15.en.muller",
+          "language": "en",
+          "text": "The Master said: “Meng Zhifan is not boastful. Once he was covering the rear during a retreat, and when he was about to enter the gate, he whipped his horse and said, ‘I wasn't so brave as to be last. My horse would not run fast enough.’”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 6, passage 15"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.06.16",
+      "number": 16,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。不有祝鮀之侫、而有宋朝之美、難乎免於今之世矣。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 6, passage 16"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.06.16.en.muller",
+          "language": "en",
+          "text": "The Master said: “Without the smooth speech of Preacher Tuo or the good looks of Prince Zhao of Song, it is difficult to stay out of trouble in the present age.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 6, passage 16"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.06.17",
+      "number": 17,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。誰能出不由戶。何莫由斯道也 。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 6, passage 17"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.06.17.en.muller",
+          "language": "en",
+          "text": "The Master said: “Who can go out without using the door? So why doesn't anybody follow the Way?”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 6, passage 17"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.06.18",
+      "number": 18,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。質勝文則野、文勝質則史。文質彬彬、然後君子。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 6, passage 18"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.06.18.en.muller",
+          "language": "en",
+          "text": "The Master said: “If raw substance dominates refinement, you will be coarse. If refinement dominates raw substance, you will be clerical. When refinement and raw qualities are well blended, you will be a noble person.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 6, passage 18"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.06.19",
+      "number": 19,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。人之生也直、罔之生也幸而免。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 6, passage 19"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.06.19.en.muller",
+          "language": "en",
+          "text": "The Master said: “People are straightforward at birth. Once they lose this, they rely on luck to avoid trouble.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 6, passage 19"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.06.20",
+      "number": 20,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。知之者不如好之者、好之者不如樂之者。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 6, passage 20"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.06.20.en.muller",
+          "language": "en",
+          "text": "The Master said: “Knowing it is not as good as loving it; loving it is not as good as delighting in it.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 6, passage 20"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.06.21",
+      "number": 21,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。中人以上、可以語上也。中人以下、不可以語上也。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 6, passage 21"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.06.21.en.muller",
+          "language": "en",
+          "text": "The Master said: “You can teach high-level topics to those of above-average ability, but you can't teach high-level topics to those of less than average ability.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 6, passage 21"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.06.22",
+      "number": 22,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "樊遲問知。子曰。務民之義、敬鬼神而遠之、可謂知矣。問仁。曰。仁者先難而後獲、可謂仁矣。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 6, passage 22"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.06.22.en.muller",
+          "language": "en",
+          "text": "Fan Chi asked about the nature of wisdom. Confucius said, “Working to give the people justice and paying respect to the spirits, but keeping away from them, you can call wisdom.” He asked about the nature of ren. Confucius said, “Ah yes, ren. If you suffer first and then attain it, it can be called ren.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 6, passage 22"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.06.22.muller.comment.01",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "John Keats wrote: “Nothing ever becomes real until it is experienced.”",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 6, passage 22, inline comment 1"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.06.23",
+      "number": 23,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。知者樂水、仁者樂山。知者動、仁者靜。知者樂、仁者壽。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 6, passage 23"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.06.23.en.muller",
+          "language": "en",
+          "text": "The Master said: “The wise enjoy the sea, the humane enjoy the mountains. The wise are busy, the humane are tranquil. The wise are happy, the humane are eternal.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 6, passage 23"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.06.24",
+      "number": 24,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。齊一變、至於魯。魯一變、至於道。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 6, passage 24"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.06.24.en.muller",
+          "language": "en",
+          "text": "The Master said: “The state of Qi, with one change, could be at the level of Lu. The state of Lu, with one change, could attain to the Way.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 6, passage 24"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.06.25",
+      "number": 25,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。觚不觚、觚哉、觚哉。。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 6, passage 25"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.06.25.en.muller",
+          "language": "en",
+          "text": "The Master said: “A cornered vessel without corners! Is it a cornered vessel or not?”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 6, passage 25"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.06.26",
+      "number": 26,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "宰我問曰。仁者、雖吿之曰、井有仁焉。其從之也 。子曰。何爲其然也 君子可逝也、不可陷也。可欺也、不可罔也。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 6, passage 26"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.06.26.en.muller",
+          "language": "en",
+          "text": "Zai Wo asked: “If you tell a ren man there is ren at the bottom of the well, will he climb into it?” Confucius said, “Are you kidding? The noble man will go to the well but not fall into it. He can be deceived, but not to the point of serious loss!”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 6, passage 26"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.06.27",
+      "number": 27,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。君子博學於文、約之以禮、亦可以弗畔矣夫 。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 6, passage 27"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.06.27.en.muller",
+          "language": "en",
+          "text": "The Master said: “The noble man who studies culture extensively, and disciplines himself with propriety can keep from error.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 6, passage 27"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.06.28",
+      "number": 28,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子見南子、子路不說。夫子矢之曰。予所否者、天厭之、天厭之。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 6, passage 28"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.06.28.en.muller",
+          "language": "en",
+          "text": "The Master met with Nan Zi and Zi Lu was displeased. The Master swore, saying: “Whatever I have done wrong, may Heaven punish me! May Heaven punish me!”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 6, passage 28"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.06.28.muller.note.14",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "Nan Zi was the wife of King Ling Gong 靈公 on the state of Wei 衛, during the Spring and Autumn period. Born in the state of Song 宋, she was famous for her beauty, and known for her sexual escapades. Hearing that she had an affair with Gongzi Zhao 公子朝, the crown prince Kuai Kui 蒯瞶 attempted to assassinate her, but failed on the first attempt. Nan Zi then told poisonous rumors to the king about Kuai Kui, and he was exiled from the kingdom. Later on Kuai returned to take the throne, and killed Nan Zi.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 6, passage 28, footnote note-6-14"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.06.29",
+      "number": 29,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。中庸之爲德也、其至矣乎。民鮮久矣。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 6, passage 29"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.06.29.en.muller",
+          "language": "en",
+          "text": "The Master said: “Even over a long period of time, there have been few people who have actualized the Mean into Manifest Virtue.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 6, passage 29"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.06.30",
+      "number": 30,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子貢曰。如有博施於民而能濟衆、何如 可謂仁乎。子曰。何事於仁 必也聖乎。堯舜其猶病諸 夫仁者、己欲立而立人、己欲達而達人。能近取譬、可謂仁之方也已。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 6, passage 30"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.06.30.en.muller",
+          "language": "en",
+          "text": "Zi Gong asked: “Suppose there were a ruler who benefited the people far and wide and was capable of bringing salvation to the multitude, what would you think of him? Might he be called humane?” The Master said, “Why only humane? He would undoubtedly be a sage. Even Yao and Shun would have had to strive to achieve this. Now the ren man, wishing himself to be established, sees that others are established, and, wishing himself to be successful, sees that others are successful. To be able to take one's own feelings as a guide may be called the art of ren.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 6, passage 30"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    }
+  ]
+}

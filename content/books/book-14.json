@@ -1,0 +1,1558 @@
+{
+  "schemaVersion": 1,
+  "book": {
+    "id": "analects.book.14",
+    "number": 14,
+    "title": {
+      "chinese": "憲問",
+      "pinyin": "Xian wen"
+    }
+  },
+  "passages": [
+    {
+      "id": "analects.14.01",
+      "number": 1,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "憲問恥。子曰。邦有道穀、邦無道穀。恥也。克、伐、怨、欲、不行焉、可以爲仁矣。子曰。可以爲難矣、仁則吾不知也。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 14, passage 1"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.14.01.en.muller",
+          "language": "en",
+          "text": "Xian asked about what is shameful. Confucius said, “When the Way prevails in your state, to be concerned about your salary is shameful. When the Way is absent in your state, to be concerned about your salary is shameful.” Xian asked: “When one is not motivated by arrogance, pride, resentment and desire, can be he considered humane?” Confucius said, “This can certainly be called ‘difficult,’ but I don't know if it can be called ren.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, passage 1"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.14.02",
+      "number": 2,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。士而懷居、不足以爲士矣。。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 14, passage 2"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.14.02.en.muller",
+          "language": "en",
+          "text": "The Master said: “A shi who is addicted to comfort should not be called a shi.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, passage 2"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.14.03",
+      "number": 3,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。邦有道、危言、危行。邦無道、危行、言孫。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 14, passage 3"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.14.03.en.muller",
+          "language": "en",
+          "text": "The Master said: “When the government is just, you may speak boldly and act boldly; when you have an unjust government, you may act boldly, but be careful of what you say.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, passage 3"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.14.04",
+      "number": 4,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。有德者必有言。有言者不必有德。仁者必有勇。勇者不必有仁。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 14, passage 4"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.14.04.en.muller",
+          "language": "en",
+          "text": "The Master said: “The virtuous will certainly have something to say, but those who have something to say are not necessarily virtuous. The ren man is always brave, but the brave man is not necessarily possessed of ren.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, passage 4"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.14.05",
+      "number": 5,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "南宮适問於孔子曰。羿善射奡盪舟倶不得其死．然．禹稷躬稼而有天下夫子不答。南宮适出、子曰。君子哉若人 尚德哉若人 。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 14, passage 5"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.14.05.en.muller",
+          "language": "en",
+          "text": "Nan Gongguo said to Confucius: “Yi was skillful at archery and Ao shook a whole ship but neither died a natural death. You and Ji did their own farming and ended up as emperors.” Confucius didn't answer. When Nan Gongguo left, Confucius said, “Here is a noble man, a man of enhanced virtue.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, passage 5"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.14.05.muller.note.36",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "Yi and Ao are ancient legendary figures famous for their superhuman feats.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, passage 5, footnote note-14-36"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.14.07",
+      "number": 7,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰、君子而不仁者有矣夫、未有小人而仁者也。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 14, passage 7"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.14.07.en.muller",
+          "language": "en",
+          "text": "The Master said: “There are some cases where a noble man may not be a perfectly humane man, but there are no cases where an inferior man is a perfectly humane man.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, passage 7"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.14.08",
+      "number": 8,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰、愛之能勿勞乎、忠焉能勿誨乎。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 14, passage 8"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.14.08.en.muller",
+          "language": "en",
+          "text": "The Master said: “Can you love someone without exerting yourself for them? Can you be sincere to someone without teaching them?”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, passage 8"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.14.11",
+      "number": 11,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰、貧而無怨難、富而無驕易。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 14, passage 11"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.14.11.en.muller",
+          "language": "en",
+          "text": "The Master said: “To be poor without resentment is difficult. To be rich without arrogance is easy.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, passage 11"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.14.12",
+      "number": 12,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子路問成人、子曰、若臧武仲之知、公綽之不欲、卞莊子之勇、冉求之藝、文之以禮樂、亦可以爲成人矣、曰、今之成人者、何必然、見利思義、見危授命、久要不忘平生之言、亦可以爲成人矣。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 14, passage 12"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.14.12.en.muller",
+          "language": "en",
+          "text": "Zi Lu asked what constitutes a “perfected man.” Confucius said: “If you have the wisdom of Zang Wu Zhong, the desirelessness of Gong Chuo, the courage of Bian Zhuang Zi and the abilities of Zan Qiu, and are also refined through propriety and music, you might indeed be called a ‘perfected man.’ But if you want to perfect yourself right now, why would you need all of that? When you see an opportunity for advantage, think of what would be the right thing to do. Encountering danger, leave it up to destiny. When you can stay in difficulty for a long time, and not forget the words that have you have lived by, you can be regarded as a ‘perfected man.’”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, passage 12"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.14.12.muller.note.37",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "Translators and interpreters of the Analects are divided into the group that takes 久要 as “an old promise” and those who take it as “enduring difficulty” with a slightly greater number preferring the former interpretation. However, we feel that this interpretation accords more closely with the thought of Confucius. See, for example, Analects 4:2: 不仁者、不可以久處約. Furthermore, the logograph 久 is not commonly used to represent something “old” or “former” (古, 故, 昔). Rather, it means to maintain an activity over a long period of time. Confusion on the part of modern interpreters may be influenced by the homophony of 久 and 舊.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, passage 12, footnote note-14-37"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.14.13",
+      "number": 13,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子問公叔文子於公明賈、曰。信乎。夫子不言不笑不取乎。公明賈對曰。以吿者過也 夫子時然後言、人不厭其言。樂然後笑、人不厭其笑。義然後取、人不厭其取。子曰。其然 豈其然乎。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 14, passage 13"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.14.13.en.muller",
+          "language": "en",
+          "text": "The Master asked Gong Mingjia about Gongshu Wen Zi: “Is it true that your master doesn't speak, doesn't laugh and doesn't accept anything?” Gong Mingjia replied, “This is an exaggeration. My master speaks when it is appropriate, and people never get tired of his words. He laughs when he is happy, and people never tire of his laughter. He takes when it is right to do so, and people never get tired of his taking.” Confucius said, “Is this so? Is it really so!?”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, printed label 14:14 (mapped to passage 13)"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.14.15",
+      "number": 15,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。晉文公譎而不正。齊桓公正而不譎。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 14, passage 15"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.14.15.en.muller",
+          "language": "en",
+          "text": "The Master said: Duke Wen of Jin was devious, and not upright. Duke Huan of Qi was upright, and not devious.",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, passage 15"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.14.15.muller.note.38",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "晉文公: Jìn Wen Gong. (Reign 637-628 BCE) Duke Wen of Jin 晉. The second of the Five Hegemons 五覇 of the Spring and Autumn period 春秋時代. The second son of Duke Xian 獻公, he went into exile for 19 years to avoid the plots of his mother-in-law Concubine Li 驪姫. As duke, with the assistance of able ministers as Zhao Cui 趙衰 and Gu Yan 狐偃, he established the supremacy of Jin as the leader of the states in central China to oppose Chu 楚. Also called 晉文 and often paired with Duke Huan 桓公 of Qi 齊 as 齊桓晉文.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, passage 15, footnote note-14-38"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        },
+        {
+          "id": "analects.14.15.muller.note.39",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "齊桓公: Qi Huan Gong. Duke Huan of Qi 齊, who died in 643 BCE. He was one of the “five hegemons” 五霸 who held power in the 7th century. Younger brother of Xiang Gong 襄公, first name Xiao Bai 小白, also known as Huan 桓. Since his older brother Xiang Gong was in the business of assassinating those around him, the younger brothers escaped to neighboring states, with Huan taking refuge in Ju 莒. When Xiang Gong was assassinated by his people, he was invited to return, and take up the throne. At the recommendation of Bao Shuya 鞄叔牙 he took the clever Guan Zhong 管仲 as his prime minister. Respecting the royal house of Zhou 周室, he vanquished Yi Qiu 夷秋, and assembling all the nobles, unified the realm. 論語, 憲問",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, passage 15, footnote note-14-39"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.14.16",
+      "number": 16,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子路曰。桓公殺公子糾、召忽死之、管仲不死。曰。未仁乎。 子曰。桓公九合諸侯、不以兵車、管仲之力也。如其仁 如其仁 。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 14, passage 16"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.14.16.en.muller",
+          "language": "en",
+          "text": "Zi Lu said, “When Huan Gong assassinated Gongzi Jiu, Zhao Hu followed him to his death, but Guan Zhong did not. He had not fully developed his Humaneness, had he?” The Master said: “When Huan Gong unified the nobles, it was not through military force, but by the efforts of Guan Zhong. How about this level of Humaneness?”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, passage 16"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.14.16.muller.note.40",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "公子糾:Gong Zijiu. A man of Qi 齊 during the Spring and Autumn period. Young brother of Xiang Gong 襄公. When Xiang began executing those around him, the younger brothers escaped from the country, with Jiu 糾 going to Lu 魯 and Xiao Bai 小白 going to Ju 莒. When Xiang was assassinated by his people, Xiao Bai was asked to return to take the throne, and Lu raised a force and sent Jiu away, allowing Xiao Bai to arrive to Qi first and take the throne as Huan Gong 桓公. In the end, the people of Lu killed Zi Jiu in Shengdu 笙瀆. In Analects 14:16, Confucius seems to be saying that he was killed by his older brother Huang Gong. 左氏、荘、八",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, passage 16, footnote note-14-40"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        },
+        {
+          "id": "analects.14.16.muller.note.41",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "召忽: Zhao Hu. A grandmaster of Qi 齊 during the Spring and Autumn period 春秋時代, a colleague of Guan Zhong 管仲. He was originally loyal to the older brother of Duke Huan 桓公, so when his lord was assassinated by Huan, he took his own life as well. 論語, 憲問 (DDB)",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, passage 16, footnote note-14-41"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        },
+        {
+          "id": "analects.14.16.muller.note.42",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "See note on 3:22 for bio of Guan Zhong.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, passage 16, footnote note-14-42"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.14.17",
+      "number": 17,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子貢曰。管仲非仁者與桓公殺公子糾、不能死、又相之。 子曰。管仲相桓公、霸諸侯、一匡天下。民到于今受其賜。微管仲、吾其被髮左衽矣。豈若匹夫匹婦之爲諒也、自經於溝瀆、而莫之知也 。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 14, passage 17"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.14.17.en.muller",
+          "language": "en",
+          "text": "Zi Gong said: “Guan Zhong was not a truly good man; when Huan Gong executed [his own brother] Gong Zi Jiu, he was not only incapable of dying along with his lord — he became Huan's minister.” Confucius said: “When Guan Zhong served Huan Gong as minister, he made him leader of the nobles and straightened out the disorder in the realm. The people are benefiting from this down to the present day. If not for Guan Zhong, we would all be like unkempt barbarians, wearing our hair over our faces and fastening our clothes on the left. Shall we exercise the sincerity of simple people, who would hang themselves to death in a ditch, with no one knowing about it? ”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, passage 17"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.14.17.muller.note.43",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "左衽: Fastening one's garment on the left side; a style of the nomadic tribes on the fringes of China. The Chinese (as well as Koreans and Japanese) fastened their garments on the right side. 微管仲､吾其被髪左衽矣論語, 憲問 [左袵]",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, passage 17, footnote note-14-43"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.14.18",
+      "number": 18,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "公叔文子之臣大夫僎、與文子同升諸公。子聞之曰。可以爲文』 矣。。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 14, passage 18"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.14.18.en.muller",
+          "language": "en",
+          "text": "The minister Zhuan of Gongshu Wenzi rose to the rank of court officer together with Wenzi. When the Master heard of it he said: “He certainly deserved the appellation of ‘refined.’!”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, passage 18"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.14.19",
+      "number": 19,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子言衞靈公之無道也、康子曰。夫如是、奚而不喪 孔子曰。仲叔圉治賓客、祝鮀治宗廟、王孫賈治軍旅。夫如是、奚其喪 。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 14, passage 19"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.14.19.en.muller",
+          "language": "en",
+          "text": "Confucius was speaking about the evils of Duke Ling of Wei. Kang Zi said, “If he is such a person, how can he stay in power?” Confucius said, “Zhongshu You takes care of his (Kang Zi's) guests; preacher Tuo handles the temples and Wang Sunjia is his military commander. With ministers like these, how could he fall from power?”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, passage 19"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.14.20",
+      "number": 20,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。其言之不怍、則爲之也難 。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 14, passage 20"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.14.20.en.muller",
+          "language": "en",
+          "text": "The Master said: “If your words are not humble, it will be difficult to put them into action.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, passage 20"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.14.21",
+      "number": 21,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "陳成子弒簡公。孔子沐浴而朝、吿於哀公曰。陳恆弒其君、請討之。公曰。吿夫三子。 孔子曰。以吾從大夫之後、不敢不吿也 君曰。吿夫三子。』 者 之三子吿、不可。孔子曰。以吾從大夫子後、不敢不吿也 。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 14, passage 21"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.14.21.en.muller",
+          "language": "en",
+          "text": "陳成子 murdered 簡公. Confucius bathed and went to court, reporting on the incident to Duke Ai, saying: “Chen Heng has murdered his lord; I request that you chastise him. ” The Duke replied: “Report it to the chiefs of the three families. ” Confucius said: “Since I following in the rear of the grandmasters, I have no recourse but to report. My ruler has said, ‘Report it to the chiefs of the three families’ and the three chiefs have said that there is nothing that can be done.” Confucius said: “Since I follow in the rear of the grandmasters, I had no recourse but to report.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, passage 21"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.14.22",
+      "number": 22,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子路問事君。子曰。勿欺也、而犯之。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 14, passage 22"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.14.22.en.muller",
+          "language": "en",
+          "text": "Zi Lu asked how to deal with a ruler. Confucius said, “If you have to oppose him, don't do it by deceit.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, passage 22"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.14.23",
+      "number": 23,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。君子上達。小人下達。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 14, passage 23"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.14.23.en.muller",
+          "language": "en",
+          "text": "The Master said: “The noble man penetrates that which is above. The inferior man penetrates that which is below.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, passage 23"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.14.24",
+      "number": 24,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。古之學者爲己。今之學者爲人。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 14, passage 24"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.14.24.en.muller",
+          "language": "en",
+          "text": "The Master said: “The ancient scholars studied for their own improvement. Modern scholars study to impress others.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, passage 24"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.14.25",
+      "number": 25,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "蘧伯玉使人於孔子。孔子與之坐、而問焉。曰。夫子何爲 對曰。夫子欲寡其過而未能也。 使者出。子曰。使乎。使乎。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 14, passage 25"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.14.25.en.muller",
+          "language": "en",
+          "text": "Qu Baoyu sent a messenger to Confucius. Confucius sat down with him and asked him, saying: “What is your master like? ” The messenger replied: “My master wants to decrease his faults, but is not able to do so.” The messenger left, and Confucius said: “What a messenger! What a messenger!”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, passage 25"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.14.26",
+      "number": 26,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。不在其位、不謀其政。曾子曰。君子思不出其位。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 14, passage 26"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.14.26.en.muller",
+          "language": "en",
+          "text": "The Master said: “If you don't have an official position, you should not make plans for administration.” Ceng Zi said: “The noble man doesn't worry about those things which are outside of his control.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, passage 26"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.14.27",
+      "number": 27,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。君子恥其言而過其行。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 14, passage 27"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.14.27.en.muller",
+          "language": "en",
+          "text": "The Master said: “The noble man is humble in his speech but superb in his actions.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, passage 27"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.14.28",
+      "number": 28,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。君子道者三、我無能焉。仁者不憂。知者不惑。勇者不懼。子貢曰。夫子自道也 。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 14, passage 28"
+        }
+      },
+      "translations": [],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.14.29",
+      "number": 29,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子貢方人。子曰。賜也、賢乎哉。夫我則不暇 。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 14, passage 29"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.14.29.en.muller",
+          "language": "en",
+          "text": "Zi Gong was correcting people. Confucius said, “Si (Zi Gong) must be quite talented! I have no spare time to do this.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, passage 29"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.14.30",
+      "number": 30,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。不患人之不己知、患其不能也。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 14, passage 30"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.14.30.en.muller",
+          "language": "en",
+          "text": "The Master said: “I don't worry about being unknown. I worry about my lack of ability.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, passage 30"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.14.31",
+      "number": 31,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。不逆詐』 、不億不信』 。抑亦先覺者、是賢乎。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 14, passage 31"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.14.31.en.muller",
+          "language": "en",
+          "text": "The Master said: “If you don't try to anticipate deception, and you don't plan for your not being believed, yet are the first to be aware of these things, aren't you a worthy?”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, passage 31"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.14.32",
+      "number": 32,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "微生畝謂孔子曰。丘何爲是栖栖者與。無乃爲侫乎。孔子曰。非敢爲侫也、疾固也。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 14, passage 32"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.14.32.en.muller",
+          "language": "en",
+          "text": "Weisheng Mou said to Confucius: “Why are you so busy running around from place to place? Is it not that you be a flatterer?” Confucius said, “I wouldn't dare practice flattery, it is just that I despise stubbornness.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, passage 32"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.14.33",
+      "number": 33,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。驥不稱其力、稱其德也。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 14, passage 33"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.14.33.en.muller",
+          "language": "en",
+          "text": "The Master said: “A really excellent horse is called such not simply because of its physical strength, but because of its character.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, passage 33"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.14.33.muller.note.44",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "The dictionaries gloss 驥 as “a horse that can run a thousand li in a single day.” Arthur Waley departs from the other translators by taking it to be the name of a great horse of antiquity. This seems to be to make sense, but he does not provide textual support for this interpretation, and we have not been able to locate it ourselves. It is not clear why Confucius is quoted as having said this here, but perhaps he would like to imply that even an animal has this kind of inner fortitude and dedication, so how much more in the case of human beings?",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, passage 33, footnote note-14-44"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.14.34",
+      "number": 34,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "或曰。以德報怨、何如。子曰。何以報德 以直報怨、以德報德。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 14, passage 34"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.14.34.en.muller",
+          "language": "en",
+          "text": "Someone said: “What do you think of the saying: ‘Repay harm with virtue’?” Confucius replied, “Then how will you repay virtue? Repay harm with Justice and repay virtue with virtue.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, passage 34"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.14.34.muller.note.45",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "Also translated elsewhere, by context, as “rightness.”",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, passage 34, footnote note-14-45"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.14.35",
+      "number": 35,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。莫我知也夫 子貢曰。何爲其莫知子也。 子曰。不怨天、不尤人。下學而上達。知我者、其天乎。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 14, passage 35"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.14.35.en.muller",
+          "language": "en",
+          "text": "The Master said: “Aah! No one understands me!” Zi Gong said, “What do you mean, ‘No one understands you’?” Confucius said, “I have no resentment against Heaven, no quarrel with men. I study from the bottom and penetrate to the top. Who understands me? Heaven does!”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, passage 35"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.14.36",
+      "number": 36,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "公伯寮愬子路於季孫、子服景伯以吿、曰。夫子固有惑志於公伯寮、吾力猶能肆諸市朝。子曰。道之將行也與 命也。道之將廢也與 命也。公伯寮其如命何 。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 14, passage 36"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.14.36.en.muller",
+          "language": "en",
+          "text": "Gong Boliao had said bad things about Zi Lu to Lisun. Zifu Jingbo told Confucius about it, saying: “Lisun (Jingbo's teacher) is certainly being deceived by Gong Boliao. But I have enough power to drag his carcass out into the middle of the marketplace.” Confucius said, “It is up to fate as to when the Way is going to function, and when it isn't. What can Gong Boliao do about fate?”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, passage 36"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.14.37",
+      "number": 37,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。賢者辟世、其次辟地、其次辟色、其次辟言。子曰。作者七人矣。。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 14, passage 37"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.14.37.en.muller",
+          "language": "en",
+          "text": "The Master said: “A worthy becomes free of the world, then he becomes free of his land; then he becomes free from lust; then he becomes free from language.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, passage 37"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.14.38",
+      "number": 38,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。賢者辟世、其次辟地、其次辟色、其次辟言。子曰。作者七人矣。。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 14, printed label 14-37 (mapped to passage 38)"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.14.38.en.muller",
+          "language": "en",
+          "text": "The Master said: “The worthy avoid society; next, they avoid service to a particular state; next, they leave when confronted with a disrespectful attitude; next, they leave to avoid abusive words. There were seven who did this. ” Comment: This passage is one that reflects some overlap between “Confucian” and “Daoist” values. Normally Confucianism is understood as a tradition where one must remain engaged in society. However, in this case, Confucius' attitude is reminiscent of that of Zhuangzi, who always recommended that intelligent people not accept the norms of a decadent world, and retire in solitude instead.",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, passage 38"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.14.39",
+      "number": 39,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子路宿於石門。晨門曰。奚自 子路曰。自孔氏。曰。是知其不可而爲之者與 。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 14, printed label 14-38 (mapped to passage 39)"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.14.39.en.muller",
+          "language": "en",
+          "text": "Zi Lu was staying at outer stone gate (of the capital Qufu), the morning guard said, where are you from? Zi Lu answered: “I came from the place where Confucius is staying.” The guard said, “Aah, the one who tries to do what can't be done.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, printed label 14:38 (mapped to passage 39)"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.14.40",
+      "number": 40,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子撃磬於衞。有荷蕢而過孔氏之門者、曰。有心哉、撃磬乎。旣而曰。鄙哉、硜硜乎。莫己知也、斯已而已矣。深則厲、淺則揭。』 子曰。果哉。末之難矣。。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 14, printed label 14-39 (mapped to passage 40)"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.14.40.en.muller",
+          "language": "en",
+          "text": "Confucius was playing the jade chimes when in Wei. A man who passed by Confucius' door carrying a bucket, said “You really are determined — I can hear your playing of the chimes!” After a bit, he said, “How stubborn you are, playing like this! If no one understands, just stop!” “When the water is deep, just plunge in. When it's shallow, raise your skirt.” Confucius said: “That would be decisive — and not difficult!”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, printed label 14:39 (mapped to passage 40)"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.14.41",
+      "number": 41,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子張曰。書云：高宗諒陰三年不言』 何謂也 子曰。何必高宗 古之人皆然。君薨、百官總己以聽於僴宰、三年。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 14, printed label 14-40 (mapped to passage 41)"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.14.41.en.muller",
+          "language": "en",
+          "text": "Zi Zhang said: The Book of History says: “Gaozong stayed in mourning for three years without speaking.” Why did he do this? Confucius said: “It need not be Gaozong. The ancients were all like this. After the ruler died, all of the officials took orders from the Minister of State for three years.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, printed label 14:40 (mapped to passage 41)"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.14.42",
+      "number": 42,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。上好禮、則民易使也。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 14, printed label 14-41 (mapped to passage 42)"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.14.42.en.muller",
+          "language": "en",
+          "text": "The Master said: “If those in power love propriety, the people will be easy to manage.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, printed label 14:41 (mapped to passage 42)"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.14.43",
+      "number": 43,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子路問君子。子曰。脩己以敬。曰。如斯而已乎。曰。脩己以安人。曰。如斯而已乎。曰。脩己以安百姓。脩己以安百姓、堯舜其猶病諸。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 14, printed label 14-42 (mapped to passage 43)"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.14.43.en.muller",
+          "language": "en",
+          "text": "Zi Lu asked about the qualities of the noble man. Confucius said, “He cultivates himself by comforting others.” “Is that all?” “He cultivates himself by comforting everyone. Now, this is something that even Yao and Shun found difficult.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, printed label 14:42 (mapped to passage 43)"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.14.44",
+      "number": 44,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "原壤夷俟。子曰。幼而不孫弟、長而無述焉、老而不死、是爲賊。以杖叩其脛。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 14, printed label 14-43 (mapped to passage 44)"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.14.44.en.muller",
+          "language": "en",
+          "text": "Yuanrang was waiting for the Master in a sprawled-out position. Confucius said, “To be young and not act like a junior; to be mature and have nothing to pass on; to get old and not die: a parasite!” He whacked him on the shins with his staff.",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, printed label 14:43 (mapped to passage 44)"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.14.45",
+      "number": 45,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "闕黨童子將命。或問之曰。益者與 子曰。吾見其居於位也、見其與先生竝行也。非求益者也、欲速成者也。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 14, printed label 14-44 (mapped to passage 45)"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.14.45.en.muller",
+          "language": "en",
+          "text": "A boy from the village of Que was working as a messenger. Someone asked Confucius, “Is he developing?” Confucius said, “I can see that he likes to sit in grown-up's places, and likes to be buddies with his elders. But he is not seeking to develop himself. He wants to grow up too quickly.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 14, printed label 14:44 (mapped to passage 45)"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    }
+  ]
+}
