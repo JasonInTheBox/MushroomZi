@@ -35,8 +35,17 @@ export default function HomePage() {
                   <li key={passage.id} className="flex justify-between gap-4">
                     <span>Passage {passage.number}</span>
                     <span className="flex gap-4">
-                      <Link href={`/en/passage/${passage.id}`}>English</Link>
-                      <Link href={`/zh/passage/${passage.id}`} lang="zh-Hant">
+                      <Link
+                        href={`/en/passage/${passage.id}`}
+                        aria-label={`Read Book ${book.number}, passage ${passage.number} in English`}
+                      >
+                        English
+                      </Link>
+                      <Link
+                        href={`/zh/passage/${passage.id}`}
+                        lang="zh-Hant"
+                        aria-label={`閱讀第 ${book.number} 篇，第 ${passage.number} 章句（中文）`}
+                      >
                         中文
                       </Link>
                     </span>
