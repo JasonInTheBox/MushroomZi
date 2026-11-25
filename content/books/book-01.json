@@ -39,12 +39,41 @@
             "citation": "Book 1, passage 1"
           },
           "rights": {
-            "reuseStatus": "unverified",
-            "license": null
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
           }
         }
       ],
-      "commentary": [],
+      "commentary": [
+        {
+          "id": "analects.01.01.explanation.en.generated",
+          "kind": "project_explanation",
+          "language": "en",
+          "text": "One reading is that learning takes root through practice, while friendship brings its own joy. The final line shifts attention from public recognition toward a person's steadiness.",
+          "author": "Mushroom Zi (AI-generated)"
+        },
+        {
+          "id": "analects.01.01.explanation.zh-hant.generated",
+          "kind": "project_explanation",
+          "language": "zh-Hant",
+          "text": "一種讀法是，學習透過反覆實踐逐漸扎根，而朋友遠道而來也自有其樂。末句則把焦點從他人的認可，轉向一個人能否保持內心安定。",
+          "author": "Mushroom Zi (AI-generated)"
+        },
+        {
+          "id": "analects.01.01.application.en.generated",
+          "kind": "modern_application",
+          "language": "en",
+          "text": "Choose one idea you are learning and put it into practice this week. If your effort goes unnoticed, ask whether it still reflects the person you want to become.",
+          "author": "Mushroom Zi (AI-generated)"
+        },
+        {
+          "id": "analects.01.01.application.zh-hant.generated",
+          "kind": "modern_application",
+          "language": "zh-Hant",
+          "text": "這週選一個正在學的想法，試著付諸實踐。若努力沒有被看見，可以想想：它是否仍符合你希望成為的那種人？",
+          "author": "Mushroom Zi (AI-generated)"
+        }
+      ],
       "themes": ["learning", "practice"]
     },
     {
@@ -65,7 +94,7 @@
         {
           "id": "analects.01.02.en.muller",
           "language": "en",
-          "text": "You Zi said: “There are few who have developed themselves filially and fraternally who enjoy offending their superiors. Those who do not enjoy offending superiors are never troublemakers. The noble man concerns himself with the fundamentals. Once the fundamentals are established, the proper way appears. Are not filial piety and obedience to elders fundamental to the actualization of fundamental human goodness?",
+          "text": "You Zi said: “There are few who have developed themselves filially and fraternally who enjoy offending their superiors. Those who do not enjoy offending superiors are never troublemakers. The noble man concerns himself with the fundamentals. Once the fundamentals are established, the proper way appears. Are not filial piety and obedience to elders fundamental to the actualization of fundamental human goodness?”",
           "translator": "A. Charles Muller",
           "source": {
             "title": "The Analects",
@@ -73,12 +102,41 @@
             "citation": "Book 1, passage 2"
           },
           "rights": {
-            "reuseStatus": "unverified",
-            "license": null
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
           }
         }
       ],
-      "commentary": [],
+      "commentary": [
+        {
+          "id": "analects.01.02.explanation.en.generated",
+          "kind": "project_explanation",
+          "language": "en",
+          "text": "One reading is that You Zi presents family relationships as a starting point for wider ethical life. The passage connects self-cultivation and respect for elders with benevolence; this describes the text's argument without treating every inherited hierarchy as unquestionable.",
+          "author": "Mushroom Zi (AI-generated)"
+        },
+        {
+          "id": "analects.01.02.explanation.zh-hant.generated",
+          "kind": "project_explanation",
+          "language": "zh-Hant",
+          "text": "有一種讀法是，有子把家庭中的孝悌視為更廣泛倫理生活的起點。篇章將修身與敬長連結到仁的實踐；這是在呈現文本的論述，並非要把所有傳統階序視為理所當然。",
+          "author": "Mushroom Zi (AI-generated)"
+        },
+        {
+          "id": "analects.01.02.application.en.generated",
+          "kind": "modern_application",
+          "language": "en",
+          "text": "When facing a conflict, begin by examining the habits and responsibilities closest to home. In applying this idea today, respect should coexist with safety, equality, and the right to set boundaries.",
+          "author": "Mushroom Zi (AI-generated)"
+        },
+        {
+          "id": "analects.01.02.application.zh-hant.generated",
+          "kind": "modern_application",
+          "language": "zh-Hant",
+          "text": "遇到衝突時，可以先檢視日常生活中最親近的習慣與責任。把這個想法用於今天，也要讓尊重與安全、平等及設定界線的權利並存。",
+          "author": "Mushroom Zi (AI-generated)"
+        }
+      ],
       "themes": ["filial-piety", "benevolence", "self-cultivation"]
     }
   ]

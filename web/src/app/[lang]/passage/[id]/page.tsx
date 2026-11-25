@@ -23,11 +23,16 @@ export default async function PassagePage({
         notFound();
     }
 
-    const passage = getAllPassages().find((item) => item.id === id);
+    const passages = getAllPassages();
+    const passageIndex = passages.findIndex((item) => item.id === id);
+    const passage = passages[passageIndex];
 
     if (!passage) {
         notFound();
     }
+
+    const previousPassage = passages[passageIndex - 1];
+    const nextPassage = passages[passageIndex + 1];
 
     const englishTranslation = passage.translations.find(
         (translation) => translation.language === "en",
@@ -98,8 +103,25 @@ export default async function PassagePage({
                     <p lang="en" className="text-lg leading-relaxed">
                     {englishTranslation.text}
                     </p>
-                    <p className="mt-3 text-sm">
+                    <p lang="en" className="mt-3 text-sm">
                     {englishTranslation.translator}
+                    {" · "}
+                    {englishTranslation.source.url ? (
+                        <a
+                        className="underline"
+                        href={englishTranslation.source.url}
+                        target="_blank"
+                        rel="noreferrer"
+                        >
+                        {englishTranslation.source.title},{" "}
+                        {englishTranslation.source.citation}
+                        </a>
+                    ) : (
+                        <>
+                        {englishTranslation.source.title},{" "}
+                        {englishTranslation.source.citation}
+                        </>
+                    )}
                     </p>
                 </section>
                 )}
@@ -120,6 +142,33 @@ export default async function PassagePage({
                     </a>
                 )}
                 </footer>
+                <nav
+                    aria-label={lang === "en" ? "Passage navigation" : "章句導覽"}
+                    className="mt-12 flex justify-between gap-4 border-t pt-4"
+                >
+                    {previousPassage && (
+                        <Link
+                            href={`/${lang}/passage/${previousPassage.id}`}
+                            rel="prev"
+                            className="underline focus-visible:outline-2 focus-visible:outline-offset-4"
+                        >
+                            {lang === "en"
+                                ? `← Previous · Book ${previousPassage.book.number}, passage ${previousPassage.number}`
+                                : `← 前一章句 · 第 ${previousPassage.book.number} 篇，第 ${previousPassage.number} 章句`}
+                        </Link>
+                    )}
+                    {nextPassage && (
+                        <Link
+                            href={`/${lang}/passage/${nextPassage.id}`}
+                            rel="next"
+                            className="ml-auto underline focus-visible:outline-2 focus-visible:outline-offset-4"
+                        >
+                            {lang === "en"
+                                ? `Next · Book ${nextPassage.book.number}, passage ${nextPassage.number} →`
+                                : `下一章句 · 第 ${nextPassage.book.number} 篇，第 ${nextPassage.number} 章句 →`}
+                        </Link>
+                    )}
+                </nav>
             </article>
         </main>
     )

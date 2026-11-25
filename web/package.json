@@ -7,7 +7,8 @@
     "prebuild": "python ../scripts/validate_corpus.py",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test": "node --test"
   },
   "dependencies": {
     "next": "16.4.6",

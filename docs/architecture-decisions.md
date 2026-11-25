@@ -87,8 +87,8 @@ The review uses framework and provider documentation available on the date above
 
 | Topic | Risk or unresolved choice | Suggested timing |
 |---|---|---|
-| Translation rights | A translation that is easy to find is not automatically licensed for republication. Record the rights and source for each translation before publishing it. | While curating the first passages. |
-| Daily passage boundary | “Today” could mean the reader's local date or UTC. A browser-side selector is simple, but the expected date boundary should be explicit and tested around midnight and leap days. | Before implementing the daily passage. |
+| Translation rights | The user authorizes assuming reuse of the Muller translation when it is cited. Record this as user authorization, not an independently verified third-party license; do not extend it to other sources. | While curating additional translations. |
+| Daily passage boundary | UTC is the universal day boundary. The static homepage selects from its eligible corpus in browser code and refreshes at UTC midnight; the date-to-index rule is covered by tests. | Revisit only if the product explicitly adopts local-day personalization. |
 | Bilingual URLs | Decide stable locale paths and language-switch behavior. Static export favors explicit `/en/` and `/zh/` pages over request-time locale redirects. | Before passage routes and SEO metadata. |
 | Search artifacts | Token tables and especially embeddings can make downloads larger. Keep source text separate from derived search data and measure asset size before shipping a larger model/index. | As search advances beyond keyword matching. |
 | Public AI endpoint | Browser code cannot keep provider keys secret or enforce a trustworthy per-user cost cap. A future endpoint needs a separate runtime, abuse controls, and a verified budget. | Before any LLM integration. |
@@ -97,8 +97,8 @@ The review uses framework and provider documentation available on the date above
 
 1. Draft and review the content record shape using one properly sourced passage.
 2. Select a stable passage-ID convention and record a small verified corpus with translation rights/provenance.
-3. Create the frontend project and generate one direct passage route in both English and Chinese as static HTML.
-4. Add book/passage navigation and the deterministic daily selector.
+3. Create the frontend and generate static passage routes in both English and Chinese (implemented).
+4. Add book/passage navigation and the UTC daily passage with attributed translations and clearly labeled generated commentary (implemented).
 5. Review responsive layout, keyboard access, reduced motion, and the initial SEO metadata before expanding the corpus.
 
 Step 1 comes first so the data model and provenance are settled before framework setup locks in a data shape.
@@ -190,13 +190,28 @@ This is a proposal, not a required layout. Keep the first implementation small a
 | ID | Topic | Status | Current position | Revisit when |
 |---|---|---|---|---|
 | A-001 | Initial content source | Selected | One JSON file per book in `content/books/`, validated against `content/schema/*.schema.json` by `scripts/validate_corpus.py`. `npm run build` runs the validator first (`prebuild`). | Long-form commentary becomes awkward to author in JSON. |
-| A-002 | Frontend framework | Selected | Next.js + React + TypeScript + Tailwind (via `@tailwindcss/postcss`) with static export. Two root layouts: `(home)` for `/` and `[lang]` for `/en/...` and `/zh/...`, so `<html lang>` matches each page. TS types in `web/src/lib/content.ts` are hand-written and cover only the fields pages read. | Pages start reading commentary or themes (then consider generating types from the schema). |
+| A-002 | Frontend framework | Selected | Next.js + React + TypeScript + Tailwind (via `@tailwindcss/postcss`) with static export. Two root layouts: `(home)` for `/` and `[lang]` for `/en/...` and `/zh/...`, so `<html lang>` matches each page. Types in `web/src/lib/content.ts` are hand-written and cover the fields pages read, including generated commentary. | Schema changes become frequent enough to justify generated types. |
 | A-003 | Python runtime | Recommended | No production Python server at launch. Use local scripts for preprocessing; evaluate FastAPI for a future narrow API, Django if a database-backed editorial/account product is justified. | A feature requires live server-side processing. |
 | A-004 | Database | Deferred | No hosted database for the initial release; use local or version-controlled data until persistence needs are concrete. | User accounts, edits, or dynamic data become necessary. |
 | A-005 | Static hosting | Recommended | Cloudflare Pages is the current static-host candidate; GitHub Pages is an alternative for a public repository. Recheck price, plan terms, and limits before deploy. | Before first public deployment. |
 | A-006 | AI/model provider | Deferred | No provider selected. Verify current price, rate/cost caps, key handling, privacy terms, and failure behavior when AI integration is evaluated. | Grounded LLM integration milestone. |
-| A-007 | Initial Analects research reference | Selected for research | Use [A. Charles Muller's Analects page](http://www.acmuller.net/con-dao/analects.html) as the initial working reference. This does not establish permission to republish its translation; record attribution and verify reuse rights before publication. The page could not be fetched during this review, so its license status remains unverified. | Before adding translated text to the public corpus. |
-| A-008 | Rights-based publishing gate | Selected | Production builds render only translations whose `rights.reuseStatus` is `public_domain` or `licensed` (`isPublishable` in `web/src/lib/content.ts`); `next dev` shows all translations for review. The validator rejects placeholder text (`...`, `todo`) in originals, translations, and commentary. | Commentary or other third-party text gains its own rights field. |
+| A-007 | Initial Analects research reference | Selected; reuse assumed with citation | Use [A. Charles Muller's Analects page](http://www.acmuller.net/con-dao/analects.html) as the initial working reference. The tracked root snapshot is `Analects of Confucius 論語.html`; it links to this source but contains no clear license statement. Per user instruction, assume reuse is permitted when translator, source, and passage citation are shown; record that as user authorization, not an independently verified third-party license. | When adding sources beyond this translation. |
+| A-008 | Rights-based publishing gate | Selected | Production builds render only translations whose `rights.reuseStatus` is `public_domain` or `licensed` (`isPublishable` in `web/src/lib/content.ts`); the two seeded Muller entries are `licensed` on the user-authorized attribution basis, with translator, source link, and passage citation shown on the page. Other translations still need their own documented rights basis. The validator rejects placeholder text (`...`, `todo`) in originals, translations, and commentary. | Commentary or other third-party text gains its own rights field. |
+| A-009 | Daily passage and generated commentary | Selected | Select eligible passages by UTC epoch day in existing corpus order; refresh the client card at the next UTC midnight. Eligibility requires the published English translation and `project_explanation` plus `modern_application` in English and Traditional Chinese. Store the commentary as generated project content and label it clearly as AI-generated, not scholarship. No model call is made at runtime. | Revisit if local-day personalization or runtime generation becomes a product requirement. |
+
+## Next-stack proposal — pending user choice
+
+Reviewed against official documentation on 2026-11-24 (UTC); this remains a proposal until the user selects a path.
+
+Keep the current Next.js + TypeScript + Tailwind static reader and the JSON-per-book corpus. Next.js static export creates HTML per known route, but does not support features that need request-time server behavior ([static export guide](https://nextjs.org/docs/app/guides/static-exports)). Keep Python local for validation, tokenization, search experiments, and evaluation.
+
+| Path | Proposed stack | Trade-off |
+|---|---|---|
+| **A. Local-first (recommended)** | Existing static reader + JSON/JSON Schema + local Python; build a small tokenizer, TF-IDF, cosine ranking, and a hand-checked evaluation set before adding ML packages. Then compare the baseline with `scikit-learn`'s [`TfidfVectorizer`](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html). | Lowest infrastructure and cost; no live AI endpoint. Its documented default token pattern is word-oriented, so Chinese search will need an evaluated character n-gram or custom-tokenizer path. |
+| **B. Small live search API** | Keep the frontend; add FastAPI for request validation and search endpoints, plus SQLite FTS5 for a small local keyword index ([FastAPI](https://fastapi.tiangolo.com/tutorial/first-steps/), [SQLite FTS5](https://www.sqlite.org/fts5.html)). | Enables live queries, but introduces a Python runtime and API deployment. Keep the corpus JSON as the editorial source of truth. |
+| **C. Retrieval backend later** | FastAPI + PostgreSQL full-text search; add pgvector only after evaluation shows embeddings improve retrieval ([PostgreSQL text search](https://www.postgresql.org/docs/current/textsearch.html), [pgvector](https://github.com/pgvector/pgvector)). | Supports combined lexical/vector search and mutable data, with more deployment and operations work. Any hosting choice must first fit the project's $20/year ceiling. |
+
+Do not choose a model provider or hosting provider yet. Recheck current pricing, limits, and terms when a server-backed feature is selected. These are proposals, not recorded architecture decisions.
 
 ## Learning and delivery sequence
 
@@ -204,8 +219,8 @@ The detailed project roadmap should be updated as milestones are completed. Init
 
 1. Compare architecture options and record decisions.
 2. Set up the repository and design a provenance-aware content schema.
-3. Curate a small verified passage collection.
-4. Build the reading experience, navigation, daily passage, and accessibility foundations.
+3. Curate a small passage collection; the seeded Muller translations use the user-authorized attribution basis.
+4. Build the reading experience, navigation, and UTC daily passage with attributed translations and clearly labeled generated commentary (implemented).
 5. Establish the Python learning environment and text preprocessing pipeline.
 6. Implement keyword search, tokenization, TF-IDF, cosine similarity, and an evaluation set.
 7. Progress to embeddings, multilingual and hybrid retrieval, reranking, and retrieval evaluation.
