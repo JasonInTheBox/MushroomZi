@@ -5,6 +5,7 @@ A bilingual reader for the *Analects*. See [`docs/product-specification.md`](doc
 | Path | Contents |
 |---|---|
 | `content/` | The corpus: one JSON file per book, plus JSON Schemas |
+| `Analects of Confucius 論語.html` | User-supplied source snapshot for provenance; not loaded by the site build |
 | `scripts/` | Python corpus validator and its tests |
 | `web/` | Next.js static site that renders the corpus |
 
@@ -31,5 +32,6 @@ Keep the virtual environment active when building: `npm run build` calls `python
 | `web/` | `npm run dev` | Local site at http://localhost:3000, including translations whose rights are unverified |
 | `web/` | `npm run build` | Validate, then export the static site to `web/out/` (only rights-cleared translations) |
 | `web/` | `npm run lint` | ESLint |
+| `web/` | `npm test` | Test UTC daily-passage selection |
 
 CI runs the tests, lint, and build on every push and pull request (`.github/workflows/ci.yml`).

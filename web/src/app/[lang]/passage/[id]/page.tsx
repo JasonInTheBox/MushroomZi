@@ -103,8 +103,25 @@ export default async function PassagePage({
                     <p lang="en" className="text-lg leading-relaxed">
                     {englishTranslation.text}
                     </p>
-                    <p className="mt-3 text-sm">
+                    <p lang="en" className="mt-3 text-sm">
                     {englishTranslation.translator}
+                    {" · "}
+                    {englishTranslation.source.url ? (
+                        <a
+                        className="underline"
+                        href={englishTranslation.source.url}
+                        target="_blank"
+                        rel="noreferrer"
+                        >
+                        {englishTranslation.source.title},{" "}
+                        {englishTranslation.source.citation}
+                        </a>
+                    ) : (
+                        <>
+                        {englishTranslation.source.title},{" "}
+                        {englishTranslation.source.citation}
+                        </>
+                    )}
                     </p>
                 </section>
                 )}

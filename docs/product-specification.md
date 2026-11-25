@@ -1,6 +1,6 @@
 # Mushroom Zi — Product Specification
 
-**Status:** The static reader has bilingual passage routes, a book-grouped catalog, and previous/next navigation. Translation reuse rights remain unverified, so production builds withhold those translations; commentary and the daily passage are still pending.
+**Status:** The static reader has bilingual passage routes, a book-grouped catalog, previous/next navigation, and a UTC-based daily passage with bilingual AI-generated explanation and modern application. Production builds include the two seeded English translations with attribution under the user-authorized reuse assumption.
 
 ## Product overview
 
@@ -22,7 +22,7 @@ The product has two goals:
 
 - The long-term corpus should cover all 20 books of the *Analects*.
 - Start with a small, carefully verified collection and expand it over time.
-- Use [A. Charles Muller's Analects page](http://www.acmuller.net/con-dao/analects.html) as the initial working reference when researching passages. Record precise source and translation attribution, and verify reuse rights before reproducing its translation in the public corpus.
+- Use [A. Charles Muller's Analects page](http://www.acmuller.net/con-dao/analects.html) as the initial working reference when researching passages. The user has instructed us to assume reuse is permitted when citation is provided; record that authorization basis and precise source attribution for each translation, without claiming an independently verified third-party license.
 - A passage may include:
   - Classical Chinese source text.
   - One or more English translations.
@@ -40,7 +40,7 @@ The product has two goals:
 
 ## Daily passage
 
-Provide a daily passage with the original text, translation, explanation, and a relatable modern application. The initial selection is deterministic and date-based and requires neither an AI API nor a database.
+Provide a daily passage with the original text, attributed English translation, explanation, and a relatable modern application. Select deterministically by UTC calendar day, cycle through passages in corpus order, and refresh at UTC midnight. Only passages with a publishable English translation and both generated commentary types in English and Traditional Chinese are eligible. This requires neither an AI API nor a database.
 
 ## Mushroom Zi companion
 

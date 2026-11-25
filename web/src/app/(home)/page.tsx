@@ -1,9 +1,41 @@
 import Link from "next/link";
 import { getAllPassages } from "@/lib/content";
+import DailyPassage from "@/components/daily-passage";
+
+// The static first render uses this timestamp; the client refreshes it on mount.
+const buildTimestamp = Date.now();
 
 export default function HomePage() {
   const passages = getAllPassages();
   const passagesByBook = new Map<number, typeof passages>();
+  const dailyPassages = passages.flatMap((passage) => {
+    const translation = passage.translations.find((item) => item.language === "en");
+    const explanation = {
+      en: passage.commentary.find((item) => item.kind === "project_explanation" && item.language === "en")?.text,
+      zhHant: passage.commentary.find((item) => item.kind === "project_explanation" && item.language === "zh-Hant")?.text,
+    };
+    const application = {
+      en: passage.commentary.find((item) => item.kind === "modern_application" && item.language === "en")?.text,
+      zhHant: passage.commentary.find((item) => item.kind === "modern_application" && item.language === "zh-Hant")?.text,
+    };
+
+    if (!translation || !explanation.en || !explanation.zhHant || !application.en || !application.zhHant) {
+      return [];
+    }
+
+    return [{
+      id: passage.id,
+      bookNumber: passage.book.number,
+      passageNumber: passage.number,
+      originalText: passage.original.text,
+      originalSource: passage.original.source,
+      translation,
+      commentary: {
+        explanation: { en: explanation.en, zhHant: explanation.zhHant },
+        application: { en: application.en, zhHant: application.zhHant },
+      },
+    }];
+  });
 
   for (const passage of passages) {
     const bookPassages = passagesByBook.get(passage.book.number) ?? [];
@@ -20,6 +52,8 @@ export default function HomePage() {
         Read the Analects <span aria-hidden="true">·</span>{" "}
         <span lang="zh-Hant">閱讀《論語》</span>
       </p>
+
+      <DailyPassage passages={dailyPassages} initialTimestamp={buildTimestamp} />
 
       <div className="space-y-8">
         {Array.from(passagesByBook.values(), (bookPassages) => {

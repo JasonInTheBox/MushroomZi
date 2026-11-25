@@ -28,6 +28,13 @@ type PassageData = {
       license?: string | null;
     };
   }>;
+  commentary: Array<{
+    id: string;
+    kind: "scholarly_interpretation" | "project_explanation" | "modern_application";
+    language: "en" | "zh-Hans" | "zh-Hant";
+    text: string;
+    author: string;
+  }>;
 };
 
 type BookInfo = {
