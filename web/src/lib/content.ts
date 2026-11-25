@@ -82,5 +82,8 @@ export function getAllPassages(): ReaderPassage[] {
             translations: passage.translations.filter(isPublishable),
             book: bookFile.book,
         }));
-    });
+    }).sort(
+        (left, right) =>
+            left.book.number - right.book.number || left.number - right.number,
+    );
 }

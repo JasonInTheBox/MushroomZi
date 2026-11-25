@@ -97,8 +97,8 @@ The review uses framework and provider documentation available on the date above
 
 1. Draft and review the content record shape using one properly sourced passage.
 2. Select a stable passage-ID convention and record a small verified corpus with translation rights/provenance.
-3. Create the frontend project and generate one direct passage route in both English and Chinese as static HTML.
-4. Add book/passage navigation and the deterministic daily selector.
+3. Create the frontend and generate static passage routes in both English and Chinese (implemented).
+4. Add book/passage navigation (implemented); the daily selector remains pending a rights-cleared translation, project-authored commentary, and a local-date-versus-UTC decision.
 5. Review responsive layout, keyboard access, reduced motion, and the initial SEO metadata before expanding the corpus.
 
 Step 1 comes first so the data model and provenance are settled before framework setup locks in a data shape.
@@ -195,7 +195,7 @@ This is a proposal, not a required layout. Keep the first implementation small a
 | A-004 | Database | Deferred | No hosted database for the initial release; use local or version-controlled data until persistence needs are concrete. | User accounts, edits, or dynamic data become necessary. |
 | A-005 | Static hosting | Recommended | Cloudflare Pages is the current static-host candidate; GitHub Pages is an alternative for a public repository. Recheck price, plan terms, and limits before deploy. | Before first public deployment. |
 | A-006 | AI/model provider | Deferred | No provider selected. Verify current price, rate/cost caps, key handling, privacy terms, and failure behavior when AI integration is evaluated. | Grounded LLM integration milestone. |
-| A-007 | Initial Analects research reference | Selected for research | Use [A. Charles Muller's Analects page](http://www.acmuller.net/con-dao/analects.html) as the initial working reference. This does not establish permission to republish its translation; record attribution and verify reuse rights before publication. The page could not be fetched during this review, so its license status remains unverified. | Before adding translated text to the public corpus. |
+| A-007 | Initial Analects research reference | Selected for research | Use [A. Charles Muller's Analects page](http://www.acmuller.net/con-dao/analects.html) as the initial working reference. This does not establish permission to republish its translation; record attribution and verify reuse rights before publication. The page could not be fetched during this review. A user-supplied local HTML copy links to the same source but contains no clear reuse license; translation rights remain unverified. | Before adding translated text to the public corpus. |
 | A-008 | Rights-based publishing gate | Selected | Production builds render only translations whose `rights.reuseStatus` is `public_domain` or `licensed` (`isPublishable` in `web/src/lib/content.ts`); `next dev` shows all translations for review. The validator rejects placeholder text (`...`, `todo`) in originals, translations, and commentary. | Commentary or other third-party text gains its own rights field. |
 
 ## Learning and delivery sequence
@@ -204,8 +204,8 @@ The detailed project roadmap should be updated as milestones are completed. Init
 
 1. Compare architecture options and record decisions.
 2. Set up the repository and design a provenance-aware content schema.
-3. Curate a small verified passage collection.
-4. Build the reading experience, navigation, daily passage, and accessibility foundations.
+3. Curate a small passage collection; translation reuse rights for the seeded English text remain under review.
+4. Build the reading experience and navigation (implemented); add the daily passage after resolving translation rights, commentary attribution, and the date boundary, then review accessibility foundations.
 5. Establish the Python learning environment and text preprocessing pipeline.
 6. Implement keyword search, tokenization, TF-IDF, cosine similarity, and an evaluation set.
 7. Progress to embeddings, multilingual and hybrid retrieval, reranking, and retrieval evaluation.

@@ -1,6 +1,6 @@
 # Mushroom Zi — Product Specification
 
-**Status:** Baseline requirements transcribed from the project brief. This is a living product document; it does not imply that implementation has started.
+**Status:** The static reader has bilingual passage routes, a book-grouped catalog, and previous/next navigation. Translation reuse rights remain unverified, so production builds withhold those translations; commentary and the daily passage are still pending.
 
 ## Product overview
 
