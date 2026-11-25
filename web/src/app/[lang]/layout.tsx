@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { fontClassNames } from "../fonts";
 import "../globals.css";
 
 export const metadata: Metadata = {
@@ -17,7 +16,7 @@ export default async function LangLayout({
   return (
     <html
       lang={lang === "zh" ? "zh-Hant" : "en"}
-      className={`${fontClassNames} h-full antialiased`}
+      className="h-full antialiased"
     >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>

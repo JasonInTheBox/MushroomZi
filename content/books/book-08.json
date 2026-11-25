@@ -1,0 +1,761 @@
+{
+  "schemaVersion": 1,
+  "book": {
+    "id": "analects.book.08",
+    "number": 8,
+    "title": {
+      "chinese": "泰伯",
+      "pinyin": "Tai Bo"
+    }
+  },
+  "passages": [
+    {
+      "id": "analects.08.01",
+      "number": 1,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。泰伯其可謂至德也已矣。三以天下讓、民無得而稱焉。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 8, passage 1"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.08.01.en.muller",
+          "language": "en",
+          "text": "The Master said: “Tai Bo can be said to have had a perfected level of virtue. He declined the rule of the kingdom three times, without the people knowing about it.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 8, passage 1"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.08.02",
+      "number": 2,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。恭而無禮則勞。愼而無禮則葸。勇而無禮則亂。直而無禮則絞。君子篤於親、則民興於仁。故舊不遺、則民不偸。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 8, passage 2"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.08.02.en.muller",
+          "language": "en",
+          "text": "The Master said: “Courtesy without propriety is wasted energy. Caution without propriety is timidity. Boldness without propriety is recklessness. Straightforwardness without propriety is rudeness. When the ruler is kind to those who are close to him, the people will be moved toward ren. If he does not forget his old friends, the people too, will not be fickle.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 8, passage 2"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.08.03",
+      "number": 3,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "曾子有疾、召門弟子曰。啓予足 啓予手 詩云：戰戰兢兢、如臨深淵、如履薄冰。』 而今而後、吾知免夫小子。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 8, passage 3"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.08.03.en.muller",
+          "language": "en",
+          "text": "Ceng Zi was ill. He summoned his disciples and said, “Uncover my feet and hands. The Book of Odes says:” He was cautious, Apprehensive. As if at the edge of a deep chasm; As if treading on thin ice. “From now, I know that I have gotten past this (sickness).”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 8, passage 3"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.08.04",
+      "number": 4,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "曾子有疾、孟敬子問之。曾子言曰。鳥之將死、其鳴也哀。人之將死、其言也善。君子所貴乎道者三：動容貌、斯遠暴慢矣。正顏色、斯近信笑。出辭氣、斯遠鄙倍矣。籩豆之事、則有司存。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 8, passage 4"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.08.04.en.muller",
+          "language": "en",
+          "text": "While Ceng Zi was ill, Meng Jing Zi went to see him. Ceng Zi said, “When a bird is about to die, its song is melancholy. When a man is about to die, his words are excellent. The Way prized by the noble man has three aspects:” In his behavior and deportment he avoids brashness and arrogance. When paying attention to his facial expressions he is guided by honesty. When speaking, he avoids vulgarity and slander. As for attending to the sacrificial tables—there are specialists hired for these jobs.",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 8, passage 4"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.08.05",
+      "number": 5,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "曾子曰。以能問於不能、以多問於寡、有若無、實若處、犯而不校。昔者吾友、嘗從事於斯矣。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 8, passage 5"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.08.05.en.muller",
+          "language": "en",
+          "text": "Ceng Zi said: “Using one's ability to learn from those of less ability; using one's learning to learn from the unlearned; possessing, yet seeming to lack, being full yet seeming empty, able to accept harm without retaliation: in the past I had a friend who could do this. ”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 8, passage 5"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.08.05.muller.note.17",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "This is probably a reference to Yanhui, Confucius' favorite among his disciples, who died young.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 8, passage 5, footnote note-8-17"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.08.06",
+      "number": 6,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "曾子曰。可以託六尺之孤、可以寄百里之命、臨大節、而不可奪也。君子人與。君子人也。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 8, passage 6"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.08.06.en.muller",
+          "language": "en",
+          "text": "Ceng Zi said: “A man who can be entrusted with the care of the crown prince, who can take responsibility for a district of 100 li and who can handle a major crisis without losing touch with himself: Is he a noble man? He certainly is a noble man.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 8, passage 6"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.08.07",
+      "number": 7,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "曾子曰。士、不可以不弘毅、任重而道遠。仁以爲己任、不亦重乎、死而後已、不亦遠乎。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 8, passage 7"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.08.07.en.muller",
+          "language": "en",
+          "text": "Ceng Zi said: “To be called a shi you must be open-minded as well as resolute, since your burden is heavy and your course is long. If you take ren as your burden, is it not heavy? If you continue to death, is it not long?”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 8, passage 7"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.08.08",
+      "number": 8,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。興於詩。立於禮。成於樂。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 8, passage 8"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.08.08.en.muller",
+          "language": "en",
+          "text": "The Master said: “Be aroused by poetry; structure yourself with propriety, refine yourself with music.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 8, passage 8"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.08.09",
+      "number": 9,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。民可使由之、不可使知之。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 8, passage 9"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.08.09.en.muller",
+          "language": "en",
+          "text": "The Master said: “You might force people act according a certain principle, but you won't be able to force them to understand it.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 8, passage 9"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.08.10",
+      "number": 10,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。好勇疾貧、亂也。人而不仁、疾之已甚、亂也。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 8, passage 10"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.08.10.en.muller",
+          "language": "en",
+          "text": "The Master said: “A man who enjoys boldness and hates poverty will be rebellious. If a man lacks ren and his dissatisfaction reaches an extreme, he will rebel.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 8, passage 10"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.08.11",
+      "number": 11,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。如有周公之才之美、使驕且吝、其餘不足觀也已。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 8, passage 11"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.08.11.en.muller",
+          "language": "en",
+          "text": "The Master said: “Perhaps you could be as handsome and as talented as the Duke of Zhou. But if you are arrogant or stingy, those good qualities will not be noticed.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 8, passage 11"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.08.12",
+      "number": 12,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。三年學、不至於穀、不易得也。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 8, passage 12"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.08.12.en.muller",
+          "language": "en",
+          "text": "The Master said: “It is quite rare to see someone who applies himself to the study of something for three years without having a noticeable result.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 8, passage 12"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.08.13",
+      "number": 13,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。篤信好學、守死善道。危邦不人、亂邦不居、天下有道則見、無道則隱。邦有道、貧且賤焉、恥也、邦無道、富且貴焉、恥也。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 8, passage 13"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.08.13.en.muller",
+          "language": "en",
+          "text": "The Master said: “Be of unwavering good faith and love learning. Be steadfast unto death in pursuit of the good Way. Do not enter a state which is in peril, nor reside in one which people have rebelled. When the Way prevails in the world, show yourself. When it does not, then hide. When the Way prevails in your own state, to be poor and obscure is a disgrace. But when the Way does not prevail in your own state, to be rich and honored is a disgrace.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 8, passage 13"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.08.14",
+      "number": 14,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。不在其位、不謀其政。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 8, passage 14"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.08.14.en.muller",
+          "language": "en",
+          "text": "The Master said: “If you don't have the official position, you can't plan the affairs of government.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 8, passage 14"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.08.15",
+      "number": 15,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。師摯之始、關雎之亂、洋洋乎盈耳哉。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 8, passage 15"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.08.15.en.muller",
+          "language": "en",
+          "text": "The Master said: “After Music Master Zhi took over, the finale of the Guanju was magnificent. How it filled my ears!”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 8, passage 15"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.08.16",
+      "number": 16,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。狂而不直、侗而不愿、悾悾而不信、吾不知之矣。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 8, passage 16"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.08.16.en.muller",
+          "language": "en",
+          "text": "The Master said: “I really don't know what to do with those who are ardent but not upright, frank but not careful, and naive but not honest.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 8, passage 16"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.08.17",
+      "number": 17,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。學如不及、猶恐失之。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 8, passage 17"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.08.17.en.muller",
+          "language": "en",
+          "text": "The Master said: “Study as if you have not reached your goal— as if you were afraid of losing what you have.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 8, passage 17"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.08.18",
+      "number": 18,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。巍巍乎、舜禹之有天下也、而不與焉。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 8, passage 18"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.08.18.en.muller",
+          "language": "en",
+          "text": "Confucius said: “How sublime was the manner in which Shun and You handled the empire, without lifting a finger!”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 8, passage 18"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.08.18.muller.comment.01",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "Here we can a similarity in Confucius' understanding with that of the wu-wei or “non-manipulation,” which is discussed at length in the Daode jing and the Zhuangzi.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 8, passage 18, inline comment 1"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.08.19",
+      "number": 19,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。大哉堯之爲軍也、巍巍乎、唯天爲大、唯堯則之、蕩蕩乎、民無能名焉。巍巍乎、其有成功也、煥乎、其有文章。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 8, passage 19"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.08.19.en.muller",
+          "language": "en",
+          "text": "The Master said: “The rulership of Yao was so magnificent! He was so sublime that even though there is nothing as great as Heaven, he could accord with it. His greatness was so boundless it is beyond description. His efficacy was amazing, his writings were enlightening.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 8, passage 19"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.08.20",
+      "number": 20,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "舜有臣五人、而天下治。武王曰。予有亂臣十人。孔子曰。才難、不其然乎、唐虞之際、於斯爲盛、有婦人焉、九人而已。三分天下有其二、以服事殷、周之德、其可謂至德也已矣。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 8, passage 20"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.08.20.en.muller",
+          "language": "en",
+          "text": "Shun, with five ministers, was able to successfully govern the empire. King Wu said, “Altogether I have ten ministers.” Confucius said, “Their ability is the issue. Don't you think so? When the Tang and Wu dynasties combined, they had as many ministers as you, with a woman and nine men. King Wen (of the Zhou) controlled two-thirds of the empire, and with this, served the Yin. Indeed, the virtue of Zhou can be called the epitome of virtue!”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 8, passage 20"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.08.21",
+      "number": 21,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。禹吾無間然矣、菲飮食、而致孝乎鬼神、惡衣服、而致美乎黻冕、卑宮室、而盡力乎溝恤、禹吾無間然矣。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 8, passage 21"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.08.21.en.muller",
+          "language": "en",
+          "text": "The Master said: “Yu was flawless in character. Surviving on the simplest food and drink, yet perfect in his piety to the ancestral spirits. Normally wearing coarse clothing, he looked magnificent in his ceremonial cap and gown. Living in a humble abode, he exhausted himself in the excavation of drainage ways and canals. I cannot find a flaw in his character!”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 8, passage 21"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    }
+  ]
+}

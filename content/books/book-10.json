@@ -1,0 +1,778 @@
+{
+  "schemaVersion": 1,
+  "book": {
+    "id": "analects.book.10",
+    "number": 10,
+    "title": {
+      "chinese": "鄕黨",
+      "pinyin": "Xiang dang"
+    }
+  },
+  "passages": [
+    {
+      "id": "analects.10.01",
+      "number": 1,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "孔子於鄕黨、恂恂如也、似不能言者。其在宗廟朝廷、便便然、唯謹爾。朝與下大夫言、侃侃如也。與上大夫言、誾誾如也。君在、踧踖如也、與與如也。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 10, passage 1"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.10.01.en.muller",
+          "language": "en",
+          "text": "When Confucius was in his village, he was quietly sincere, as if he could not speak. When he was in the ancestral temple or the court, he was eloquent, but extremely cautious. When speaking to the junior grandmasters in court, he was candid and at ease; when speaking to the senior grandmasters, he was straightforward but formal. When the ruler was present, he straightened up ceremoniously, but with a calm demeanor.",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 10, passage 1"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.10.02",
+      "number": 2,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "君召使擯、色勃如也、足躩如也。揖所與立、左右手、衣前後、檐如也。趨進、翼如也。賓退、必復命、曰。賓不顧矣。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 10, passage 2"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.10.02.en.muller",
+          "language": "en",
+          "text": "When the ruler summoned him to take care of important guests, his face took on a serious expression, and he walked briskly. He bowed as he came to the place of greeting, and with his left and right hand held his garment in front and back, keeping it properly adjusted. He moved forward quickly with his arms like wings. When the guest left, he would without fail watch, and continue to report, “the guest has stopped looking back.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 10, passage 2"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.10.03",
+      "number": 3,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "入公門、鞠躬如也、如不容。立不中門、行不履閾。過位、色勃如也、足躩如也、其言似不足者。攝齊升堂、鞠躬如也、屛氣似不息者。出降一等、逞顏色、怡怡如也。沒階趨進、翼如也。復其位、踧踖如也。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 10, passage 3"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.10.03.en.muller",
+          "language": "en",
+          "text": "When he came through the court door, he shrunk down deferentially, as if there was not enough space. Once inside, he did not stand in the middle, and he would not step on the threshold. When he passed in front of the ruler's position, his expression became serious, and he stepped carefully in small steps; it seemed difficult for him to speak. He lifted up the hems of his skirt when entering the hall nodding deeply in respect. He held his breath as if he could not breathe. Upon leaving, once he had gone down one step, his countenance became relaxed, and he appeared to be contented. Reaching the bottom of the stairs he began to move briskly, his arms like wings. Returning to his original position, he was deferential.",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 10, passage 3"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.10.04",
+      "number": 4,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "執圭、鞠躬如也、如不勝。上如揖、下如授。勃如戰色、足蹜蹜如有循。享禮、有容色。私覿、愉愉如也。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 10, passage 4"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.10.04.en.muller",
+          "language": "en",
+          "text": "When holding the jade scepter, he was bent over with deference, as if he could not support it. He held it from above in a folding way, and from below in an offering way. He showed a serious and anxious expression, walking in a straight line with shuffling steps. In the presentation ceremony, he showed a genial expression. In private meetings, he seemed relaxed without concerns.",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 10, passage 4"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.10.05",
+      "number": 5,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "君子不以紺緅飾、紅紫不以爲褻服。當暑、袗、絺、綌、必表而出之。緇衣羔裘、素衣麑裘、黃衣狐裘。褻裘長、短右袂。必有寢衣、長一身有半。狐貉之厚以居。去喪無所不佩。非帷裳、必殺之。羔裘玄冠、不以弔。吉月、必朝服而朝。齊、必有明衣、布。齋必變食、居必遷坐。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 10, passage 5"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.10.05.en.muller",
+          "language": "en",
+          "text": "The noble man did not wear decorative cuffs colored violet and puce; for his house clothes, he would not wear red and maroon. During hot weather, he would wear thin, unlined garments made of fine and coarse vine-fiber when he went out. With a black robe he wore a black sheepskin mantle: with an uncolored robe he wore a fawnskin mantle; with a yellow robe he wore a foxskin mantle. His house robe was long, with a short right sleeve. When always slept in sleeping garments, which were half again as long as his body. At home, he sat on thick fox and badger rugs. When not in a mourning period, there was nothing he would not wear on his decorative belt sash. If clothes were not ceremonial, he would definitely adjust their length. He would not wear a black sheepskin mantle or a black hat when paying visits of condolence. He always showed up in court on the first of the month properly attired in court garb. When fasting, he always wore clean white clothes of linen. During the fast he would always change his diet, as well as his seat.",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 10, passage 5"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.10.06",
+      "number": 6,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "食不厭精、膾不厭細。食饐而餲魚餒而肉敗、不食。色惡不食、臭惡不食。失飪不食、不時不食。割不正不食、不得其醬、不食。肉雖多、不使勝食氣。唯酒無量、不及亂。沽酒、市脯、不食。不撤薑食、不多食。祭於公、不宿肉。祭肉、不出三日、出三日、不食之矣。食不語、寢不言。雖疏食、菜羹、瓜 祭、必齊如也。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 10, passage 6"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.10.06.en.muller",
+          "language": "en",
+          "text": "When he ate he was not averse to refined rice, nor to finely minced meat. He would not eat rice that was rancid or had gone rotten, nor fish and meat that had spoiled. He would not eat food that that had a bad color or smell; he would not eat food that that was not cooked to the proper level, or which was out of season; nor would he eat food that was not properly sliced, or did not come with the appropriate condiments. Even if there was a lot of meat, he would not eat it greater quantity than rice. It was only wine with which he did not limit himself, but at the same time, he never lost control of himself. He would not drink wine or eat dried meat that came from the marketplace. He would not refrain from eating food with ginger, but he would not overdo it. When there was a sacrifice for the ruler, he would not keep the meat overnight. As for sacrificial meats in general, he would not keep them more than three days, and if they were more than three days old, he would not eat them. He did not chat while eating, and did not talk after retiring. No matter what kind of simple fare it might be, such as coarse rice or broth, he would always make an offering, doing so with due solemnity.",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 10, passage 6"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.10.06.muller.note.24",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "According to Zhu Xi 朱煕, the logograph 瓜 here is a corruption of 必.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 10, passage 6, footnote note-10-24"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.10.07",
+      "number": 7,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "席不正不坐。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 10, passage 7"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.10.07.en.muller",
+          "language": "en",
+          "text": "If a mat was not straight, he would not sit on it.",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 10, passage 7"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.10.08",
+      "number": 8,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "鄕人飮酒、杖者出、斯出矣。鄕人儺、朝服而立於阼階。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 10, passage 8"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.10.08.en.muller",
+          "language": "en",
+          "text": "When drinking with the townsfolk, he would leave only after the elders had done so. When the townsfolk carried out rituals for the cleansing of evil spirits, he would don his ceremonial court robes and stand on the eastern steps.",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 10, passage 8"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.10.08.muller.note.25",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "阼階: The steps leading to the eastern door of the hall. The place where the host stands when greeting guests.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 10, passage 8, footnote note-10-25"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.10.09",
+      "number": 9,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "問人於他邦、再拜而送之。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 10, passage 9"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.10.09.en.muller",
+          "language": "en",
+          "text": "When he asked some to go to another country, he would bow to him twice before sending him off.",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 10, passage 9"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.10.10",
+      "number": 10,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "康子饋藥。拜而受之、曰。丘未達、不敢嘗。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 10, passage 10"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.10.10.en.muller",
+          "language": "en",
+          "text": "Kangzi sent the Master some medicine as a present. Respectfully receiving it, he said, “I don't know about this medicine, so I don't dare to take it.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 10, passage 10"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.10.11",
+      "number": 11,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "廐焚、子退朝、曰。傷人乎。不問馬。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 10, passage 11"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.10.11.en.muller",
+          "language": "en",
+          "text": "There was a fire in the stables. When the Master returned from court, he asked: “Was anybody hurt?” He didn't ask about the horses.",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 10, passage 11"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.10.12",
+      "number": 12,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "君賜食、必正席先嘗之。君賜腥、必熟而薦之。君賜生、必畜之。侍食於君、君祭、先飯。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 10, passage 12"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.10.12.en.muller",
+          "language": "en",
+          "text": "When the ruler would send a gift of cooked food, he would always sit straight and first taste it; if the ruler sent uncooked meat, he would always cook it and offer it to others; when the ruler presented him with a live animal, he would always rear it. When attending at a meal for the ruler, after the ruler makes the sacrifice, he is first to eat it.",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 10, passage 12"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.10.12.muller.note.26",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "Following Bruce Brooks.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 10, passage 12, footnote note-10-26"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.10.13",
+      "number": 13,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "疾、君視之、東首加朝服拖紳。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 10, passage 13"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.10.13.en.muller",
+          "language": "en",
+          "text": "When he was sick and the ruler came to visit him, he would lie down facing to the east with his court robe on him and his sash drawn across him.",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 10, passage 13"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.10.14",
+      "number": 14,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "君命召、不俟駕行矣。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 10, passage 14"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.10.14.en.muller",
+          "language": "en",
+          "text": "When the ruler summoned him, he would go at once, without waiting for the horses to be yoked to his carriage.",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 10, passage 14"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.10.15",
+      "number": 15,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "入大廟、每事問。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 10, passage 15"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.10.15.en.muller",
+          "language": "en",
+          "text": "When he entered the great ancestral temple, he inquired about every detail.",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 10, passage 15"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.10.16",
+      "number": 16,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "朋友死、無所歸、曰。於我殯。朋友之饋、雖車馬、非祭肉、不拜。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 10, passage 16"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.10.16.en.muller",
+          "language": "en",
+          "text": "When a friend died, if there was no one to handle the funeral, he would say, “I will take care of it.” When a friend would send a gift of food — even horses and carriages — if it was not sacrificial meat, he would not bow.",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 10, passage 16"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.10.17",
+      "number": 17,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "寢不尸。居不容 。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 10, passage 17"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.10.17.en.muller",
+          "language": "en",
+          "text": "When he slept, he would not lie on the bed like a corpse. At home, he would not put on any special airs.",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 10, passage 17"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.10.17.muller.note.27",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "In a Tang stone engraving, this is written as 不客.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 10, passage 17, footnote note-10-27"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.10.18",
+      "number": 18,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "見齊衰者、雖狎必變。見冕者與瞽者、雖褻必以貌。凶服者式之、式負版者。有盛饌、必變色而作。迅雷、風烈必變。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 10, passage 18"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.10.18.en.muller",
+          "language": "en",
+          "text": "When he saw someone in mourning clothes, even if he knew them well, he would change his expression. Encountering a person in full attire, or the blind, even if he was in his informal home dress, he would show the proper attitude. Encountering someone in mourning, he would lower his head in the carriage, and would do the same for someone carrying census boards. When delicious food was served, his expression would change and he would stand up. His expression would also change with a sudden thunderclap or violent wind.",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 10, passage 18"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.10.19",
+      "number": 19,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "升車、必正立、執綏。車中不內顧、不疾言、不親指。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 10, passage 19"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.10.19.en.muller",
+          "language": "en",
+          "text": "When he got up into the carriage, he would stand straight, holding the straps. Once inside the carriage, he didn't look about, talk rapidly or point around with his hands.",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 10, passage 19"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.10.20",
+      "number": 20,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "色斯擧矣、翔而後集。曰。山梁雌雉、時哉時哉。子路共之、三嗅而作。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 10, passage 20"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.10.20.en.muller",
+          "language": "en",
+          "text": "At a change in expression the bird took off; it flew around and then joined a flock. The Master said: “The hen pheasant on the mountain bridge, what timing, what timing!” Zi Lu offered it [some bait], but after sniffing three times, it took off.",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 10, passage 20"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.10.20.muller.note.28",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "This passage is given a wide range of interpretations by commentators and translators. I take it as an episode in the midst of an excursion (perhaps for the explicit purpose of hunting, or not) by Zi Lu and Confucius where the opportunity shows itself for them to catch a hen pheasant.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 10, passage 20, footnote note-10-28"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    }
+  ]
+}

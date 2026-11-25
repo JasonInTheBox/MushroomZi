@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "book": {
+    "id": "analects.book.20",
+    "number": 20,
+    "title": {
+      "chinese": "堯曰",
+      "pinyin": "Yao yue"
+    }
+  },
+  "passages": [
+    {
+      "id": "analects.20.01",
+      "number": 1,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "堯曰。咨。爾舜。天之曆數在爾躬、允執其中。四海困窮、天祿永終。舜亦以命禹。曰。予小子履、敢用玄牡、敢昭吿于皇皇后帝。有罪不敢赦、帝臣不蔽、簡在帝心。朕躬有罪、無以萬方。萬方有罪、罪在朕躬。周有大賚、善人是富。雖有周親、不如仁人。百姓有過、在予一人。謹權量、審法度、修廢官、四方之政行焉。興滅國、繼絕世、擧逸民、天下之民歸心焉。所重、民、食、喪、祭。寛則得衆、信則民任焉。 敏則有功、公則說。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 20, passage 1"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.20.01.en.muller",
+          "language": "en",
+          "text": "Yao said, “Ah, Shun, the heavenly succession has fallen on you. Hold firm to the center. If the whole realm falls into dire straits, the heavenly stipend will disappear forever.” Shun similarly instructed Yu. [Tang] said, “I, the inconsequential Lü, dare to sacrifice the black bull, and dare to report to the illustrious Lord. When a crime is done, I will not dare to pardon it. I will I cover up for your servants, but leave the decision up to your discretion. When I am guilty of a fault, I will not blame it on all the people, and they are at fault, I will take responsibility myself.” Zhou had great gifts, which he used to enrich good men. Although he was surrounded by close relatives, they were not treated on a par equal with the Good. If there are faults among the officials, I will take the blame myself. Be careful with weights and measures, scrutinize well the legal code, and restore offices that have fallen into disuse — then all the lands in the four directions will be well-governed. Raise up failed states, re-establish broken lineages, empower those had avoided service, and all the common people in the realm will put their trust in you. Place value on the common people, food, mourning for the dead, and ritual sacrifice. If you are generous you will gain the hearts of the people; if you are trustworthy, they will rely on you; if you are diligent, you will get results; if you are fair, they will be happy.",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 20, passage 1"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [
+        {
+          "id": "analects.20.01.muller.note.59",
+          "kind": "scholarly_interpretation",
+          "language": "en",
+          "text": "Most translators take 百姓 as “the common people.” However, the earlier meaning of this term is 百官. During earlier periods, the common people did not have their own surnames, and so used that of their local lord or official. Since we are speaking of Yao and Shun, this is certainly one of the earliest recorded periods in Chinese history.",
+          "author": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 20, passage 1, footnote note-20-59"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "themes": []
+    },
+    {
+      "id": "analects.20.02",
+      "number": 2,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子張問於孔子、曰、何如斯可以從政矣。子曰。尊五美、屛四惡、斯可以從政矣。子張曰。何謂五美。子曰。君子惠而不費、勞而不怨、欲而不貪、泰而不驕、威而不猛。子張曰。何謂惠而不費。子曰、因民之所利而利之、斯不亦惠而不費乎。擇可勞而勞之、又誰怨。欲仁而得仁、又焉貪。君子無衆寡、無小大、無敢慢、斯不亦泰而不驕乎。君子正其衣冠、尊其瞻視、儼然人望而畏之、斯不亦威而不猛乎。子張曰。何謂四惡。子曰。不教而殺謂之虐。不戒視成謂之暴。慢令致期謂之賊。猶之與人也、出納之吝、謂之有司。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 20, passage 2"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.20.02.en.muller",
+          "language": "en",
+          "text": "Zi Zhang asked Confucius, saying “How should one best handle the affairs of government?” The Master said, “There are five points of excellence to be respected, and four bad points to be avoided. If you can follow these, you can handle the affairs of government.” Zi Zhang asked, “What are the five points of excellence?” The Master said, “The Noble Man is generous without being wasteful, works hard without resentment, desires without being avaricious, is proud without being arrogant, strict without being severe.” Zi Zhang said, “What does it mean, to be generous without being wasteful?” The Master said, “If you see a way to bring benefit to the common people and you carry it out, is this not being generous without being wasteful? If you select the matters where it is appropriate to work and have people work hard at them, who will be resentful? If you desire Goodness and attain it, where will there be greed? Whether dealing with the many or the few, the young or the old, the Noble Man does not dare to be conceited. Is this not indeed the meaning of being proud but not being arrogant? The Noble Man, straightening his robe and cap, is respectful in his gaze; he is severe in the gazes of the people, yet is in awe of them. Is this not the meaning of being strict without being severe?” Zi Zhang said, “What are the four bad points?” The Master said, “To execute someone without explaining what they did wrong is cruelty; to expect achievements without admonishment is tyrannical; to be late in giving orders yet expecting punctuality is injurious; to be stingy in bestowing on people their due remuneration is petty officiousness.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 20, passage 2"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    },
+    {
+      "id": "analects.20.03",
+      "number": 3,
+      "original": {
+        "language": "zh",
+        "script": "Hant",
+        "textType": "classical_chinese",
+        "text": "子曰。不知命、無以爲君子也。不知禮、無以立也。不知言、無以知人也。",
+        "source": {
+          "title": "The Analects",
+          "url": "https://www.acmuller.net/con-dao/analects.html",
+          "citation": "Book 20, passage 3"
+        }
+      },
+      "translations": [
+        {
+          "id": "analects.20.03.en.muller",
+          "language": "en",
+          "text": "The Master said: “If you do not understand destiny, there is no way you will be regarded as a Noble Man. If you do not understand propriety, there is no way for you to be established. If you do not understand words, there is no way for you to understand people.”",
+          "translator": "A. Charles Muller",
+          "source": {
+            "title": "The Analects",
+            "url": "https://www.acmuller.net/con-dao/analects.html",
+            "citation": "Book 20, passage 3"
+          },
+          "rights": {
+            "reuseStatus": "licensed",
+            "license": "User-authorized reuse with attribution required"
+          }
+        }
+      ],
+      "commentary": [],
+      "themes": []
+    }
+  ]
+}

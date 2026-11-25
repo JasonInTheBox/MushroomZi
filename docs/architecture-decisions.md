@@ -1,6 +1,6 @@
 # Mushroom Zi — Architecture Decisions
 
-**Status:** Initial evaluation completed. The content format (A-001) and frontend framework (A-002) were confirmed by the bilingual static route proof (2026-11-24); hosting remains open. No model provider or production deployment has been selected. Keep product behavior in [`product-specification.md`](product-specification.md).
+**Status:** Initial evaluation completed. The content format (A-001) and frontend framework (A-002) were confirmed by the bilingual static route proof (2026-11-24); the local-first NLP/search path was selected on 2026-11-25 (UTC). Hosting remains open. No model provider or production deployment has been selected. Keep product behavior in [`product-specification.md`](product-specification.md).
 
 ## Architecture goals and constraints
 
@@ -196,22 +196,24 @@ This is a proposal, not a required layout. Keep the first implementation small a
 | A-005 | Static hosting | Recommended | Cloudflare Pages is the current static-host candidate; GitHub Pages is an alternative for a public repository. Recheck price, plan terms, and limits before deploy. | Before first public deployment. |
 | A-006 | AI/model provider | Deferred | No provider selected. Verify current price, rate/cost caps, key handling, privacy terms, and failure behavior when AI integration is evaluated. | Grounded LLM integration milestone. |
 | A-007 | Initial Analects research reference | Selected; reuse assumed with citation | Use [A. Charles Muller's Analects page](http://www.acmuller.net/con-dao/analects.html) as the initial working reference. The tracked root snapshot is `Analects of Confucius 論語.html`; it links to this source but contains no clear license statement. Per user instruction, assume reuse is permitted when translator, source, and passage citation are shown; record that as user authorization, not an independently verified third-party license. | When adding sources beyond this translation. |
-| A-008 | Rights-based publishing gate | Selected | Production builds render only translations whose `rights.reuseStatus` is `public_domain` or `licensed` (`isPublishable` in `web/src/lib/content.ts`); the two seeded Muller entries are `licensed` on the user-authorized attribution basis, with translator, source link, and passage citation shown on the page. Other translations still need their own documented rights basis. The validator rejects placeholder text (`...`, `todo`) in originals, translations, and commentary. | Commentary or other third-party text gains its own rights field. |
+| A-008 | Rights-based publishing gate | Selected | Production builds render only translations whose `rights.reuseStatus` is `public_domain` or `licensed` (`isPublishable` in `web/src/lib/content.ts`); imported Muller translations and scholarly interpretations use the user-authorized attribution basis, which is not an independently verified third-party license. The schema requires every `scholarly_interpretation` to carry a source citation and rights record; generated project commentary needs neither. Other third-party material needs its own documented rights basis. The validator rejects placeholder text (`...`, `todo`) in originals, translations, and commentary. | When the project adds another scholarly source or a different rights basis. |
 | A-009 | Daily passage and generated commentary | Selected | Select eligible passages by UTC epoch day in existing corpus order; refresh the client card at the next UTC midnight. Eligibility requires the published English translation and `project_explanation` plus `modern_application` in English and Traditional Chinese. Store the commentary as generated project content and label it clearly as AI-generated, not scholarship. No model call is made at runtime. | Revisit if local-day personalization or runtime generation becomes a product requirement. |
+| A-010 | NLP/search development path | Selected | Local-first: keep the static reader and JSON/JSON Schema corpus, use local Python for preprocessing and evaluation, and establish a tokenizer, TF-IDF/cosine baseline, and hand-checked evaluation set before adding ML packages. No live search API, database, or model provider is selected. | Browser search needs evaluated results, or a demonstrated feature requires a live service. |
+| A-011 | HTML source alignment | Selected | Pair each translation with the current original passage in source order, using printed labels to propose canonical numbering. Retain repeated source entries as separate records, record numbering corrections in `content/source-import-overrides.json`, and keep unmatched originals source-only. Preserve printed labels in citations when they differ from the corpus ID. | The source edition or markup changes, or an editor identifies a pairing that needs correction. |
 
-## Next-stack proposal — pending user choice
+## Selected local-first stack and alternatives
 
-Reviewed against official documentation on 2026-11-24 (UTC); this remains a proposal until the user selects a path.
+The alternatives were reviewed against official documentation on 2026-11-24 (UTC). The user selected **A. Local-first** on 2026-11-25 (UTC). This selects the local learning and search path; hosting and any model provider remain undecided.
 
 Keep the current Next.js + TypeScript + Tailwind static reader and the JSON-per-book corpus. Next.js static export creates HTML per known route, but does not support features that need request-time server behavior ([static export guide](https://nextjs.org/docs/app/guides/static-exports)). Keep Python local for validation, tokenization, search experiments, and evaluation.
 
-| Path | Proposed stack | Trade-off |
+| Path | Stack | Trade-off |
 |---|---|---|
-| **A. Local-first (recommended)** | Existing static reader + JSON/JSON Schema + local Python; build a small tokenizer, TF-IDF, cosine ranking, and a hand-checked evaluation set before adding ML packages. Then compare the baseline with `scikit-learn`'s [`TfidfVectorizer`](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html). | Lowest infrastructure and cost; no live AI endpoint. Its documented default token pattern is word-oriented, so Chinese search will need an evaluated character n-gram or custom-tokenizer path. |
-| **B. Small live search API** | Keep the frontend; add FastAPI for request validation and search endpoints, plus SQLite FTS5 for a small local keyword index ([FastAPI](https://fastapi.tiangolo.com/tutorial/first-steps/), [SQLite FTS5](https://www.sqlite.org/fts5.html)). | Enables live queries, but introduces a Python runtime and API deployment. Keep the corpus JSON as the editorial source of truth. |
-| **C. Retrieval backend later** | FastAPI + PostgreSQL full-text search; add pgvector only after evaluation shows embeddings improve retrieval ([PostgreSQL text search](https://www.postgresql.org/docs/current/textsearch.html), [pgvector](https://github.com/pgvector/pgvector)). | Supports combined lexical/vector search and mutable data, with more deployment and operations work. Any hosting choice must first fit the project's $20/year ceiling. |
+| **A. Local-first — selected** | Existing static reader + JSON/JSON Schema + local Python; build a small tokenizer, TF-IDF, cosine ranking, and a hand-checked evaluation set before adding ML packages. Then compare the baseline with `scikit-learn`'s [`TfidfVectorizer`](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html). | Lowest infrastructure and cost; no live AI endpoint. Its documented default token pattern is word-oriented, so Chinese search will need an evaluated character n-gram or custom-tokenizer path. |
+| **B. Small live search API — deferred** | Keep the frontend; add FastAPI for request validation and search endpoints, plus SQLite FTS5 for a small local keyword index ([FastAPI](https://fastapi.tiangolo.com/tutorial/first-steps/), [SQLite FTS5](https://www.sqlite.org/fts5.html)). | Enables live queries, but introduces a Python runtime and API deployment. Keep the corpus JSON as the editorial source of truth. |
+| **C. Retrieval backend — deferred** | FastAPI + PostgreSQL full-text search; add pgvector only after evaluation shows embeddings improve retrieval ([PostgreSQL text search](https://www.postgresql.org/docs/current/textsearch.html), [pgvector](https://github.com/pgvector/pgvector)). | Supports combined lexical/vector search and mutable data, with more deployment and operations work. Any hosting choice must first fit the project's $20/year ceiling. |
 
-Do not choose a model provider or hosting provider yet. Recheck current pricing, limits, and terms when a server-backed feature is selected. These are proposals, not recorded architecture decisions.
+Paths B and C remain deferred. Do not choose a model provider or hosting provider yet; recheck current pricing, limits, and terms if a server-backed feature is selected.
 
 ## Learning and delivery sequence
 
@@ -221,10 +223,11 @@ The detailed project roadmap should be updated as milestones are completed. Init
 2. Set up the repository and design a provenance-aware content schema.
 3. Curate a small passage collection; the seeded Muller translations use the user-authorized attribution basis.
 4. Build the reading experience, navigation, and UTC daily passage with attributed translations and clearly labeled generated commentary (implemented).
-5. Establish the Python learning environment and text preprocessing pipeline.
-6. Implement keyword search, tokenization, TF-IDF, cosine similarity, and an evaluation set.
-7. Progress to embeddings, multilingual and hybrid retrieval, reranking, and retrieval evaluation.
-8. Add grounded LLM features only after retrieval quality, safety, cost, and rate limits are addressed.
-9. Evaluate deployment and public release against the hard budget and service constraints.
+5. Extract and audit the tracked HTML source into the provenance-aware corpus (complete; source-order mappings and rights checks are recorded, one passage remains source-only).
+6. Continue text preprocessing in the existing Python virtual environment (environment setup complete).
+7. Implement keyword search, tokenization, TF-IDF, cosine similarity, and an evaluation set.
+8. Progress to embeddings, multilingual and hybrid retrieval, reranking, and retrieval evaluation.
+9. Add grounded LLM features only after retrieval quality, safety, cost, and rate limits are addressed.
+10. Evaluate deployment and public release against the hard budget and service constraints.
 
 The longer-term roadmap also includes frontend search integration, passage citations, situational guidance, reflective dialogue, response-quality evaluation, abuse prevention, static optimization, secure API integration, usage limits, monitoring, production checks, PyTorch experiments, custom ranking, fine-tuning experiments, advanced agents, and optional accounts or saved learning progress. These are future possibilities, not commitments for the initial release.

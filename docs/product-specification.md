@@ -1,6 +1,6 @@
 # Mushroom Zi — Product Specification
 
-**Status:** The static reader has bilingual passage routes, a book-grouped catalog, previous/next navigation, and a UTC-based daily passage with bilingual AI-generated explanation and modern application. Production builds include the two seeded English translations with attribution under the user-authorized reuse assumption.
+**Status:** The static reader has bilingual passage routes, a book-grouped catalog, previous/next navigation, and a UTC-based daily passage with bilingual AI-generated explanation and modern application. The tracked Muller HTML has been imported into all 20 book files: 489 Classical Chinese passages, 488 English translation blocks, 34 attributed comments, and 59 linked footnotes. One source passage has no English translation and remains source-only; no replacement translation was generated.
 
 ## Product overview
 
@@ -20,8 +20,8 @@ The product has two goals:
 
 ## Content requirements
 
-- The long-term corpus should cover all 20 books of the *Analects*.
-- Start with a small, carefully verified collection and expand it over time.
+- The corpus covers all 20 books of the *Analects* in per-book JSON files.
+- Preserve source order and printed source labels when the HTML numbering is inconsistent; the cited mapping report and overrides record canonical IDs.
 - Use [A. Charles Muller's Analects page](http://www.acmuller.net/con-dao/analects.html) as the initial working reference when researching passages. The user has instructed us to assume reuse is permitted when citation is provided; record that authorization basis and precise source attribution for each translation, without claiming an independently verified third-party license.
 - A passage may include:
   - Classical Chinese source text.
@@ -31,6 +31,7 @@ The product has two goals:
   - Multiple interpretations when reliable sources support them.
   - Translation references, source attribution, license information, and provenance.
 - Distinguish source text, translations, established scholarly interpretation, and original modern or AI-generated commentary.
+- Store Muller inline comments and linked footnotes as separate, cited scholarly interpretations with their own rights records; do not present them as generated Mushroom Zi commentary.
 - Chinese and English are both supported. Simplified and traditional Chinese forms and pinyin may be added where useful.
 
 ## Ways to explore

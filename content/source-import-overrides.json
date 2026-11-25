@@ -1,0 +1,383 @@
+{
+  "schemaVersion": 1,
+  "mappings": [
+    {
+      "bookNumber": 9,
+      "sourceKind": "translation",
+      "sourceMarker": "9:8",
+      "occurrence": 2,
+      "passageNumber": 9
+    },
+    {
+      "bookNumber": 9,
+      "sourceKind": "translation",
+      "sourceMarker": "9:29",
+      "occurrence": 2,
+      "passageNumber": 30
+    },
+    {
+      "bookNumber": 11,
+      "sourceKind": "original",
+      "sourceMarker": "(unmarked)",
+      "occurrence": 1,
+      "passageNumber": 1
+    },
+    {
+      "bookNumber": 11,
+      "sourceKind": "translation",
+      "sourceMarker": "11:7",
+      "occurrence": 1,
+      "passageNumber": 5
+    },
+    {
+      "bookNumber": 11,
+      "sourceKind": "translation",
+      "sourceMarker": "11:14",
+      "occurrence": 1,
+      "passageNumber": 13
+    },
+    {
+      "bookNumber": 14,
+      "sourceKind": "translation",
+      "sourceMarker": "14:14",
+      "occurrence": 1,
+      "passageNumber": 13
+    },
+    {
+      "bookNumber": 14,
+      "sourceKind": "original",
+      "sourceMarker": "14-37",
+      "occurrence": 2,
+      "passageNumber": 38
+    },
+    {
+      "bookNumber": 14,
+      "sourceKind": "original",
+      "sourceMarker": "14-38",
+      "occurrence": 1,
+      "passageNumber": 39
+    },
+    {
+      "bookNumber": 14,
+      "sourceKind": "translation",
+      "sourceMarker": "14:38",
+      "occurrence": 2,
+      "passageNumber": 39
+    },
+    {
+      "bookNumber": 14,
+      "sourceKind": "original",
+      "sourceMarker": "14-39",
+      "occurrence": 1,
+      "passageNumber": 40
+    },
+    {
+      "bookNumber": 14,
+      "sourceKind": "translation",
+      "sourceMarker": "14:39",
+      "occurrence": 1,
+      "passageNumber": 40
+    },
+    {
+      "bookNumber": 14,
+      "sourceKind": "original",
+      "sourceMarker": "14-40",
+      "occurrence": 1,
+      "passageNumber": 41
+    },
+    {
+      "bookNumber": 14,
+      "sourceKind": "translation",
+      "sourceMarker": "14:40",
+      "occurrence": 1,
+      "passageNumber": 41
+    },
+    {
+      "bookNumber": 14,
+      "sourceKind": "original",
+      "sourceMarker": "14-41",
+      "occurrence": 1,
+      "passageNumber": 42
+    },
+    {
+      "bookNumber": 14,
+      "sourceKind": "translation",
+      "sourceMarker": "14:41",
+      "occurrence": 1,
+      "passageNumber": 42
+    },
+    {
+      "bookNumber": 14,
+      "sourceKind": "original",
+      "sourceMarker": "14-42",
+      "occurrence": 1,
+      "passageNumber": 43
+    },
+    {
+      "bookNumber": 14,
+      "sourceKind": "translation",
+      "sourceMarker": "14:42",
+      "occurrence": 1,
+      "passageNumber": 43
+    },
+    {
+      "bookNumber": 14,
+      "sourceKind": "original",
+      "sourceMarker": "14-43",
+      "occurrence": 1,
+      "passageNumber": 44
+    },
+    {
+      "bookNumber": 14,
+      "sourceKind": "translation",
+      "sourceMarker": "14:43",
+      "occurrence": 1,
+      "passageNumber": 44
+    },
+    {
+      "bookNumber": 14,
+      "sourceKind": "original",
+      "sourceMarker": "14-44",
+      "occurrence": 1,
+      "passageNumber": 45
+    },
+    {
+      "bookNumber": 14,
+      "sourceKind": "translation",
+      "sourceMarker": "14:44",
+      "occurrence": 1,
+      "passageNumber": 45
+    },
+    {
+      "bookNumber": 15,
+      "sourceKind": "translation",
+      "sourceMarker": "(unmarked)",
+      "occurrence": 1,
+      "passageNumber": 2
+    },
+    {
+      "bookNumber": 16,
+      "sourceKind": "translation",
+      "sourceMarker": "16:4",
+      "occurrence": 1,
+      "passageNumber": 3
+    },
+    {
+      "bookNumber": 17,
+      "sourceKind": "original",
+      "sourceMarker": "17-10",
+      "occurrence": 2,
+      "passageNumber": 11
+    },
+    {
+      "bookNumber": 17,
+      "sourceKind": "translation",
+      "sourceMarker": "17:10",
+      "occurrence": 2,
+      "passageNumber": 11
+    },
+    {
+      "bookNumber": 17,
+      "sourceKind": "original",
+      "sourceMarker": "17-11",
+      "occurrence": 1,
+      "passageNumber": 12
+    },
+    {
+      "bookNumber": 17,
+      "sourceKind": "translation",
+      "sourceMarker": "17:11",
+      "occurrence": 1,
+      "passageNumber": 12
+    },
+    {
+      "bookNumber": 17,
+      "sourceKind": "original",
+      "sourceMarker": "17-12",
+      "occurrence": 1,
+      "passageNumber": 13
+    },
+    {
+      "bookNumber": 17,
+      "sourceKind": "translation",
+      "sourceMarker": "17:12",
+      "occurrence": 1,
+      "passageNumber": 13
+    },
+    {
+      "bookNumber": 17,
+      "sourceKind": "original",
+      "sourceMarker": "17-13",
+      "occurrence": 1,
+      "passageNumber": 14
+    },
+    {
+      "bookNumber": 17,
+      "sourceKind": "translation",
+      "sourceMarker": "17:13",
+      "occurrence": 1,
+      "passageNumber": 14
+    },
+    {
+      "bookNumber": 17,
+      "sourceKind": "original",
+      "sourceMarker": "17-14",
+      "occurrence": 1,
+      "passageNumber": 15
+    },
+    {
+      "bookNumber": 17,
+      "sourceKind": "translation",
+      "sourceMarker": "17:14",
+      "occurrence": 1,
+      "passageNumber": 15
+    },
+    {
+      "bookNumber": 17,
+      "sourceKind": "original",
+      "sourceMarker": "17-15",
+      "occurrence": 1,
+      "passageNumber": 16
+    },
+    {
+      "bookNumber": 17,
+      "sourceKind": "translation",
+      "sourceMarker": "17:15",
+      "occurrence": 1,
+      "passageNumber": 16
+    },
+    {
+      "bookNumber": 17,
+      "sourceKind": "original",
+      "sourceMarker": "17-16",
+      "occurrence": 1,
+      "passageNumber": 17
+    },
+    {
+      "bookNumber": 17,
+      "sourceKind": "translation",
+      "sourceMarker": "17:16",
+      "occurrence": 1,
+      "passageNumber": 17
+    },
+    {
+      "bookNumber": 17,
+      "sourceKind": "original",
+      "sourceMarker": "17-17",
+      "occurrence": 1,
+      "passageNumber": 18
+    },
+    {
+      "bookNumber": 17,
+      "sourceKind": "translation",
+      "sourceMarker": "17:17",
+      "occurrence": 1,
+      "passageNumber": 18
+    },
+    {
+      "bookNumber": 17,
+      "sourceKind": "original",
+      "sourceMarker": "17-18",
+      "occurrence": 1,
+      "passageNumber": 19
+    },
+    {
+      "bookNumber": 17,
+      "sourceKind": "translation",
+      "sourceMarker": "17:18",
+      "occurrence": 1,
+      "passageNumber": 19
+    },
+    {
+      "bookNumber": 17,
+      "sourceKind": "original",
+      "sourceMarker": "17-19",
+      "occurrence": 1,
+      "passageNumber": 20
+    },
+    {
+      "bookNumber": 17,
+      "sourceKind": "translation",
+      "sourceMarker": "17:19",
+      "occurrence": 1,
+      "passageNumber": 20
+    },
+    {
+      "bookNumber": 17,
+      "sourceKind": "original",
+      "sourceMarker": "17-20",
+      "occurrence": 1,
+      "passageNumber": 21
+    },
+    {
+      "bookNumber": 17,
+      "sourceKind": "translation",
+      "sourceMarker": "17:20",
+      "occurrence": 1,
+      "passageNumber": 21
+    },
+    {
+      "bookNumber": 17,
+      "sourceKind": "original",
+      "sourceMarker": "17-21",
+      "occurrence": 1,
+      "passageNumber": 22
+    },
+    {
+      "bookNumber": 17,
+      "sourceKind": "translation",
+      "sourceMarker": "17:21",
+      "occurrence": 1,
+      "passageNumber": 22
+    },
+    {
+      "bookNumber": 17,
+      "sourceKind": "original",
+      "sourceMarker": "17-22",
+      "occurrence": 1,
+      "passageNumber": 23
+    },
+    {
+      "bookNumber": 17,
+      "sourceKind": "translation",
+      "sourceMarker": "17:22",
+      "occurrence": 1,
+      "passageNumber": 23
+    },
+    {
+      "bookNumber": 17,
+      "sourceKind": "original",
+      "sourceMarker": "17-23",
+      "occurrence": 1,
+      "passageNumber": 24
+    },
+    {
+      "bookNumber": 17,
+      "sourceKind": "translation",
+      "sourceMarker": "17:23",
+      "occurrence": 1,
+      "passageNumber": 24
+    },
+    {
+      "bookNumber": 17,
+      "sourceKind": "original",
+      "sourceMarker": "17-24",
+      "occurrence": 1,
+      "passageNumber": 25
+    },
+    {
+      "bookNumber": 17,
+      "sourceKind": "translation",
+      "sourceMarker": "17:26",
+      "occurrence": 1,
+      "passageNumber": 25
+    },
+    {
+      "bookNumber": 18,
+      "sourceKind": "translation",
+      "sourceMarker": "18:10",
+      "occurrence": 1,
+      "passageNumber": 9
+    }
+  ]
+}
