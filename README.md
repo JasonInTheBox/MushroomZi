@@ -6,7 +6,7 @@ A bilingual reader for the *Analects*. See [`docs/product-specification.md`](doc
 |---|---|
 | `content/` | The corpus: one JSON file per book, plus JSON Schemas |
 | `Analects of Confucius 論語.html` | User-supplied source snapshot for provenance; not loaded by the site build |
-| `scripts/` | Python corpus validator and its tests |
+| `scripts/` | Python corpus validator, reviewed HTML importer, and tests |
 | `web/` | Next.js static site that renders the corpus |
 
 ## Setup
@@ -28,7 +28,9 @@ Keep the virtual environment active when building: `npm run build` calls `python
 | Run from | Command | Does |
 |---|---|---|
 | root | `python scripts/validate_corpus.py` | Check every book file against the schema and ID/placeholder rules |
-| root | `python -m unittest discover scripts` | Run the validator tests |
+| root | `python -m unittest discover -s scripts` | Run validator and importer tests |
+| root | `python scripts/import_analects_html.py --report docs/superpowers/reviews/2026-11-25-analects-source-mapping-review.md` | Rebuild the proposed mapping report without changing corpus files |
+| root | `python scripts/import_analects_html.py --write --overrides content/source-import-overrides.json` | Write the corpus after the mapping report is approved and reviewed overrides are recorded |
 | `web/` | `npm run dev` | Local site at http://localhost:3000, including translations whose rights are unverified |
 | `web/` | `npm run build` | Validate, then export the static site to `web/out/` (only rights-cleared translations) |
 | `web/` | `npm run lint` | ESLint |

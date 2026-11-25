@@ -1,6 +1,6 @@
 # Mushroom Zi — Product Specification
 
-**Status:** The static reader has bilingual passage routes, a book-grouped catalog, previous/next navigation, and a UTC-based daily passage with bilingual AI-generated explanation and modern application. Production builds include the two seeded English translations with attribution under the user-authorized reuse assumption.
+**Status:** The static reader has bilingual passage routes, a book-grouped catalog, previous/next navigation, and a UTC-based daily passage with bilingual AI-generated explanation and modern application. Production builds include the two seeded English translations with attribution under the user-authorized reuse assumption. A local importer now parses and audits the tracked Muller HTML; the expanded corpus remains pending review of its mapping report.
 
 ## Product overview
 
@@ -31,6 +31,7 @@ The product has two goals:
   - Multiple interpretations when reliable sources support them.
   - Translation references, source attribution, license information, and provenance.
 - Distinguish source text, translations, established scholarly interpretation, and original modern or AI-generated commentary.
+- Store Muller inline comments and linked footnotes as separate, cited scholarly interpretations with their own rights records; do not present them as generated Mushroom Zi commentary.
 - Chinese and English are both supported. Simplified and traditional Chinese forms and pinyin may be added where useful.
 
 ## Ways to explore

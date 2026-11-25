@@ -52,14 +52,14 @@
 - `parse_source_html(html: str) -> dict` returns `{"books": [{"number": int, "title": {"chinese": str, "pinyin": str}, "events": [{"kind": "original" | "translation" | "comment", "marker": str | None, "text": str, "noteRefs": list[str]}]}], "notes": {anchor_id: text}}`.
 - Event order follows the source HTML. Footnote marker labels are recorded in `noteRefs` and excluded from the event text.
 
-- [ ] **Step 1: Write parser tests** for the fixture: `test_parse_source_sections_and_markers` asserts book 1 and title `學而` plus `[1-1]` and `[1:1]`; `test_translation_and_comment_continuations_stay_separate` asserts each continuation stays with its entry; `test_note_text_uses_reference_target_and_excludes_backlink_labels` asserts `note-1-1` resolves to the fixture note and its marker number is absent from translation text.
-- [ ] **Step 2: Run the focused tests and confirm they fail** with missing parser behavior.
+- [x] **Step 1: Write parser tests** for the fixture: `test_parse_source_sections_and_markers` asserts book 1 and title `學而` plus `[1-1]` and `[1:1]`; `test_translation_and_comment_continuations_stay_separate` asserts each continuation stays with its entry; `test_note_text_uses_reference_target_and_excludes_backlink_labels` asserts `note-1-1` resolves to the fixture note and its marker number is absent from translation text.
+- [x] **Step 2: Run the focused tests and confirm they fail** with missing parser behavior.
 
   Run: `python -m unittest discover -s scripts -p test_import_analects_html.py -v`
 
-- [ ] **Step 3: Implement `parse_source_html`** with `html.parser.HTMLParser`; normalize whitespace and decode entities while preserving source punctuation and Unicode.
-- [ ] **Step 4: Run the focused tests and confirm they pass.**
-- [ ] **Step 5: Commit** the parser and fixture tests.
+- [x] **Step 3: Implement `parse_source_html`** with `html.parser.HTMLParser`; normalize whitespace and decode entities while preserving source punctuation and Unicode.
+- [x] **Step 4: Run the focused tests and confirm they pass.**
+- [x] **Step 5: Commit** the parser and fixture tests.
 
   Run: `git add scripts/import_analects_html.py scripts/test_import_analects_html.py scripts/fixtures/analects-import-sample.html; git commit -m "feat: parse Analects source HTML"`
 
@@ -74,14 +74,14 @@
 - `build_mapping_report(parsed: dict) -> dict` reports book counts, source labels, proposed passage pairings, unresolved items, and excerpts. It never writes under `content/books/`.
 - CLI: `python scripts/import_analects_html.py --report docs/superpowers/reviews/2026-11-25-analects-source-mapping-review.md` writes only the review report.
 
-- [ ] **Step 1: Add tests**: `test_report_lists_unmatched_and_duplicate_markers` checks missing/repeated labels with excerpts; `test_report_deduplicates_exact_repeated_source_block` distinguishes exact duplicates from different text; `test_report_mode_never_changes_book_files` compares corpus bytes before/after; `test_live_source_counts_books_markers_and_note_links` asserts 20 books, 483 Chinese markers, 485 English markers, and 59 distinct linked note IDs.
-- [ ] **Step 2: Run focused tests and confirm they fail** on the missing audit/report behavior.
+- [x] **Step 1: Add tests**: `test_report_lists_unmatched_and_duplicate_markers` checks missing/repeated labels with excerpts; `test_report_deduplicates_exact_repeated_source_block` distinguishes exact duplicates from different text; `test_report_mode_never_changes_book_files` compares corpus bytes before/after; `test_live_source_counts_books_markers_and_note_links` asserts 20 books, 483 Chinese markers, 485 English markers, and 59 distinct linked note IDs.
+- [x] **Step 2: Run focused tests and confirm they fail** on the missing audit/report behavior.
 
   Run: `python -m unittest discover -s scripts -p test_import_analects_html.py -v`
 
-- [ ] **Step 3: Implement `build_mapping_report`** so exact unique labels are proposed directly and ambiguous/missing labels are listed with source-order candidates and short excerpts. Do not silently choose among ambiguous candidates.
-- [ ] **Step 4: Generate the report from the tracked HTML** and inspect its exception list. Present it to the user and wait for their approval before proceeding to corpus writes.
-- [ ] **Step 5: Commit** the audit/report code and proposed mapping report; leave the corpus untouched.
+- [x] **Step 3: Implement `build_mapping_report`** so exact unique labels are proposed directly and ambiguous/missing labels are listed with source-order candidates and short excerpts. Do not silently choose among ambiguous candidates.
+- [x] **Step 4: Generate the report from the tracked HTML** and inspect its exception list. Present it to the user and wait for their approval before proceeding to corpus writes.
+- [x] **Step 5: Commit** the audit/report code and proposed mapping report; leave the corpus untouched.
 
   Run: `git add scripts/import_analects_html.py scripts/test_import_analects_html.py docs/superpowers/reviews/2026-11-25-analects-source-mapping-review.md; git commit -m "feat: report Analects source mappings"`
 
@@ -99,15 +99,15 @@
 - Each imported scholarly entry uses `author: "A. Charles Muller"`, `language: "en"`, `kind: "scholarly_interpretation"`, a passage-and-locator citation, and `rights: {"reuseStatus":"licensed","license":"User-authorized reuse with attribution required"}`.
 - The existing rights schema is reused. A `scholarly_interpretation` commentary item requires `source` and `rights`; generated project commentary does not.
 
-- [ ] **Step 1: Add failing schema tests** `test_scholarly_interpretation_requires_source_and_rights` and `test_generated_commentary_needs_no_source_rights`, proving sourced scholarship without source/rights is rejected and generated commentary without third-party rights remains valid.
-- [ ] **Step 2: Run the focused validator tests and confirm they fail.**
+- [x] **Step 1: Add failing schema tests** `test_scholarly_interpretation_requires_source_and_rights` and `test_generated_commentary_needs_no_source_rights`, proving sourced scholarship without source/rights is rejected and generated commentary without third-party rights remains valid.
+- [x] **Step 2: Run the focused validator tests and confirm they fail.**
 
   Run: `python -m unittest discover -s scripts -p test_validate_corpus.py -v`
 
-- [ ] **Step 3: Extend the schema conditionally** for scholarly entries and add tests for valid user-authorized, cited Muller material.
-- [ ] **Step 4: Add override loading tests** for `test_override_resolves_one_marker_occurrence`, `test_duplicate_override_key_is_rejected`, `test_out_of_range_passage_number_is_rejected`, and `test_unresolved_exception_blocks_corpus_write`.
-- [ ] **Step 5: Implement override validation** and ensure report candidates become concrete only when every ambiguous item has an explicit mapping.
-- [ ] **Step 6: Run both focused test modules and commit** schema and audit safeguards.
+- [x] **Step 3: Extend the schema conditionally** for scholarly entries and add tests for valid user-authorized, cited Muller material.
+- [x] **Step 4: Add override loading tests** for `test_override_resolves_one_marker_occurrence`, `test_duplicate_override_key_is_rejected`, `test_out_of_range_passage_number_is_rejected`, and `test_unresolved_exception_blocks_corpus_write`.
+- [x] **Step 5: Implement override validation** and ensure report candidates become concrete only when every ambiguous item has an explicit mapping.
+- [x] **Step 6: Run both focused test modules and commit** schema and audit safeguards.
 
   Run: `python -m unittest discover -s scripts -p test_import_analects_html.py -v` and `python -m unittest discover -s scripts -p test_validate_corpus.py -v`.
 
@@ -124,14 +124,14 @@
 - `write_books(books: list[dict], output_dir: Path) -> None` validates all records before writing the 20 files; tests use a temporary output directory, while CLI `--write` uses `content/books/`.
 - CLI: `python scripts/import_analects_html.py --write` writes all 20 book files only when the report has no unresolved items and reviewed overrides are complete.
 
-- [ ] **Step 1: Add failing tests**: `test_build_corpus_uses_stable_muller_ids_and_citations`, `test_build_corpus_attaches_linked_notes_to_referencing_passage`, and `test_merge_preserves_existing_generated_content_and_is_stable`.
-- [ ] **Step 2: Run focused tests and confirm they fail.**
+- [x] **Step 1: Add failing tests**: `test_build_corpus_uses_stable_muller_ids_and_citations`, `test_build_corpus_attaches_linked_notes_to_referencing_passage`, and `test_merge_preserves_existing_generated_content_and_is_stable`.
+- [x] **Step 2: Run focused tests and confirm they fail.**
 
   Run: `python -m unittest discover -s scripts -p test_import_analects_html.py -v`
 
-- [ ] **Step 3: Implement `build_corpus`**. Store imported comments and notes as separate English `scholarly_interpretation` entries attributed to A. Charles Muller. Preserve any citations inside note text. Keep existing generated entries and themes unchanged.
-- [ ] **Step 4: Add temporary-directory writer test** `test_write_refuses_unresolved_mappings_without_changing_files`, proving validation happens before corpus writes.
-- [ ] **Step 5: Run focused tests and commit** the generation/merge logic.
+- [x] **Step 3: Implement `build_corpus`**. Store imported comments and notes as separate English `scholarly_interpretation` entries attributed to A. Charles Muller. Preserve any citations inside note text. Keep existing generated entries and themes unchanged.
+- [x] **Step 4: Add temporary-directory writer tests** for unresolved mappings, validation, and rollback on a failed replacement.
+- [x] **Step 5: Run focused tests and commit** the generation/merge logic.
 
   Run: `python -m unittest discover -s scripts -p test_import_analects_html.py -v`.
 
